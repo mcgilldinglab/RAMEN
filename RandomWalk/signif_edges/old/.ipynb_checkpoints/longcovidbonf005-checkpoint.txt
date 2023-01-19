@@ -1,0 +1,13 @@
+Long Covid--- Long Covid: 0.0;;;TimesVisited: 32488.3
+If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?--- Long Covid: 4.445332990599127e-13;;;TimesVisited: 372.1
+Does the participant report persistent symptoms related to SARS-CoV-2 infection?--- Long Covid: 1.3933298959045715e-12;;;TimesVisited: 354.1
+Treatments administered: (choice=Other antibiotic (specify))--- Long Covid: 8.820610908344406e-12;;;TimesVisited: 325.0
+From which company did the participant receive the vaccine?--- Long Covid: 1.669264726444908e-11;;;TimesVisited: 315.0
+Loss of taste / lost of smell ?--- Long Covid: 1.6714218897817545e-10;;;TimesVisited: 279.7
+If yes (check all that apply): (choice=Non-invasive cannula/mask support)--- Long Covid: 3.613261911894483e-10;;;TimesVisited: 267.6
+Treatments administered: (choice=Systematic corticosteroid)--- Long Covid: 9.494348640615158e-10;;;TimesVisited: 252.2
+Treatments administered: (choice=Azithromycin (Zithromax))--- Long Covid: 2.280091315753907e-08;;;TimesVisited: 203.2
+Joint pain (Arthralgia) ?--- Long Covid: 3.603055731549176e-08;;;TimesVisited: 196.7
+Sexe:--- Long Covid: 6.498846516489465e-08;;;TimesVisited: 187.7
+Treatments administered: (choice=Other COVID-19 treatments (specify))--- Long Covid: 5.03467853407713e-07;;;TimesVisited: 156.8
+Sexe:--- Sexe:: 8.025514269816014e-07;;;TimesVisited: 149.8

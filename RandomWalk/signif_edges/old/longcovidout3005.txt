@@ -1,0 +1,233 @@
+Long Covid--- Long Covid: 0.0;;;TimesVisited: 84704.0
+Does the participant report persistent symptoms related to SARS-CoV-2 infection?--- Long Covid: 1.1102230246251565e-16;;;TimesVisited: 2281.6
+From which company did the participant receive the vaccine?--- Long Covid: 7.38631933394629e-10;;;TimesVisited: 1178.1
+How was this follow-up completed?--- Long Covid: 1.946603356284271e-08;;;TimesVisited: 955.1
+Country of birth:--- Long Covid: 9.211261331465437e-08;;;TimesVisited: 850.1
+Does the participant report persistent symptoms related to SARS-CoV-2 infection?--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 1.4178077500925923e-07;;;TimesVisited: 821.7
+Usual activities, including work, study, housework, family or leisure activities:--- Long Covid: 4.4109161367877903e-07;;;TimesVisited: 745.2
+Shortness of breath (Dyspnea) ?--- Long Covid: 6.815365543033636e-07;;;TimesVisited: 716.9
+Breathlessness:--- Long Covid: 1.6088366208144578e-06;;;TimesVisited: 659.0
+How much difficulty do you have climbing a flight of 10 stairs?--- Long Covid: 6.128722189080449e-06;;;TimesVisited: 571.0
+From which company did the participant receive the vaccine?--- From which company did the participant receive the vaccine?: 8.4534389847013e-06;;;TimesVisited: 550.7
+Joint pain (Arthralgia) ?--- Long Covid: 1.032100982656381e-05;;;TimesVisited: 537.3
+Loss of taste / lost of smell ?--- Loss of taste / lost of smell ?: 1.2413873935024355e-05;;;TimesVisited: 525.4
+How was this follow-up completed?--- How was this follow-up completed?: 1.9127603466229104e-05;;;TimesVisited: 497.0
+Loss of taste / lost of smell ?--- Long Covid: 2.1318192257924196e-05;;;TimesVisited: 490.0
+Collected:--- Long Covid: 3.452090236633065e-05;;;TimesVisited: 459.5
+Pain and discomfort:--- Long Covid: 5.266827887073777e-05;;;TimesVisited: 432.5
+Chest pain ?--- Long Covid: 5.5208483395574603e-05;;;TimesVisited: 429.2
+Blood drawn for the BQC19?--- Long Covid: 9.00128928016386e-05;;;TimesVisited: 398.6
+Shortness of breath (Dyspnea) ?--- Shortness of breath (Dyspnea) ?: 0.00013607161554329839;;;TimesVisited: 372.3
+Collected:--- Collected:: 0.00018442796660489424;;;TimesVisited: 353.5
+Country of birth:--- Country of birth:: 0.00020639155309276624;;;TimesVisited: 346.1
+Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.--- Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.: 0.00024249882782345633;;;TimesVisited: 336.4
+Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.--- Long Covid: 0.0003042103408084085;;;TimesVisited: 322.7
+Joint pain (Arthralgia) ?--- Joint pain (Arthralgia) ?: 0.0003246427819647568;;;TimesVisited: 318.1
+How much difficulty do you have lifting or carrying 10 lbs?--- Long Covid: 0.0003353812543630541;;;TimesVisited: 316.8
+Has the participant had any new disease and/or worsening and/or deterioration of a pre-existing disease?--- Long Covid: 0.00034648418964911;;;TimesVisited: 314.2
+Breathlessness:--- Breathlessness:: 0.00045006460039009877;;;TimesVisited: 298.9
+Anxiety and depression:--- Long Covid: 0.00045751035936170137;;;TimesVisited: 297.3
+Loss of appetite ?--- Long Covid: 0.0005304983595463275;;;TimesVisited: 288.6
+Blood drawn for the BQC19?--- Blood drawn for the BQC19?: 0.0005393162188186418;;;TimesVisited: 287.7
+Diarrhea ?--- Long Covid: 0.0005482850039288945;;;TimesVisited: 286.6
+Diarrhea ?--- Diarrhea ?: 0.0005574073963899862;;;TimesVisited: 285.4
+Delay between the onset of symptoms  and the draw blood --- Delay between the onset of symptoms  and the draw blood : 0.0006258011426154564;;;TimesVisited: 278.2
+Anxiety and depression:--- Anxiety and depression:: 0.00064688924404388;;;TimesVisited: 276.8
+Fatigue ?--- Fatigue ?: 0.0006799048284282794;;;TimesVisited: 273.5
+Fatigue ?--- Long Covid: 0.0007388466380428005;;;TimesVisited: 268.4
+How would you rate your current level of functioning? See options above.--- How would you rate your current level of functioning? See options above.: 0.0007388466380428005;;;TimesVisited: 268.2
+Number of doses received:--- Number of doses received:: 0.000803078621444131;;;TimesVisited: 263.5
+Usual activities, including work, study, housework, family or leisure activities:--- Usual activities, including work, study, housework, family or leisure activities:: 0.0008878429048360115;;;TimesVisited: 257.8
+Extremity weakness or numbness ?--- Long Covid: 0.0009985484316761273;;;TimesVisited: 250.6
+Chest pain ?--- Chest pain ?: 0.0010327359914145129;;;TimesVisited: 248.6
+Pain and discomfort:--- Pain and discomfort:: 0.0011820941119562445;;;TimesVisited: 240.5
+Loss of appetite ?--- Loss of appetite ?: 0.0012022808537054397;;;TimesVisited: 239.7
+Fever (?38.0 Celcius) ?--- Fever (?38.0 Celcius) ?: 0.0013311624774580144;;;TimesVisited: 233.0
+Muscle aches (Myalgia) ?--- Muscle aches (Myalgia) ?: 0.0013772490463087594;;;TimesVisited: 231.3
+Has the participant had any new disease and/or worsening and/or deterioration of a pre-existing disease?--- Has the participant had any new disease and/or worsening and/or deterioration of a pre-existing disease?: 0.0015520649122039432;;;TimesVisited: 224.1
+Number of comorbidities: --- Number of comorbidities: : 0.0016339224815086206;;;TimesVisited: 221.9
+How would you rate your current level of functioning? See options above.--- Long Covid: 0.0017202936541375058;;;TimesVisited: 218.1
+Age au recrutement:--- Age au recrutement:: 0.0018429349141764195;;;TimesVisited: 214.3
+Delay between the onset of symptoms  and the draw blood --- Long Covid: 0.0018429349141764195;;;TimesVisited: 214.1
+If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?--- Long Covid: 0.0018750001652743098;;;TimesVisited: 213.3
+Age at arrival:--- Age au recrutement:: 0.0020800531137694644;;;TimesVisited: 207.8
+Nausea / vomiting ?--- Nausea / vomiting ?: 0.0020800531137694644;;;TimesVisited: 207.1
+Age au recrutement:--- Age at arrival:: 0.0021164497384346115;;;TimesVisited: 206.6
+Abdominal pain ?--- Long Covid: 0.002153514168534376;;;TimesVisited: 205.3
+Skin rash ?--- Long Covid: 0.0021912594461352963;;;TimesVisited: 204.8
+Wheezing or stridor ?--- Long Covid: 0.0023906747176385412;;;TimesVisited: 199.4
+How much difficulty do you have climbing a flight of 10 stairs?--- How much difficulty do you have climbing a flight of 10 stairs?: 0.0023906747176385412;;;TimesVisited: 199.2
+Nausea / vomiting ?--- Long Covid: 0.002432794891479184;;;TimesVisited: 198.1
+Age at arrival:--- Age at arrival:: 0.002519391429160911;;;TimesVisited: 196.5
+Who answered the questions? (choice=Health-care professional)--- Long Covid: 0.0026092341765736604;;;TimesVisited: 194.4
+Dizziness ?--- Long Covid: 0.0027024534794397592;;;TimesVisited: 192.9
+Number of comorbidities: --- Long Covid: 0.0027024534794397592;;;TimesVisited: 192.2
+Dizziness ?--- Dizziness ?: 0.002799185407815874;;;TimesVisited: 190.0
+Headache ?--- Headache ?: 0.002799185407815874;;;TimesVisited: 190.9
+Type of sample used for the PCR test determining the participant's COVID status:--- Type of sample used for the PCR test determining the participant's COVID status:: 0.0028995720373540257;;;TimesVisited: 188.4
+Abdominal pain ?--- Abdominal pain ?: 0.0029511819786142146;;;TimesVisited: 187.2
+Loss of taste / lost of smell ?.1--- Loss of taste / lost of smell ?.1: 0.0030573309240820024;;;TimesVisited: 185.7
+Mobility--- Long Covid: 0.0032241773298271603;;;TimesVisited: 182.4
+Number of doses received:--- Long Covid: 0.0032241773298271603;;;TimesVisited: 182.5
+Did the participant experience any side effects?--- Did the participant experience any side effects?: 0.0034006763658869232;;;TimesVisited: 179.1
+Weight in kg:--- Weight in kg:: 0.003461757619773409;;;TimesVisited: 178.2
+Asthma ?--- Long Covid: 0.003461757619773409;;;TimesVisited: 178.5
+Delay between the onset of symptoms  and the draw blood --- Blood drawn for the BQC19?: 0.003587431996646795;;;TimesVisited: 176.4
+Fatigue ?.1--- Fatigue ?.1: 0.0036520734763141327;;;TimesVisited: 175.4
+Ongoing consent status:--- Long Covid: 0.003994341615232488;;;TimesVisited: 170.2
+Asthma ?--- Asthma ?: 0.004292664191465345;;;TimesVisited: 166.7
+BMI:--- BMI:: 0.004450637155627435;;;TimesVisited: 164.0
+Runny nose (Rhinorrhea) ?--- Runny nose (Rhinorrhea) ?: 0.00453193602352131;;;TimesVisited: 163.5
+Blood drawn for the BQC19?--- How was this follow-up completed?: 0.004785479989254271;;;TimesVisited: 160.0
+Self-care--- Long Covid: 0.005242334402313253;;;TimesVisited: 155.5
+How much difficulty do you have walking across a room?--- Long Covid: 0.005242334402313253;;;TimesVisited: 155.9
+Age au recrutement:--- Long Covid: 0.005538688658658919;;;TimesVisited: 152.1
+Living with?--- Living with?: 0.005853088957363695;;;TimesVisited: 149.3
+Extremity weakness or numbness ?--- Extremity weakness or numbness ?: 0.00607331134894773;;;TimesVisited: 147.2
+Skin rash ?--- Skin rash ?: 0.006302475582163569;;;TimesVisited: 145.3
+Cough ?--- Cough ?: 0.006302475582163569;;;TimesVisited: 145.5
+Does the patient have other comorbidities?--- Does the patient have other comorbidities?: 0.006917199448998934;;;TimesVisited: 140.0
+Age at arrival:--- Long Covid: 0.007047749207032217;;;TimesVisited: 139.7
+Sore throat ?--- Sore throat ?: 0.007455662979652056;;;TimesVisited: 136.7
+Blood drawn for the BQC19?--- Delay between the onset of symptoms  and the draw blood : 0.007597263912650143;;;TimesVisited: 135.0
+How much difficulty do you have lifting or carrying 10 lbs?--- How much difficulty do you have lifting or carrying 10 lbs?: 0.007741787903538411;;;TimesVisited: 134.7
+Shortness of breath (Dyspnea) ?.1--- Shortness of breath (Dyspnea) ?.1: 0.007889302472141702;;;TimesVisited: 133.1
+Confusion / altered mental status ?--- Long Covid: 0.00803987693931163;;;TimesVisited: 132.3
+Does the patient have other comorbidities?--- Number of comorbidities: : 0.008674226494861048;;;TimesVisited: 128.5
+Fatigue ?.1--- Long Covid: 0.009011705315693397;;;TimesVisited: 126.5
+Sexe:--- Sexe:: 0.009545149145827825;;;TimesVisited: 123.0
+Muscle aches (Myalgia) ?--- Long Covid: 0.009545149145827825;;;TimesVisited: 123.7
+Wheezing or stridor ?--- Wheezing or stridor ?: 0.009545149145827825;;;TimesVisited: 123.3
+Has the participant been vaccinated?--- Has the participant been vaccinated?: 0.00973057511306652;;;TimesVisited: 122.5
+From which company did the participant receive the vaccine?--- How was this follow-up completed?: 0.010113400856309407;;;TimesVisited: 120.7
+Sex at birth:--- Long Covid: 0.01051284591201851;;;TimesVisited: 118.0
+Type of sample used for the PCR test determining the participant's COVID status:--- Long Covid: 0.01051284591201851;;;TimesVisited: 118.7
+Sexe:--- Sex at birth:: 0.010719056655510761;;;TimesVisited: 117.4
+Mobility--- Mobility: 0.010719056655510761;;;TimesVisited: 117.2
+Number of comorbidities: --- Does the patient have other comorbidities?: 0.010929735344535008;;;TimesVisited: 116.1
+How many times have you fallen in the past year?--- How many times have you fallen in the past year?: 0.010929735344535008;;;TimesVisited: 116.1
+Sexe:--- Long Covid: 0.011144992731542791;;;TimesVisited: 115.0
+Smoking status:--- Smoking status:: 0.011144992731542791;;;TimesVisited: 115.1
+Sex at birth:--- Sex at birth:: 0.011364942822392088;;;TimesVisited: 114.9
+Have you been re-hospitalized since your initial visit for COVID-19, excluding outpatient clinic visits and planned follow-up visits?--- Long Covid: 0.011364942822392088;;;TimesVisited: 114.9
+Sex at birth:--- Sexe:: 0.011589702992321538;;;TimesVisited: 113.1
+Delay between the onset of symptoms  and the draw blood --- How was this follow-up completed?: 0.012294070848255734;;;TimesVisited: 110.6
+Usual activities, including work, study, housework, family or leisure activities:--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.012294070848255734;;;TimesVisited: 110.8
+Does the patient have other comorbidities?--- Long Covid: 0.012539316823104274;;;TimesVisited: 109.7
+Type of repeat hospital visit: (choice=Emergency room visit)--- Long Covid: 0.012539316823104274;;;TimesVisited: 109.2
+Height in m:--- Height in m:: 0.012790014720761689;;;TimesVisited: 108.9
+Asymptomatic?--- Asymptomatic?: 0.013046304869610337;;;TimesVisited: 107.0
+Is the participant employed as a Healthcare Worker?  --- Is the participant employed as a Healthcare Worker?  : 0.01330833193619907;;;TimesVisited: 106.3
+Psychiatric disease?--- Psychiatric disease?: 0.013576245089876204;;;TimesVisited: 105.3
+Confusion / altered mental status ?--- Confusion / altered mental status ?: 0.013850198175090256;;;TimesVisited: 104.5
+Fever (?38.0 Celcius) ?--- Long Covid: 0.014130349891791294;;;TimesVisited: 103.9
+Ongoing consent status:--- Ongoing consent status:: 0.014130349891791294;;;TimesVisited: 103.2
+Breathlessness:--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.014130349891791294;;;TimesVisited: 103.6
+Headache ?--- Long Covid: 0.014709909439777236;;;TimesVisited: 101.8
+From which company did the participant receive the vaccine?--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.015316297854459648;;;TimesVisited: 99.5
+Country of birth:--- How was this follow-up completed?: 0.015950980026830375;;;TimesVisited: 97.5
+If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?: 0.016279415701600408;;;TimesVisited: 96.2
+Prior myocardial infarction ?--- Long Covid: 0.016615519121320643;;;TimesVisited: 95.7
+Have you been diagnosed with a new or recurrent case of COVID since your last follow-up?--- Long Covid: 0.016615519121320643;;;TimesVisited: 95.1
+Have you been re-hospitalized since your initial visit for COVID-19, excluding outpatient clinic visits and planned follow-up visits?--- Have you been re-hospitalized since your initial visit for COVID-19, excluding outpatient clinic visits and planned follow-up visits?: 0.016615519121320643;;;TimesVisited: 95.2
+How was this follow-up completed?--- Blood drawn for the BQC19?: 0.01695950239444488;;;TimesVisited: 94.9
+Country of birth:--- From which company did the participant receive the vaccine?: 0.017311584852990558;;;TimesVisited: 93.7
+Collected:--- How was this follow-up completed?: 0.017671993360553695;;;TimesVisited: 92.4
+From which company did the participant receive the vaccine?--- Country of birth:: 0.01804096263663113;;;TimesVisited: 91.9
+Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.019607436433730308;;;TimesVisited: 87.9
+Did the participant experience any side effects?--- Long Covid: 0.02002303028843344;;;TimesVisited: 86.7
+Country of birth:--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.0204487787008234;;;TimesVisited: 85.1
+Ear pain ?--- Ear pain ?: 0.020884982074111713;;;TimesVisited: 84.3
+Type of repeat hospital visit: (choice=Emergency room visit)--- Type of repeat hospital visit: (choice=Emergency room visit): 0.020884982074111713;;;TimesVisited: 84.6
+Living with?--- Long Covid: 0.021331951993396214;;;TimesVisited: 83.5
+Loss of taste / lost of smell ?.1--- Loss of taste / lost of smell ?: 0.021790011755117855;;;TimesVisited: 82.6
+COPD (emphysema, chronic bronchitis) ?--- Long Covid: 0.022259496927900302;;;TimesVisited: 81.7
+Height in m:--- Long Covid: 0.022740755947036395;;;TimesVisited: 80.8
+Headache ?.1--- Headache ?.1: 0.022740755947036395;;;TimesVisited: 80.5
+Shortness of breath (Dyspnea) ?--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.023740057421231975;;;TimesVisited: 78.8
+Cough ?.1--- Cough ?.1: 0.024790985949007527;;;TimesVisited: 76.4
+Pulmonary hypertension ?--- Long Covid: 0.027061282503929807;;;TimesVisited: 72.7
+Trouble speaking (Aphasia / Dysphasia) ?--- Trouble speaking (Aphasia / Dysphasia) ?: 0.027061282503929807;;;TimesVisited: 72.4
+Type of sample used for the PCR test determining the participant's COVID status:--- From which company did the participant receive the vaccine?: 0.027061282503929807;;;TimesVisited: 72.2
+Obesity ?--- Long Covid: 0.027666654490976494;;;TimesVisited: 71.8
+Number of doses received:--- From which company did the participant receive the vaccine?: 0.027666654490976494;;;TimesVisited: 71.5
+Electronic cigarettes?--- Electronic cigarettes?: 0.028926319325503047;;;TimesVisited: 69.4
+Red eye (Conjunctivitis) ?--- Red eye (Conjunctivitis) ?: 0.028926319325503047;;;TimesVisited: 69.5
+Was this follow-up visit completed?--- Long Covid: 0.028926319325503047;;;TimesVisited: 69.1
+Breathlessness:--- How much difficulty do you have climbing a flight of 10 stairs?: 0.02958171953916222;;;TimesVisited: 68.1
+How much difficulty do you have walking across a room?--- How much difficulty do you have walking across a room?: 0.02958171953916222;;;TimesVisited: 68.9
+Rheumatologic disease ?--- Rheumatologic disease ?: 0.03025494419741881;;;TimesVisited: 67.6
+How much difficulty do you have climbing a flight of 10 stairs?--- Breathlessness:: 0.03025494419741881;;;TimesVisited: 67.9
+BMI:--- Long Covid: 0.030946610627544113;;;TimesVisited: 66.2
+Type of repeat hospital visit: (choice=Emergency room visit)--- Have you been re-hospitalized since your initial visit for COVID-19, excluding outpatient clinic visits and planned follow-up visits?: 0.030946610627544113;;;TimesVisited: 66.2
+Age at arrival:--- From which company did the participant receive the vaccine?: 0.031657364329046755;;;TimesVisited: 65.7
+Weight in kg:--- BMI:: 0.031657364329046755;;;TimesVisited: 65.6
+Trouble speaking (Aphasia / Dysphasia) ?--- Long Covid: 0.031657364329046755;;;TimesVisited: 65.6
+How much difficulty do you have climbing a flight of 10 stairs?--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.031657364329046755;;;TimesVisited: 65.9
+Joint pain (Arthralgia) ?.1--- Joint pain (Arthralgia) ?.1: 0.031657364329046755;;;TimesVisited: 65.4
+Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.--- Usual activities, including work, study, housework, family or leisure activities:: 0.031657364329046755;;;TimesVisited: 65.1
+Age au recrutement:--- From which company did the participant receive the vaccine?: 0.032387880657366974;;;TimesVisited: 64.0
+Please specify drugs used. (choice=Cannabis)--- Drugs?: 0.032387880657366974;;;TimesVisited: 64.3
+Who answered the questions? (choice=Health-care professional)--- Who answered the questions? (choice=Health-care professional): 0.032387880657366974;;;TimesVisited: 64.4
+Drugs?--- Drugs?: 0.033138866635222586;;;TimesVisited: 63.2
+Have you been re-hospitalized since your initial visit for COVID-19, excluding outpatient clinic visits and planned follow-up visits?--- Type of repeat hospital visit: (choice=Emergency room visit): 0.033138866635222586;;;TimesVisited: 63.5
+Please specify drugs used. (choice=Cannabis)--- Please specify drugs used. (choice=Cannabis): 0.03391106290346002;;;TimesVisited: 62.8
+COPD (emphysema, chronic bronchitis) ?--- COPD (emphysema, chronic bronchitis) ?: 0.03391106290346002;;;TimesVisited: 62.7
+Asymptomatic?--- Long Covid: 0.03391106290346002;;;TimesVisited: 62.1
+How would you rate your current level of functioning? See options above.--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.03391106290346002;;;TimesVisited: 62.0
+Drugs?--- Please specify drugs used. (choice=Cannabis): 0.03470524582457357;;;TimesVisited: 61.5
+Psychiatric disease?--- Long Covid: 0.03470524582457357;;;TimesVisited: 61.6
+Breathlessness:--- Usual activities, including work, study, housework, family or leisure activities:: 0.03470524582457357;;;TimesVisited: 61.4
+How much difficulty do you have climbing a flight of 10 stairs?--- Usual activities, including work, study, housework, family or leisure activities:: 0.03470524582457357;;;TimesVisited: 61.7
+Ear pain ?--- Long Covid: 0.03552222975353547;;;TimesVisited: 60.1
+Runny nose (Rhinorrhea) ?--- Long Covid: 0.03552222975353547;;;TimesVisited: 60.1
+From which company did the participant receive the vaccine?--- Collected:: 0.03552222975353547;;;TimesVisited: 60.3
+Delay between the diagnosis and the follow-up visit--- Delay between the diagnosis and the follow-up visit: 0.03552222975353547;;;TimesVisited: 60.2
+Type of sample used for the PCR test determining the participant's COVID status:--- Country of birth:: 0.03636286949225109;;;TimesVisited: 59.7
+Has the participant had any new disease and/or worsening and/or deterioration of a pre-existing disease?--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.03636286949225109;;;TimesVisited: 59.9
+Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.--- Breathlessness:: 0.03636286949225109;;;TimesVisited: 59.3
+Weight in kg:--- Long Covid: 0.037228062945850016;;;TimesVisited: 58.0
+Malignant neoplasm ?--- Malignant neoplasm ?: 0.037228062945850016;;;TimesVisited: 58.8
+Arterial Hypertension ?--- Arterial Hypertension ?: 0.037228062945850016;;;TimesVisited: 58.2
+BMI:--- From which company did the participant receive the vaccine?: 0.038118754001174926;;;TimesVisited: 57.7
+How was this follow-up completed?--- Collected:: 0.038118754001174926;;;TimesVisited: 57.4
+Usual activities, including work, study, housework, family or leisure activities:--- Breathlessness:: 0.038118754001174926;;;TimesVisited: 57.3
+Usual activities, including work, study, housework, family or leisure activities:--- How much difficulty do you have climbing a flight of 10 stairs?: 0.038118754001174926;;;TimesVisited: 57.3
+How much difficulty do you have transferring from a chair to a bed?--- Long Covid: 0.038118754001174926;;;TimesVisited: 57.0
+ACE inhibitor or Angiotensin Receptor Blocker?--- ACE inhibitor or Angiotensin Receptor Blocker?: 0.0390359356502773;;;TimesVisited: 56.1
+Type of repeat hospital visit: (choice=Hospital admission)--- Long Covid: 0.0390359356502773;;;TimesVisited: 56.8
+Pain and discomfort:--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.0390359356502773;;;TimesVisited: 56.7
+Muscle aches (Myalgia) ?.1--- Muscle aches (Myalgia) ?.1: 0.0390359356502773;;;TimesVisited: 56.6
+Self-care--- Self-care: 0.0390359356502773;;;TimesVisited: 56.5
+BMI:--- Weight in kg:: 0.03998065338452128;;;TimesVisited: 55.1
+Obesity ?--- Obesity ?: 0.03998065338452128;;;TimesVisited: 55.8
+Hemoptysis / Bloody sputum ?--- Hemoptysis / Bloody sputum ?: 0.03998065338452128;;;TimesVisited: 55.4
+Weight in kg:--- From which company did the participant receive the vaccine?: 0.04195716406333583;;;TimesVisited: 53.5
+Chronic hematologic disease ?--- Chronic hematologic disease ?: 0.04195716406333583;;;TimesVisited: 53.2
+Result of the PCR test determining the participant's COVID status--- Long Covid: 0.04195716406333583;;;TimesVisited: 53.6
+Type of repeat hospital visit: (choice=Hospital admission)--- Type of repeat hospital visit: (choice=Hospital admission): 0.04299134542462657;;;TimesVisited: 52.5
+How would you rate your current level of functioning? See options above.--- Usual activities, including work, study, housework, family or leisure activities:: 0.04299134542462657;;;TimesVisited: 52.2
+Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.--- From which company did the participant receive the vaccine?: 0.04299134542462657;;;TimesVisited: 52.3
+Has the participant been vaccinated?--- Long Covid: 0.04299134542462657;;;TimesVisited: 52.4
+Other chronic cardiac disease ?--- Other chronic cardiac disease ?: 0.04405784890214626;;;TimesVisited: 51.4
+Other chronic lung disease ? --- Long Covid: 0.04405784890214626;;;TimesVisited: 51.2
+Leg swelling (Edema) ?--- Long Covid: 0.04405784890214626;;;TimesVisited: 51.6
+How was this follow-up completed?--- Delay between the onset of symptoms  and the draw blood : 0.04405784890214626;;;TimesVisited: 51.5
+Dizziness ?.1--- Dizziness ?.1: 0.04405784890214626;;;TimesVisited: 51.0
+Number of comorbidities: --- From which company did the participant receive the vaccine?: 0.04405784890214626;;;TimesVisited: 51.1
+Prior transient ischemic attack (TIA) ?--- Long Covid: 0.045158045102710376;;;TimesVisited: 50.5
+Country of birth:--- Collected:: 0.04629338508108205;;;TimesVisited: 49.7
+Other chronic neurological disorder (other than stroke/TIA) ?--- Other chronic neurological disorder (other than stroke/TIA) ?: 0.04629338508108205;;;TimesVisited: 49.8
+How would you rate your current level of functioning? See options above.--- From which company did the participant receive the vaccine?: 0.04629338508108205;;;TimesVisited: 49.8
+From which company did the participant receive the vaccine?--- Number of doses received:: 0.04629338508108205;;;TimesVisited: 49.9
+Is the participant employed in a Microbiology Laboratory?  --- Is the participant employed in a Microbiology Laboratory?  : 0.047465406682773326;;;TimesVisited: 48.9
+Patient pregnant?--- Patient pregnant?: 0.047465406682773326;;;TimesVisited: 48.7
+Prior myocardial infarction ?--- Prior myocardial infarction ?: 0.047465406682773326;;;TimesVisited: 48.8
+Shortness of breath (Dyspnea) ?.1--- Shortness of breath (Dyspnea) ?: 0.047465406682773326;;;TimesVisited: 48.9
+Who answered the questions? (choice=Patient)--- Who answered the questions? (choice=Patient): 0.047465406682773326;;;TimesVisited: 48.0
+From which company did the participant receive the vaccine?--- Breathlessness:: 0.047465406682773326;;;TimesVisited: 48.5
+Age au recrutement:--- Country of birth:: 0.048675741528015126;;;TimesVisited: 47.3
+Chest pain ?--- Shortness of breath (Dyspnea) ?: 0.048675741528015126;;;TimesVisited: 47.5
+How was this follow-up completed?--- From which company did the participant receive the vaccine?: 0.048675741528015126;;;TimesVisited: 47.8
+How much difficulty do you have lifting or carrying 10 lbs?--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.048675741528015126;;;TimesVisited: 47.1
+Shortness of breath (Dyspnea) ?.1--- Breathlessness:: 0.048675741528015126;;;TimesVisited: 47.4

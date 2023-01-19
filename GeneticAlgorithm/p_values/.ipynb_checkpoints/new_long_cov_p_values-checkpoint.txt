@@ -1,0 +1,10 @@
+Shortness of breath (Dyspnea) ?: 2.946614013245262e-30
+Joint pain (Arthralgia) ?: 1.9564421680768054e-22
+Loss of taste / lost of smell ?: 3.69201267850967e-18
+Chest pain ?: 7.89455502423659e-18
+Loss of appetite ?: 3.86613253890467e-12
+Fatigue ?: 2.7695823292433754e-11
+Diarrhea ?: 6.557511286198923e-12
+Extremity weakness or numbness ?: 8.388045023351143e-11
+Number of comorbidities: : 5.506442515645947e-06
+Nausea / vomiting ?: 5.805266435467504e-09

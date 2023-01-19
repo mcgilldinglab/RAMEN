@@ -1,0 +1,131 @@
+,Left,Right
+0,ACE Inh,Long Covid
+1,Ab Pain,Long Covid
+2,Ab Pain,Obesity
+3,Obesity,Long Covid
+4,Obesity,Pulm Hyper
+5,Age,Long Covid
+6,Art. Hyper.,Long Covid
+7,Asympt.,Ear Pain
+8,Ear Pain,SEV
+9,Ear Pain,Long Covid
+10,Ear Pain,Malign Neop
+11,Atr Fibr,Long Covid
+12,Atr Fibr,Sex
+13,COPD,Long Covid
+14,Chest P,Chr Hema Dis
+15,Chest P,Dialysis
+16,Chest P,Long Covid
+17,Chest P,Pr Myoc Inf
+18,Chr Hema Dis,Hemoptysis/B
+19,Chr Hema Dis,Long Covid
+20,Dialysis,Long Covid
+21,Pr Myoc Inf,Headache
+22,Pr Myoc Inf,Long Covid
+23,Chr Kidn Dis,Asthma
+24,Chr Kidn Dis,Pr Stroke
+25,Colchicine?,Long Covid
+26,Confusion,Dementia
+27,Confusion,Long Covid
+28,Dementia,Long Covid
+29,Cor Art Dis,Age
+30,Cor Art Dis,Diabetes
+31,Cor Art Dis,Long Covid
+32,Diabetes,Long Covid
+33,Diabetes,Comorb C
+34,Diabetes,Chr Card Dis
+35,Diabetes,Aphasia
+36,Cough,Dr Cocaine
+37,Cough,Sore Throat
+38,Dr Cocaine,Long Covid
+39,Sore Throat,Loss of Appetite
+40,Comorb C,Long Covid
+41,Comorb C,Sev COPD
+42,Chr Card Dis,Drug Oth
+43,Aphasia,Long Covid
+44,Diarrhea,Long Covid
+45,Diarrhea,Taste/Smell
+46,Diarrhea,Dyspnea
+47,Dyspnea,Long Covid
+48,Dizzy,Extrem Weak
+49,Dizzy,Pregn
+50,Extrem Weak,Long Covid
+51,Extrem Weak,Malign Neop Meta
+52,Pregn,Ele Cig
+53,Drugs,Asympt.
+54,Drugs,Immunosupr
+55,Drugs,Long Covid
+56,Immunosupr,Long Covid
+57,Immunosupr,Smoke
+58,SEV,Psych Dis
+59,SEV,Rhinorrhea
+60,Ele Cig,Long Covid
+61,Fatigue,Long Covid
+62,Fever,Long Covid
+63,Fever,Wheeze/Strid
+64,HGO/Ins,Confusion
+65,HGO/Ins,Long Covid
+66,HGO/Ins,Conjunct
+67,Conjunct,Long Covid
+68,Conjunct,Oth Immunos med
+69,HIV/AIDS,Drugs
+70,HIV/AIDS,Edema
+71,HIV/AIDS,Long Covid
+72,Edema,Anticoag
+73,Headache,Long Covid
+74,Headache,Sys Cortic
+75,Sys Cortic,Long Covid
+76,Heart Fail,D Amphet
+77,D Amphet,Chr Kidn Dis
+78,D Amphet,Long Covid
+79,D Amphet,Rheumat Dis
+80,D Amphet,Skin Rash
+81,Height,Long Covid
+82,Height,Malign Neop Treat
+83,Height,Seizure
+84,Malign Neop Treat,Fever
+85,Malign Neop Treat,Long Covid
+86,Malign Neop Treat,Pr TIA
+87,Seizure,Dr Cannabis
+88,Cur Func,Diarrhea
+89,Cur Func,Weight
+90,Weight,BMI
+91,Psych Dis,Health Work
+92,Rhinorrhea,Chest P
+93,Rhinorrhea,Long Covid
+94,Smoke,Ab Pain
+95,Smoke,Long Covid
+96,Smoke,Dr Opiods
+97,Health Work,Long Covid
+98,Microb Work,Cough
+99,Microb Work,Fatigue
+100,Microb Work,Long Covid
+101,Arthralgia,Liv Dis
+102,Arthralgia,Long Covid
+103,Liv Dis,Heart Fail
+104,Liv Dis,Long Covid
+105,Loss of Appetite,ACE Inh
+106,Loss of Appetite,HIV/AIDS
+107,Loss of Appetite,Long Covid
+108,Pr TIA,Oth Chron Neuro D
+109,Malnutr,HGO/Ins
+110,Malnutr,Long Covid
+111,Malnutr,Myalgia
+112,Myalgia,Microb Work
+113,Myalgia,Long Covid
+114,Myalgia,Nausea
+115,Nausea,Dizzy
+116,Nausea,Cur Func
+117,Drug Oth,Art. Hyper.
+118,Drug Oth,Long Covid
+119,Oth Chr Lung Dis,Long Covid
+120,Oth Chron Neuro D,Arthralgia
+121,Oth Immunos med,Colchicine?
+122,Oth Immunos med,Oth Chr Lung Dis
+123,Rheumat Dis,COPD
+124,Rheumat Dis,Cor Art Dis
+125,Rheumat Dis,Long Covid
+126,Skin Rash,Long Covid
+127,Skin Rash,Malnutr
+128,Dr Cannabis,Atr Fibr
+129,Dr Cannabis,Long Covid

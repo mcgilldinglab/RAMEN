@@ -1,0 +1,442 @@
+Weight in kg:--- BMI::;;;0.7535089837260689
+Malignant neoplasm - metastatic?--- Other immunosuppressive medications?:;;;0.2358875755884523
+ACE inhibitor or Angiotensin Receptor Blocker?--- Arterial Hypertension ?:;;;0.2237181542376836
+Malignant neoplasm - metastatic?--- Malignant neoplasm - actively receiving treatment?:;;;0.22108795814572513
+Colchicine?--- Other immunosuppressive medications?:;;;0.21574301871313845
+Other immunosuppressive medications?--- Anticoagulants?:;;;0.21012567591999376
+Other immunosuppressive medications?--- Systemic corticosteroid?:;;;0.2095895882995164
+Colchicine?--- HGO or insulin?:;;;0.2037811188486125
+Weight in kg:--- Height in m::;;;0.20175243550616417
+Colchicine?--- ACE inhibitor or Angiotensin Receptor Blocker?:;;;0.1842333559192605
+Sex at birth:--- Height in m::;;;0.16702839820343807
+Sex at birth:--- Weight in kg::;;;0.15891303591416617
+Malignant neoplasm - metastatic?--- Immunosupressed state?:;;;0.14519712963694797
+HGO or insulin?--- Diabetes ?:;;;0.133371919786404
+Arterial Hypertension ?--- Age au recrutement::;;;0.12428278383518554
+Age au recrutement:--- BMI::;;;0.09025447499831252
+Malignant neoplasm - actively receiving treatment?--- BMI::;;;0.07932591532921673
+Weight in kg:--- Obesity ?:;;;0.07320759788538966
+Shortness of breath (Dyspnea) ?--- Long Covid:;;;0.07164732786567152
+Malignant neoplasm - actively receiving treatment?--- Weight in kg::;;;0.06784213701275144
+Number of comorbidities: --- Age au recrutement::;;;0.06735738489764787
+Malignant neoplasm - metastatic?--- Loss of taste / lost of smell ?:;;;0.06625343174724796
+Immunosupressed state?--- Other immunosuppressive medications?:;;;0.06124272073375456
+Joint pain (Arthralgia) ?--- Extremity weakness or numbness ?:;;;0.058663775407573726
+Malignant neoplasm - actively receiving treatment?--- Age au recrutement::;;;0.05483306303433155
+Age au recrutement:--- Is the participant employed as a Healthcare Worker?  :;;;0.052497637011994946
+Joint pain (Arthralgia) ?--- Long Covid:;;;0.05142077831813752
+Malignant neoplasm - metastatic?--- Loss of appetite ?:;;;0.050460463320197046
+Age au recrutement:--- Anticoagulants?:;;;0.04789784965984323
+Malignant neoplasm - metastatic?--- Other chronic lung disease ? :;;;0.047758732935297143
+Malignant neoplasm - actively receiving treatment?--- Other chronic cardiac disease ?:;;;0.04313908060048888
+Sex at birth:--- BMI::;;;0.042682023159785754
+Loss of taste / lost of smell ?--- Long Covid:;;;0.04236191290856384
+Psychiatric disease?--- Number of comorbidities: :;;;0.04099763799430628
+Chest pain ?--- Long Covid:;;;0.04026009955791221
+Malignant neoplasm - metastatic?--- Nausea / vomiting ?:;;;0.037848961554739824
+Malignant neoplasm - metastatic?--- Diarrhea ?:;;;0.037848961554739824
+Malignant neoplasm - actively receiving treatment?--- Anticoagulants?:;;;0.036810322445529065
+Malignant neoplasm - metastatic?--- Smoking status::;;;0.0365515224881835
+HGO or insulin?--- Arterial Hypertension ?:;;;0.03636708099760283
+Arterial Hypertension ?--- Weight in kg::;;;0.035497375145269405
+Malignant neoplasm - metastatic?--- Dizziness ?:;;;0.03433461159645834
+Malignant neoplasm - actively receiving treatment?--- Fever (?38.0 Celcius) ?:;;;0.0338783920628668
+Number of comorbidities: --- Smoking status::;;;0.03239040951188343
+Malignant neoplasm - metastatic?--- Chest pain ?:;;;0.031016500358030608
+Number of comorbidities: --- Rheumatologic disease ?:;;;0.029110078386812344
+Malignant neoplasm - actively receiving treatment?--- Number of comorbidities: :;;;0.02820842130962309
+Malignant neoplasm - metastatic?--- Fatigue ?:;;;0.027740167559621498
+Malignant neoplasm - metastatic?--- HGO or insulin?:;;;0.027319806807723945
+Loss of appetite ?--- Long Covid:;;;0.02721107365475428
+Number of comorbidities: --- Weight in kg::;;;0.02680187853049998
+Psychiatric disease?--- Malignant neoplasm - actively receiving treatment?:;;;0.02679524306913883
+Malignant neoplasm - metastatic?--- Sex at birth::;;;0.026732938299003806
+Fatigue ?--- Long Covid:;;;0.025808161042291333
+Diarrhea ?--- Long Covid:;;;0.025765909317348012
+HGO or insulin?--- Number of comorbidities: :;;;0.02491165975388221
+Age au recrutement:--- Sore throat ?:;;;0.024629401819009633
+HGO or insulin?--- Age au recrutement::;;;0.02441999644809789
+Malignant neoplasm - metastatic?--- Number of comorbidities: :;;;0.023981152280345586
+Age au recrutement:--- Other chronic cardiac disease ?:;;;0.023048169537822627
+Extremity weakness or numbness ?--- Long Covid:;;;0.023025309518806103
+Malignant neoplasm - actively receiving treatment?--- Height in m::;;;0.022698045225553742
+Number of comorbidities: --- Anticoagulants?:;;;0.022653508034433445
+Number of comorbidities: --- Extremity weakness or numbness ?:;;;0.022272349415566772
+Number of comorbidities: --- Chest pain ?:;;;0.021783645231917115
+Arterial Hypertension ?--- Number of comorbidities: :;;;0.02147735785892657
+Number of comorbidities: --- Diarrhea ?:;;;0.021056906669441044
+Age au recrutement:--- Cough ?:;;;0.02081033109111674
+Number of comorbidities: --- Other chronic neurological disorder (other than stroke/TIA) ?:;;;0.02058149730570724
+Arterial Hypertension ?--- Obesity ?:;;;0.020439336580451495
+Shortness of breath (Dyspnea) ?--- BMI::;;;0.01983712055898157
+ACE inhibitor or Angiotensin Receptor Blocker?--- Number of comorbidities: :;;;0.019764803757374105
+Number of comorbidities: --- Long Covid:;;;0.01943633047009996
+Weight in kg:--- Cough ?:;;;0.019357541760205432
+COPD (emphysema, chronic bronchitis) ?--- Number of comorbidities: :;;;0.019189147495748293
+Nausea / vomiting ?--- Long Covid:;;;0.018580421782351086
+ACE inhibitor or Angiotensin Receptor Blocker?--- Other chronic cardiac disease ?:;;;0.018552937885162546
+Number of comorbidities: --- Other chronic cardiac disease ?:;;;0.01825974911924355
+Abdominal pain ?--- Long Covid:;;;0.01803912811332986
+Loss of taste / lost of smell ?--- Age au recrutement::;;;0.018035787102669953
+Age au recrutement:--- Muscle aches (Myalgia) ?:;;;0.01798570226282692
+Runny nose (Rhinorrhea) ?--- Age au recrutement::;;;0.01777771681303386
+Dizziness ?--- Long Covid:;;;0.017497508258814576
+Number of comorbidities: --- Dizziness ?:;;;0.017308875621322883
+Wheezing or stridor ?--- Long Covid:;;;0.01698993569781776
+Headache ?--- Malignant neoplasm - actively receiving treatment?:;;;0.016871138214145542
+Age au recrutement:--- Shortness of breath (Dyspnea) ?:;;;0.016738324971797613
+COPD (emphysema, chronic bronchitis) ?--- Other chronic lung disease ? :;;;0.016546147404672445
+Malignant neoplasm - actively receiving treatment?--- Runny nose (Rhinorrhea) ?:;;;0.0161679418709052
+Malignant neoplasm - metastatic?--- Obesity ?:;;;0.01609581857647585
+Age au recrutement:--- Long Covid:;;;0.01592297808593779
+Patient pregnant?--- Age au recrutement::;;;0.015687261101099137
+Number of comorbidities: --- Shortness of breath (Dyspnea) ?:;;;0.015259965649937257
+Headache ?--- Weight in kg::;;;0.015207363249340577
+Malignant neoplasm - actively receiving treatment?--- Systemic corticosteroid?:;;;0.015088035415964873
+Age au recrutement:--- Other immunosuppressive medications?:;;;0.014716135823106491
+Age au recrutement:--- Prior stroke ? :;;;0.01468757999702941
+Skin rash ?--- Long Covid:;;;0.014489050522104585
+Asthma ?--- Number of comorbidities: :;;;0.01430843805043458
+Other chronic lung disease ? --- Number of comorbidities: :;;;0.013982359660206972
+Liver disease ?--- Weight in kg::;;;0.013969194597833745
+Anticoagulants?--- Is the participant employed as a Healthcare Worker?  :;;;0.013715209046339716
+Asthma ?--- Long Covid:;;;0.013634868629935903
+Please specify drugs used. (choice=Cannabis)--- Sex at birth::;;;0.013612950839510307
+Coronary artery disease ?--- ACE inhibitor or Angiotensin Receptor Blocker?:;;;0.013291554808837674
+Number of comorbidities: --- Diabetes ?:;;;0.012959948781922526
+Number of comorbidities: --- Nausea / vomiting ?:;;;0.012949244856480968
+Please specify drugs used. (choice=Amphetamines)--- Please specify drugs used. (choice=Cocaine):;;;0.012891725356616604
+Headache ?--- Sex at birth::;;;0.012357518929314026
+Trouble speaking (Aphasia / Dysphasia) ?--- Extremity weakness or numbness ?:;;;0.012311689771960788
+Malignant neoplasm - metastatic?--- ACE inhibitor or Angiotensin Receptor Blocker?:;;;0.012002029992580154
+Malignant neoplasm - metastatic?--- Arterial Hypertension ?:;;;0.011993677728361463
+Weight in kg:--- Anticoagulants?:;;;0.011941467149326979
+Trouble speaking (Aphasia / Dysphasia) ?--- Number of comorbidities: :;;;0.011920669227998393
+Malignant neoplasm - metastatic?--- Rheumatologic disease ?:;;;0.011781245384425543
+Sex at birth:--- Long Covid:;;;0.011698613905908095
+COPD (emphysema, chronic bronchitis) ?--- ACE inhibitor or Angiotensin Receptor Blocker?:;;;0.010993459215702522
+Please specify drugs used. (choice=Cannabis)--- Weight in kg::;;;0.010944675352146715
+Trouble speaking (Aphasia / Dysphasia) ?--- Malignant neoplasm - actively receiving treatment?:;;;0.010925664577716432
+Weight in kg:--- Joint pain (Arthralgia) ?:;;;0.010717262468596278
+Age au recrutement:--- Fatigue ?:;;;0.010660396942826278
+Patient pregnant?--- Sex at birth::;;;0.010604497627126619
+Malignant neoplasm - actively receiving treatment?--- Atrial fibrillation or flutter ?:;;;0.010531104908830913
+Malignant neoplasm - metastatic?--- Diabetes ?:;;;0.010482364924814469
+Runny nose (Rhinorrhea) ?--- Weight in kg::;;;0.010423580445156677
+Other chronic lung disease ? --- Malignant neoplasm ?:;;;0.010422652140868613
+ACE inhibitor or Angiotensin Receptor Blocker?--- Sex at birth::;;;0.010345545131294598
+Age au recrutement:--- Loss of appetite ?:;;;0.010344902437443793
+Malignant neoplasm - metastatic?--- Abdominal pain ?:;;;0.010206376116076388
+Liver disease ?--- Chronic hematologic disease ?:;;;0.010173350836355802
+Coronary artery disease ?--- Arterial Hypertension ?:;;;0.00983187155538108
+Headache ?--- Height in m::;;;0.009797469611565912
+Confusion / altered mental status ?--- Long Covid:;;;0.009703506860048394
+Malignant neoplasm - metastatic?--- Extremity weakness or numbness ?:;;;0.009583726861494002
+Malignant neoplasm - metastatic?--- Ear pain ?:;;;0.009583726861494002
+Trouble speaking (Aphasia / Dysphasia) ?--- Asthma ?:;;;0.00946515745592555
+Headache ?--- Long Covid:;;;0.00908586100007236
+Age au recrutement:--- Fever (?38.0 Celcius) ?:;;;0.00889470860992514
+Weight in kg:--- Loss of taste / lost of smell ?:;;;0.008813860637536752
+Headache ?--- Number of comorbidities: :;;;0.008806190226500421
+Fever (?38.0 Celcius) ?--- Long Covid:;;;0.008795941960313192
+Psychiatric disease?--- Asthma ?:;;;0.008775358308465542
+Wheezing or stridor ?--- BMI::;;;0.008578044214590519
+ACE inhibitor or Angiotensin Receptor Blocker?--- Prior myocardial infarction ?:;;;0.008548101132793584
+Weight in kg:--- Nausea / vomiting ?:;;;0.008542715367672482
+Chronic hematologic disease ?--- Weight in kg::;;;0.008352268381293743
+Psychiatric disease?--- HGO or insulin?:;;;0.008287630900649545
+Age au recrutement:--- Diarrhea ?:;;;0.008010650198708724
+Red eye (Conjunctivitis) ?--- Number of comorbidities: :;;;0.007866350511525011
+Weight in kg:--- Sore throat ?:;;;0.007844861867928099
+Chronic hematologic disease ?--- Number of comorbidities: :;;;0.0078078016778519305
+Number of comorbidities: --- Sex at birth::;;;0.007781105469773397
+Number of comorbidities: --- Immunosupressed state?:;;;0.0077436891944488995
+Arterial Hypertension ?--- Sex at birth::;;;0.00764380312562174
+Number of comorbidities: --- Sore throat ?:;;;0.007585483628339551
+Number of comorbidities: --- Hemoptysis / Bloody sputum ?:;;;0.007537943685628656
+Asthma ?--- Other chronic lung disease ? :;;;0.00750993225999258
+ACE inhibitor or Angiotensin Receptor Blocker?--- Runny nose (Rhinorrhea) ?:;;;0.007443106364324326
+Chest pain ?--- Age au recrutement::;;;0.007387159148196321
+Age au recrutement:--- Dizziness ?:;;;0.0072837128300302645
+Number of comorbidities: --- Prior stroke ? :;;;0.006749169117878484
+Sex at birth:--- Age au recrutement::;;;0.006733073658766298
+Malignant neoplasm - actively receiving treatment?--- Other chronic neurological disorder (other than stroke/TIA) ?:;;;0.006675565231880953
+Loss of taste / lost of smell ?--- Height in m::;;;0.006631544119670929
+Headache ?--- ACE inhibitor or Angiotensin Receptor Blocker?:;;;0.006626992294038181
+Nausea / vomiting ?--- Other chronic neurological disorder (other than stroke/TIA) ?:;;;0.0064980986294361776
+Weight in kg:--- Muscle aches (Myalgia) ?:;;;0.006451894267742286
+Psychiatric disease?--- ACE inhibitor or Angiotensin Receptor Blocker?:;;;0.0062606290944454135
+Number of comorbidities: --- Is the participant employed as a Healthcare Worker?  :;;;0.006138422447649283
+Weight in kg:--- Long Covid:;;;0.005978395178447116
+Other chronic lung disease ? --- Smoking status::;;;0.005785166839633593
+Colchicine?--- Psychiatric disease?:;;;0.005755394246903689
+Age au recrutement:--- Wheezing or stridor ?:;;;0.005481145069596849
+Number of comorbidities: --- Cough ?:;;;0.005315655690291576
+Headache ?--- Asthma ?:;;;0.005182324966144791
+Headache ?--- Liver disease ?:;;;0.005144619589482202
+Asthma ?--- Sex at birth::;;;0.005127378409547245
+Runny nose (Rhinorrhea) ?--- BMI::;;;0.005126669236375392
+Smoking status:--- Loss of appetite ?:;;;0.005115319512802419
+Obesity ?--- Long Covid:;;;0.0050570006236214105
+Number of comorbidities: --- Fever (?38.0 Celcius) ?:;;;0.005044764167639215
+Runny nose (Rhinorrhea) ?--- Long Covid:;;;0.005011433140411081
+Psychiatric disease?--- Long Covid:;;;0.00486997698305941
+Number of comorbidities: --- Runny nose (Rhinorrhea) ?:;;;0.004858880494242213
+ACE inhibitor or Angiotensin Receptor Blocker?--- Other chronic lung disease ? :;;;0.004778094005212452
+Weight in kg:--- Malnutrition ?:;;;0.00474018154884126
+If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?--- Wheezing or stridor ?:;;;0.004736488071592854
+Chronic hematologic disease ?--- Obesity ?:;;;0.004705711409308241
+Dizziness ?--- Smoking status::;;;0.004685580766779829
+Psychiatric disease?--- Chronic hematologic disease ?:;;;0.004647104393558976
+Patient pregnant?--- Weight in kg::;;;0.004640965246003298
+Smoking status:--- Extremity weakness or numbness ?:;;;0.004639863764620555
+Fever (?38.0 Celcius) ?--- Height in m::;;;0.004528701263442292
+Patient pregnant?--- Number of comorbidities: :;;;0.004511897639983997
+Asthma ?--- Height in m::;;;0.004479899541484034
+Age au recrutement:--- Is the participant employed in a Microbiology Laboratory?  :;;;0.004469890867437876
+Trouble speaking (Aphasia / Dysphasia) ?--- Weight in kg::;;;0.004468211685365542
+Other chronic lung disease ? --- Hemoptysis / Bloody sputum ?:;;;0.004395663410909245
+Arterial Hypertension ?--- Other chronic lung disease ? :;;;0.004305391542762882
+Malignant neoplasm - actively receiving treatment?--- Joint pain (Arthralgia) ?:;;;0.004210513714948849
+Is the participant employed as a Healthcare Worker?  --- Diabetes ?:;;;0.004182459108264425
+Age au recrutement:--- Immunosupressed state?:;;;0.004107147360771002
+Number of comorbidities: --- Chronic kidney disease ?:;;;0.004063626649117857
+Anticoagulants?--- Long Covid:;;;0.004018372228612899
+Dementia ? --- Other immunosuppressive medications?:;;;0.003938651967567507
+Psychiatric disease?--- Please specify drugs used. (choice=Cocaine):;;;0.0039004570346268252
+ACE inhibitor or Angiotensin Receptor Blocker?--- Wheezing or stridor ?:;;;0.0038980632614751265
+Ear pain ?--- Age au recrutement::;;;0.0037693144361847786
+Weight in kg:--- Heart failure ?:;;;0.0036332597264867594
+Weight in kg:--- Chest pain ?:;;;0.003538090740053512
+ACE inhibitor or Angiotensin Receptor Blocker?--- Skin rash ?:;;;0.003497595833102718
+Sex at birth:--- Runny nose (Rhinorrhea) ?:;;;0.003456238142711121
+Liver disease ?--- Other chronic lung disease ? :;;;0.0034132944068477333
+Red eye (Conjunctivitis) ?--- Malignant neoplasm - actively receiving treatment?:;;;0.003361283508325874
+Other chronic lung disease ? --- Long Covid:;;;0.0033315213097886154
+Systemic corticosteroid?--- Joint pain (Arthralgia) ?:;;;0.0033118415162649018
+Obesity ?--- Chronic kidney disease ?:;;;0.003307865386764919
+Loss of taste / lost of smell ?--- Smoking status::;;;0.0033037164011575637
+Obesity ?--- Muscle aches (Myalgia) ?:;;;0.0033006752610627854
+Leg swelling (Edema) ?--- Long Covid:;;;0.0032969156838124902
+Age au recrutement:--- Nausea / vomiting ?:;;;0.0032709414200811082
+ACE inhibitor or Angiotensin Receptor Blocker?--- Chronic hematologic disease ?:;;;0.00322118440412833
+Asthma ?--- Dizziness ?:;;;0.0031433195500897293
+Red eye (Conjunctivitis) ?--- Weight in kg::;;;0.0030733446346031257
+Malignant neoplasm - metastatic?--- Heart failure ?:;;;0.0030725802459350415
+Pulmonary hypertension ?--- Long Covid:;;;0.003043771578715101
+Loss of appetite ?--- Pulmonary hypertension ?:;;;0.003031821068647078
+Sex at birth:--- Atrial fibrillation or flutter ?:;;;0.0029663862707355326
+Headache ?--- Colchicine?:;;;0.0029178131322599166
+COPD (emphysema, chronic bronchitis) ?--- Trouble speaking (Aphasia / Dysphasia) ?:;;;0.0029062561691567956
+Liver disease ?--- COPD (emphysema, chronic bronchitis) ?:;;;0.0029020400567278393
+Number of comorbidities: --- Loss of taste / lost of smell ?:;;;0.0028702477125568393
+Prior myocardial infarction ?--- Long Covid:;;;0.002867081883613516
+BMI:--- Other chronic neurological disorder (other than stroke/TIA) ?:;;;0.0028202796875784752
+Smoking status:--- Fatigue ?:;;;0.0028109757592269524
+Smoking status:--- Other chronic neurological disorder (other than stroke/TIA) ?:;;;0.0028090212202684928
+If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?--- Trouble speaking (Aphasia / Dysphasia) ?:;;;0.0027377796250540876
+Heart failure ?--- Prior stroke ? :;;;0.0026258024417201015
+Smoking status:--- Muscle aches (Myalgia) ?:;;;0.0025243263946972405
+Arterial Hypertension ?--- Asthma ?:;;;0.002516495016805398
+Coronary artery disease ?--- COPD (emphysema, chronic bronchitis) ?:;;;0.0024581754636196634
+HGO or insulin?--- Red eye (Conjunctivitis) ?:;;;0.002456521841779691
+Colchicine?--- Red eye (Conjunctivitis) ?:;;;0.0023402700135629895
+Patient pregnant?--- Arterial Hypertension ?:;;;0.002316499882882711
+Coronary artery disease ?--- Sex at birth::;;;0.002296286360230035
+Loss of appetite ?--- Other chronic neurological disorder (other than stroke/TIA) ?:;;;0.0022952964620561733
+Arterial Hypertension ?--- Chronic hematologic disease ?:;;;0.002213180161672712
+Rheumatologic disease ?--- Long Covid:;;;0.002212765778081327
+Colchicine?--- Trouble speaking (Aphasia / Dysphasia) ?:;;;0.002205983009947954
+Runny nose (Rhinorrhea) ?--- Height in m::;;;0.0021959512572653495
+Red eye (Conjunctivitis) ?--- Asthma ?:;;;0.002187562607570581
+Malignant neoplasm - actively receiving treatment?--- Shortness of breath (Dyspnea) ?:;;;0.0021760209952332854
+Malignant neoplasm - actively receiving treatment?--- Loss of taste / lost of smell ?:;;;0.0021760209952332854
+Arterial Hypertension ?--- Loss of taste / lost of smell ?:;;;0.002153416153489296
+Number of comorbidities: --- Heart failure ?:;;;0.0021369066761911526
+Malignant neoplasm - metastatic?--- Runny nose (Rhinorrhea) ?:;;;0.0021367964548376084
+Prior stroke ? --- Leg swelling (Edema) ?:;;;0.0020878260585628847
+Weight in kg:--- Fever (?38.0 Celcius) ?:;;;0.002024063290684275
+ACE inhibitor or Angiotensin Receptor Blocker?--- Seizure ?:;;;0.0019965092231011283
+Drugs?--- ACE inhibitor or Angiotensin Receptor Blocker?:;;;0.0019951210587527135
+Diabetes ?--- Other chronic cardiac disease ?:;;;0.0019897194432060283
+Systemic corticosteroid?--- Is the participant employed in a Microbiology Laboratory?  :;;;0.00197920513848715
+ACE inhibitor or Angiotensin Receptor Blocker?--- Long Covid:;;;0.001946247580069782
+Patient pregnant?--- Runny nose (Rhinorrhea) ?:;;;0.001939677874774351
+Please specify drugs used. (choice=Opiods)--- Age au recrutement::;;;0.0019108626721190403
+Liver disease ?--- Please specify drugs used. (choice=Cocaine):;;;0.0018953208848787179
+Anticoagulants?--- Confusion / altered mental status ?:;;;0.001884226347609208
+Please specify drugs used. (choice=Cannabis)--- Other chronic lung disease ? :;;;0.0018702018707454915
+ACE inhibitor or Angiotensin Receptor Blocker?--- Loss of taste / lost of smell ?:;;;0.0017956013328488396
+Headache ?--- Smoking status::;;;0.001706980124213553
+Please specify drugs used. (choice=Cocaine)--- Arterial Hypertension ?:;;;0.0016262713014838573
+Coronary artery disease ?--- Please specify drugs used. (choice=Cocaine):;;;0.0016091140439338375
+Drugs?--- Long Covid:;;;0.0015877068841900766
+Please specify drugs used. (choice=Cocaine)--- Wheezing or stridor ?:;;;0.001493544997347232
+Red eye (Conjunctivitis) ?--- ACE inhibitor or Angiotensin Receptor Blocker?:;;;0.0014612227260392685
+Please specify drugs used. (choice=Amphetamines)--- Psychiatric disease?:;;;0.0014505400887311615
+Other chronic lung disease ? --- Prior stroke ? :;;;0.0014382523950333959
+COPD (emphysema, chronic bronchitis) ?--- Red eye (Conjunctivitis) ?:;;;0.001351624364677062
+Please specify drugs used. (choice=Cannabis)--- Long Covid:;;;0.0013482427435062005
+Asthma ?--- Other immunosuppressive medications?:;;;0.0013459655384466251
+Smoking status:--- Shortness of breath (Dyspnea) ?:;;;0.0013350531989073655
+HGO or insulin?--- Other chronic lung disease ? :;;;0.00130574176631304
+Diarrhea ?--- Diabetes ?:;;;0.0012600015307122625
+Malignant neoplasm ?--- Long Covid:;;;0.0012283850967707566
+Prior transient ischemic attack (TIA) ?--- Long Covid:;;;0.0012247734239145998
+Colchicine?--- Loss of taste / lost of smell ?:;;;0.0012150551892286532
+ACE inhibitor or Angiotensin Receptor Blocker?--- Asthma ?:;;;0.0011915437657112893
+Chest pain ?--- Smoking status::;;;0.001177520096972473
+Liver disease ?--- Psychiatric disease?:;;;0.0011683121423373966
+HGO or insulin?--- Joint pain (Arthralgia) ?:;;;0.0011597024969098868
+Sore throat ?--- Anticoagulants?:;;;0.0011579504802231577
+Trouble speaking (Aphasia / Dysphasia) ?--- Prior stroke ? :;;;0.00115472625964666
+Red eye (Conjunctivitis) ?--- Smoking status::;;;0.0011506470029259974
+Liver disease ?--- Long Covid:;;;0.001128849057669995
+Please specify drugs used. (choice=Opiods)--- Long Covid:;;;0.0011254619922017595
+Headache ?--- Coronary artery disease ?:;;;0.0011254344474825873
+Sex at birth:--- Muscle aches (Myalgia) ?:;;;0.0010957381194148796
+Headache ?--- Arterial Hypertension ?:;;;0.0010654464692807508
+Chest pain ?--- Other immunosuppressive medications?:;;;0.0010527663104049623
+HGO or insulin?--- Ear pain ?:;;;0.0010317417412266106
+Is the participant employed as a Healthcare Worker?  --- Long Covid:;;;0.0010084524885694002
+Drugs?--- Arterial Hypertension ?:;;;0.0010074888737622856
+Atrial fibrillation or flutter ?--- Loss of taste / lost of smell ?:;;;0.000963920541118643
+Other immunosuppressive medications?--- Long Covid:;;;0.0009562155540457917
+Atrial fibrillation or flutter ?--- Fever (?38.0 Celcius) ?:;;;0.0009504056719036036
+Colchicine?--- Long Covid:;;;0.0009394097397370516
+Psychiatric disease?--- COPD (emphysema, chronic bronchitis) ?:;;;0.0009212934738818679
+Wheezing or stridor ?--- Seizure ?:;;;0.0009074717948276967
+Fever (?38.0 Celcius) ?--- Rheumatologic disease ?:;;;0.0008917690342857831
+Malignant neoplasm - metastatic?--- Sore throat ?:;;;0.0008877255561822173
+HGO or insulin?--- Atrial fibrillation or flutter ?:;;;0.000885547437810219
+Chronic hematologic disease ?--- Asthma ?:;;;0.0008827102239513801
+Heart failure ?--- Loss of taste / lost of smell ?:;;;0.0008826858983411977
+COPD (emphysema, chronic bronchitis) ?--- HGO or insulin?:;;;0.0008775437804555142
+Other chronic lung disease ? --- Atrial fibrillation or flutter ?:;;;0.0008581114174220222
+Sex at birth:--- Smoking status::;;;0.0008553087960683214
+Headache ?--- Other chronic neurological disorder (other than stroke/TIA) ?:;;;0.0008291742036354854
+Headache ?--- Please specify drugs used. (choice=Cocaine):;;;0.0008129413224456927
+Colchicine?--- Ear pain ?:;;;0.0007837094605051276
+Psychiatric disease?--- Arterial Hypertension ?:;;;0.0007808328794635111
+Nausea / vomiting ?--- Malignant neoplasm ?:;;;0.0007679893271297367
+HGO or insulin?--- Long Covid:;;;0.0007589304448097911
+HGO or insulin?--- Hemoptysis / Bloody sputum ?:;;;0.0006801875514325095
+Nausea / vomiting ?--- Is the participant employed as a Healthcare Worker?  :;;;0.0006473270462040714
+ACE inhibitor or Angiotensin Receptor Blocker?--- Prior transient ischemic attack (TIA) ?:;;;0.0006452205876733563
+HGO or insulin?--- Chronic hematologic disease ?:;;;0.0006432430601722716
+Arterial Hypertension ?--- Runny nose (Rhinorrhea) ?:;;;0.0006419088438885945
+Long Covid--- Is the participant employed in a Microbiology Laboratory?  :;;;0.0005945154927609053
+Rheumatologic disease ?--- Other chronic neurological disorder (other than stroke/TIA) ?:;;;0.000578069166948747
+Prior myocardial infarction ?--- Asthma ?:;;;0.0005504752851362774
+Malignant neoplasm - actively receiving treatment?--- Is the participant employed as a Healthcare Worker?  :;;;0.0005466765197998935
+Malignant neoplasm - actively receiving treatment?--- Asthma ?:;;;0.0005466765197998935
+ACE inhibitor or Angiotensin Receptor Blocker?--- Ear pain ?:;;;0.0005423588622447406
+Coronary artery disease ?--- Trouble speaking (Aphasia / Dysphasia) ?:;;;0.000527166638368673
+Smoking status:--- Is the participant employed in a Microbiology Laboratory?  :;;;0.0005160052341905974
+Chronic hematologic disease ?--- Long Covid:;;;0.0004983443878054244
+Shortness of breath (Dyspnea) ?--- Systemic corticosteroid?:;;;0.00047138096306265087
+Sex at birth:--- Rheumatologic disease ?:;;;0.00045949577894255356
+Patient pregnant?--- Red eye (Conjunctivitis) ?:;;;0.0004577580851611307
+Joint pain (Arthralgia) ?--- Seizure ?:;;;0.00045609087381270896
+Anticoagulants?--- Dizziness ?:;;;0.0004560197603584726
+Patient pregnant?--- Other chronic neurological disorder (other than stroke/TIA) ?:;;;0.0004016350611802527
+Electronic cigarettes?--- Atrial fibrillation or flutter ?:;;;0.00039629680274907986
+Please specify drugs used. (choice=Cocaine)--- Systemic corticosteroid?:;;;0.0003925089817366778
+COPD (emphysema, chronic bronchitis) ?--- Chronic hematologic disease ?:;;;0.0003891673937878315
+Obesity ?--- Asymptomatic?:;;;0.0003641667195128373
+HIV or AIDS ?--- Long Covid:;;;0.00035803584471647
+Trouble speaking (Aphasia / Dysphasia) ?--- Arterial Hypertension ?:;;;0.0003481355232084482
+Other immunosuppressive medications?--- Wheezing or stridor ?:;;;0.00033800010962203864
+Colchicine?--- Hemoptysis / Bloody sputum ?:;;;0.00033078915720077817
+COPD (emphysema, chronic bronchitis) ?--- Patient pregnant?:;;;0.0003217008344082589
+Patient pregnant?--- Long Covid:;;;0.00032138952948551625
+Patient pregnant?--- Other chronic lung disease ? :;;;0.00031797373602827916
+Coronary artery disease ?--- Red eye (Conjunctivitis) ?:;;;0.00031629502907279394
+ACE inhibitor or Angiotensin Receptor Blocker?--- Chest pain ?:;;;0.0003135724576186494
+Sex at birth:--- Prior stroke ? :;;;0.0003131753795508896
+Chest pain ?--- Obesity ?:;;;0.0002989562701213311
+ACE inhibitor or Angiotensin Receptor Blocker?--- Trouble speaking (Aphasia / Dysphasia) ?:;;;0.0002834624089950166
+Prior stroke ? --- Long Covid:;;;0.0002799555186137753
+Please specify drugs used. (choice=Cocaine)--- Chest pain ?:;;;0.0002555564689978862
+Patient pregnant?--- Is the participant employed in a Microbiology Laboratory?  :;;;0.0002507014921203088
+Please specify drugs used. (choice=Cocaine)--- Trouble speaking (Aphasia / Dysphasia) ?:;;;0.00024811961365196755
+Please specify drugs used. (choice=Other)--- Psychiatric disease?:;;;0.00023859768350525425
+Please specify drugs used. (choice=Cocaine)--- Red eye (Conjunctivitis) ?:;;;0.0001944450260294439
+Other chronic lung disease ? --- Is the participant employed as a Healthcare Worker?  :;;;0.00019353634455915314
+Diabetes ?--- Long Covid:;;;0.00018557228356308464
+Sex at birth:--- Is the participant employed in a Microbiology Laboratory?  :;;;0.000185015305130376
+Coronary artery disease ?--- Patient pregnant?:;;;0.00017626540868084795
+HIV or AIDS ?--- Fever (?38.0 Celcius) ?:;;;0.00017350705375782094
+Please specify drugs used. (choice=Cannabis)--- Chronic hematologic disease ?:;;;0.00016858013256099147
+Prior myocardial infarction ?--- Obesity ?:;;;0.0001607965387656063
+Fever (?38.0 Celcius) ?--- Sore throat ?:;;;0.00015698971303490517
+Please specify drugs used. (choice=Cocaine)--- COPD (emphysema, chronic bronchitis) ?:;;;0.0001536611890396028
+Malignant neoplasm - metastatic?--- Muscle aches (Myalgia) ?:;;;0.00014920887871394672
+HIV or AIDS ?--- Trouble speaking (Aphasia / Dysphasia) ?:;;;0.00014298562072927873
+Colchicine?--- COPD (emphysema, chronic bronchitis) ?:;;;0.00014202033747950926
+Psychiatric disease?--- Atrial fibrillation or flutter ?:;;;0.00013300117008313572
+Coronary artery disease ?--- Long Covid:;;;0.00013066971499241242
+Is the participant employed as a Healthcare Worker?  --- Extremity weakness or numbness ?:;;;0.00012629862255986168
+Pulmonary hypertension ?--- Malignant neoplasm ?:;;;0.00012138611156949433
+Runny nose (Rhinorrhea) ?--- Atrial fibrillation or flutter ?:;;;0.00011926454940613951
+Patient pregnant?--- Cough ?:;;;0.00011466805498985821
+Headache ?--- COPD (emphysema, chronic bronchitis) ?:;;;0.00011443340117067713
+Diabetes ?--- Pulmonary hypertension ?:;;;0.00010254497873873891
+Diabetes ?--- Other chronic neurological disorder (other than stroke/TIA) ?:;;;9.664166643619243e-05
+Patient pregnant?--- Prior stroke ? :;;;8.005247312052599e-05
+Coronary artery disease ?--- Asthma ?:;;;7.678278187424337e-05
+Patient pregnant?--- Asthma ?:;;;7.607442844284606e-05
+Malnutrition ?--- Loss of taste / lost of smell ?:;;;7.541885532963422e-05
+Atrial fibrillation or flutter ?--- Joint pain (Arthralgia) ?:;;;7.106496873664214e-05
+Atrial fibrillation or flutter ?--- Ear pain ?:;;;6.174761172607346e-05
+HIV or AIDS ?--- Chronic kidney disease ?:;;;5.8908086090783685e-05
+Malignant neoplasm - metastatic?--- Cough ?:;;;5.542965730170879e-05
+Coronary artery disease ?--- Psychiatric disease?:;;;4.946765863397817e-05
+Runny nose (Rhinorrhea) ?--- Heart failure ?:;;;4.0801346930963156e-05
+Chest pain ?--- Diabetes ?:;;;3.5460668579068155e-05
+Red eye (Conjunctivitis) ?--- Sex at birth::;;;3.293632607576091e-05
+Prior stroke ? --- Seizure ?:;;;3.0296611529735673e-05
+Patient pregnant?--- Rheumatologic disease ?:;;;2.6628055048938393e-05
+Prior myocardial infarction ?--- Heart failure ?:;;;2.642313431390486e-05
+Asymptomatic?--- Hemoptysis / Bloody sputum ?:;;;1.9219049779436656e-05
+Drugs?--- Atrial fibrillation or flutter ?:;;;1.4473816889681856e-05
+Malnutrition ?--- Long Covid:;;;1.0313638667061586e-05
+Coronary artery disease ?--- Runny nose (Rhinorrhea) ?:;;;6.744208192452361e-06
+Fatigue ?--- Diabetes ?:;;;2.421868348867484e-06
+Please specify drugs used. (choice=Cocaine)--- Long Covid:;;;1.6369081137918018e-06
+Coronary artery disease ?--- Loss of appetite ?:;;;5.999683293234082e-07
+Shortness of breath (Dyspnea) ?--- Is the participant employed as a Healthcare Worker?  :;;;2.8151359410255594e-07
+Headache ?--- Patient pregnant?:;;;9.140408141483647e-08
+Electronic cigarettes?--- Long Covid:;;;5.096849892138877e-08
+Electronic cigarettes?--- Chest pain ?:;;;2.3706404950196713e-08
+Red eye (Conjunctivitis) ?--- Asymptomatic?:;;;0.0
+Please specify drugs used. (choice=Other)--- Malignant neoplasm - metastatic?:;;;0.0
+Please specify drugs used. (choice=Cocaine)--- Malignant neoplasm - metastatic?:;;;0.0
+Please specify drugs used. (choice=Amphetamines)--- Malignant neoplasm - metastatic?:;;;0.0
+Patient pregnant?--- Malignant neoplasm - metastatic?:;;;0.0
+Malignant neoplasm - metastatic?--- Seizure ?:;;;0.0
+Malignant neoplasm - metastatic?--- Please specify drugs used. (choice=Opiods):;;;0.0
+Malignant neoplasm - metastatic?--- Please specify drugs used. (choice=Cannabis):;;;0.0
+Malignant neoplasm - metastatic?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.0
+Malignant neoplasm - metastatic?--- HIV or AIDS ?:;;;0.0
+Malignant neoplasm - metastatic?--- Electronic cigarettes?:;;;0.0
+Malignant neoplasm - metastatic?--- Drugs?:;;;0.0
+Malignant neoplasm - actively receiving treatment?--- Prior transient ischemic attack (TIA) ?:;;;0.0
+Malignant neoplasm - actively receiving treatment?--- Prior myocardial infarction ?:;;;0.0
+Malignant neoplasm - actively receiving treatment?--- Malnutrition ?:;;;0.0
+Malignant neoplasm - actively receiving treatment?--- Malignant neoplasm ?:;;;0.0
+Malignant neoplasm - actively receiving treatment?--- Chronic kidney disease ?:;;;0.0
+Liver disease ?--- Malignant neoplasm - metastatic?:;;;0.0
+Ear pain ?--- Dementia ? :;;;0.0
+Asymptomatic?--- Wheezing or stridor ?:;;;0.0
+Asymptomatic?--- Skin rash ?:;;;0.0
+Asymptomatic?--- Nausea / vomiting ?:;;;0.0
+Asymptomatic?--- Loss of taste / lost of smell ?:;;;0.0
+Asymptomatic?--- Loss of appetite ?:;;;0.0
+Asymptomatic?--- Leg swelling (Edema) ?:;;;0.0
+Asymptomatic?--- Joint pain (Arthralgia) ?:;;;0.0
+Asymptomatic?--- Fever (?38.0 Celcius) ?:;;;0.0
+Asymptomatic?--- Ear pain ?:;;;0.0
+Asymptomatic?--- Diarrhea ?:;;;0.0
+Asymptomatic?--- Confusion / altered mental status ?:;;;0.0
+Asymptomatic?--- Abdominal pain ?:;;;0.0

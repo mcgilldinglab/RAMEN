@@ -1,0 +1,130 @@
+Cur Func	strongest	Weight
+Cur Func	strongest	Diarrhea
+Weight	strongest	BMI
+Comorb C	strongest	Sev COPD
+Comorb C	strongest	Long Covid
+Diarrhea	strongest	Dyspnea
+Diarrhea	strongest	Long Covid
+Diarrhea	strongest	Taste/Smell
+Nausea	strongest	Cur Func
+Nausea	strongest	Dizzy
+Oth Immunos med	strongest	Colchicine?
+Oth Immunos med	strongest	Oth Chr Lung Dis
+Colchicine?	strongest	Long Covid
+Dyspnea	strongest	Long Covid
+Dizzy	strongest	Extrem Weak
+Dizzy	strongest	Pregn
+Extrem Weak	strongest	Long Covid
+Extrem Weak	strongest	Malign Neop Meta
+Arthralgia	strongest	Long Covid
+Arthralgia	strongest	Liv Dis
+Malign Neop Treat	strongest	Long Covid
+Malign Neop Treat	strongest	Fever
+Malign Neop Treat	strongest	Pr TIA
+Chest P	strongest	Long Covid
+Chest P	strongest	Chr Hema Dis
+Chest P	strongest	Pr Myoc Inf
+Chest P	strongest	Dialysis
+Fever	strongest	Wheeze/Strid
+Fever	strongest	Long Covid
+Cough	strongest	Sore Throat
+Cough	strongest	Dr Cocaine
+Sore Throat	strongest	Loss of Appetite
+Loss of Appetite	strong	Long Covid
+Loss of Appetite	strong	ACE Inh
+Loss of Appetite	strong	HIV/AIDS
+Fatigue	strong	Long Covid
+Myalgia	strong	Nausea
+Myalgia	strong	Long Covid
+Myalgia	strong	Microb Work
+Height	strong	Malign Neop Treat
+Height	strong	Long Covid
+Height	strong	Seizure
+Ab Pain	strong	Long Covid
+Ab Pain	strong	Obesity
+Cor Art Dis	strong	Age
+Cor Art Dis	strong	Diabetes
+Cor Art Dis	strong	Long Covid
+Age	strong	Long Covid
+Skin Rash	strong	Long Covid
+Skin Rash	strong	Malnutr
+Diabetes	strong	Comorb C
+Diabetes	strong	Chr Card Dis
+Diabetes	strong	Long Covid
+Diabetes	strong	Aphasia
+Confusion	strong	Long Covid
+Confusion	strong	Dementia
+Headache	strong	Long Covid
+Headache	strong	Sys Cortic
+SEV	strong	Rhinorrhea
+SEV	strong	Psych Dis
+Rhinorrhea	strong	Long Covid
+Rhinorrhea	strong	Chest P
+Seizure	strong	Dr Cannabis
+Obesity	strong	Long Covid
+Obesity	okay	Pulm Hyper
+Ear Pain	okay	Long Covid
+Ear Pain	okay	Malign Neop
+Ear Pain	okay	SEV
+COPD	okay	Long Covid
+Aphasia	okay	Long Covid
+Sys Cortic	okay	Long Covid
+ACE Inh	okay	Long Covid
+Oth Chr Lung Dis	okay	Long Covid
+Chr Hema Dis	okay	Long Covid
+Chr Hema Dis	okay	Hemoptysis/B
+Atr Fibr	okay	Sex Birth
+Atr Fibr	okay	Long Covid
+Pr Myoc Inf	okay	Long Covid
+Pr Myoc Inf	okay	Headache
+Immunosupr	okay	Smoke
+Immunosupr	okay	Long Covid
+Smoke	okay	Ab Pain
+Smoke	okay	Long Covid
+Smoke	okay	Dr Opiods
+Conjunct	okay	Oth Immunos med
+Conjunct	okay	Long Covid
+HGO/Ins	okay	Conjunct
+HGO/Ins	okay	Long Covid
+HGO/Ins	okay	Confusion
+Rheumat Dis	okay	Long Covid
+Rheumat Dis	okay	COPD
+Rheumat Dis	okay	Cor Art Dis
+Chr Card Dis	okay	Drug Oth
+Drugs	okay	Immunosupr
+Drugs	okay	Long Covid
+Drugs	okay	Asympt.
+Psych Dis	weaker	Health Work
+Health Work	weaker	Long Covid
+HIV/AIDS	weaker	Drugs
+HIV/AIDS	weaker	Long Covid
+HIV/AIDS	weaker	Edema
+Dr Cannabis	weaker	Long Covid
+Dr Cannabis	weaker	Atr Fibr
+Malnutr	weaker	HGO/Ins
+Malnutr	weaker	Myalgia
+Malnutr	weaker	Long Covid
+Liv Dis	weaker	Long Covid
+Liv Dis	weaker	Heart Fail
+Edema	weaker	Anticoag
+Drug Oth	weaker	Long Covid
+Drug Oth	weaker	Art. Hyper.
+Pregn	weaker	Ele Cig
+Ele Cig	weaker	Long Covid
+Art. Hyper.	weaker	Long Covid
+Chr Kidn Dis	weaker	Asthma
+Chr Kidn Dis	weaker	Pr Stroke
+D Amphet	weaker	Rheumat Dis
+D Amphet	weaker	Skin Rash
+D Amphet	weaker	Chr Kidn Dis
+D Amphet	weaker	Long Covid
+Microb Work	weaker	Long Covid
+Microb Work	weaker	Cough
+Microb Work	weaker	Fatigue
+Oth Chron Neuro D	weaker	Arthralgia
+Dementia	weaker	Long Covid
+Pr TIA	weaker	Oth Chron Neuro D
+Dr Cocaine	weaker	Long Covid
+Asympt.	weaker	Ear Pain
+Heart Fail	weaker	D Amphet
+Dialysis	weaker	Long Covid

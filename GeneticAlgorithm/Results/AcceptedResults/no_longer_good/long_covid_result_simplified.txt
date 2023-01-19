@@ -1,0 +1,307 @@
+ACE inhibitor or Angiotensin Receptor Blocker?--- Arterial Hypertension ?
+Abdominal pain ?--- Long Covid
+Abdominal pain ?.1--- Anxiety and depression
+Abdominal pain ?.1--- Long Covid
+Abdominal pain ?.1--- Obesity ?
+Ability to self-care at discharge versus pre-COVID:--- Acute kidney injury?
+Acute kidney injury?--- Anemia?
+Adjunctive therapy during hospitalization--- SEVERITY
+Adjunctive therapy during hospitalization--- Remdesivir treatment
+Age at arrival--- SEVERITY
+Age during recruitment:--- Level of care (final)
+Age during recruitment:--- Long Covid
+Albumin--- SEVERITY
+Anemia?--- Bacterial pneumonia?
+Anemia?--- ECMO
+Anxiety and depression--- Long Covid
+Anxiety and depression--- Interferon alpha treatment
+Arterial Hypertension ?--- Age during recruitment:
+Asthma ?--- Long Covid
+Asymptomatic?--- Long Covid
+is the participant receiving oxygen ?--- SEVERITY
+Atrial fibrillation or flutter ?--- Albumin (LOWEST)
+Atrial fibrillation or flutter ?--- Long Covid
+Bacterial pneumonia?--- CT Abdomen?
+Bacterial pneumonia?--- Coronary artery disease ?
+Breathlessness:--- difficulty climbing 10 stairs?
+Breathlessness:--- Long Covid
+CRP (HIGHEST)--- CRP
+CRP (HIGHEST)--- Colchicine?
+CRP (HIGHEST)--- Skin rash ?
+COPD--- Long Covid
+CT Abdomen?--- CT Head?
+CT Abdomen?--- Extremity weakness or numbness ?
+CT Head?--- CT Thorax?
+CT Thorax?--- Chest x-ray?
+CT Thorax?--- Plaquenil treatment
+Chest pain ?--- Long Covid
+Chest pain ?.1--- Long Covid
+Chest x-ray?--- Cough ?
+Chronic kidney disease ?--- Long Covid
+Colchicine?--- ACE inhibitor or Angiotensin Receptor Blocker?
+Colchicine?--- HGO or insulin?
+Colchicine?--- Heart failure ?
+Colchicine?--- Long Covid
+Confusion?--- Long Covid
+Confusion?.1--- Long Covid
+Confusion?.1--- Sore throat ?.1
+Coronary artery disease ?--- Abdominal pain ?.1
+Coronary artery disease ?--- Long Covid
+Cough ?--- Creatinine (HIGHEST)
+Cough ?--- Oxygen therapy with cannula/mask
+Cough ?.1--- Long Covid
+Cough ?.1--- Prior stroke ? 
+Cough ?.1--- Total WBC count (HIGHEST) 
+Creatinine (HIGHEST)--- Diastolic BP:
+Dementia ? --- Ear pain ?.1
+Dementia ? --- Long Covid
+Dementia ? --- Dyspnea?.1
+Diabetes ?--- Cough ?.1
+Diarrhea ?--- Long Covid
+Diarrhea ?.1--- is the participant receiving oxygen ?
+Diarrhea ?.1--- Long Covid
+Diastolic BP:--- Diastolic BP:.1
+Diastolic BP:.1--- Atrial fibrillation or flutter ?
+Diastolic BP:.1--- djunctive therapy?
+djunctive therapy?--- Duration of hospitalization:
+Any side effects?--- Adenovirus
+Any side effects?--- Long Covid
+Any side effects?--- Ribavirin treatment
+Disposition:--- Adjunctive therapy during hospitalization
+Disposition:--- Living where?
+Dizziness ?--- Asthma ?
+Dizziness ?--- Long Covid
+Dizziness ?.1--- Asymptomatic?
+Dizziness ?.1--- Long Covid
+persistent symptoms related to COVID--- Dyspnea?
+Drugs?--- On arrival, receiving oxygen ?
+Drugs?--- Cannabis
+Duration of hospitalization:--- Echocardiogram? 
+Ear pain ?--- Chest pain ?
+Ear pain ?--- Long Covid
+Ear pain ?.1--- Long Covid
+Ear pain ?.1--- Malignant neoplasm ?
+Echocardiogram? --- ECG?
+ECG?--- Eosinophil (x 10^9/L):
+ECG?--- Invasive support with mechanical ventilation
+Electronic cigarettes?--- Blood transfusion
+Electronic cigarettes?--- Long Covid
+Electronic cigarettes?--- Sodium Na+ (HIGHEST)
+Eosinophil (x 10^9/L):--- Fatigue ?.1
+Extremity weakness or numbness ?--- Heart rate (associated with BP):.1
+Extremity weakness or numbness ?--- Long Covid
+Fatigue ?--- Long Covid
+Fatigue ?.1--- GCS - lowest:
+Fever?--- Long Covid
+Fever?--- Actemra treatment
+Fever?--- Wheezing or stridor ?.1
+Which company for vaccine?--- Albumin
+GCS - lowest:--- Glucose (HIGHEST)
+GCS - lowest:--- Arthralgia ?.1
+Glucose (HIGHEST)--- Electronic cigarettes?
+Glucose (HIGHEST)--- Glucose:
+Glucose:--- Haemoglobin :
+HGO or insulin?--- Diabetes ?
+Haemoglobin :--- Received an arterial gas assessment?
+Received an arterial gas assessment?--- Headache ?.1
+vaccinated?--- Long Covid
+vaccinated?--- Sore throat ?
+vaccinated?--- Wheezing or stridor ?
+New or worsening disease?--- persistent symptoms related to COVID
+New or worsening disease?--- Haemoglobin (LOWEST)
+New or worsening disease?--- Long Covid
+Headache ?--- Long Covid
+Headache ?.1--- Heart rate (associated with BP):
+Heart failure ?--- Long Covid
+Heart failure ?--- Other COVID-19 treatments
+Heart rate (associated with BP):--- Hyperglycemia?
+Hemoptysis / Bloody sputum ?--- Long Covid
+times fallen?--- Abdominal pain ?
+times fallen?--- Long Covid
+difficulty climbing 10 stairs?--- difficulty carrying/lifting 10lbs
+difficulty carrying/lifting 10lbs--- difficulty walking across a room?
+difficulty carrying/lifting 10lbs--- Long Covid
+difficulty carrying/lifting 10lbs--- Myalgia?.1
+difficulty walking across a room?--- Ear pain ?
+difficulty walking across a room?--- difficulty transferring from a chair to bed?
+difficulty walking across a room?--- Mobility
+Hyperglycemia?--- HFNC
+ICU admission?--- Neuromuscular blocking agents
+ICU admission?--- non-invasive HFNC
+SEVERITY--- ARDS
+SEVERITY--- Confusion?
+Blood transfusion--- O2 saturation at room air:
+Blood transfusion--- Opiods
+Dialysis or hemofiltration--- Long Covid
+ECMO--- Long Covid
+Invasive support with mechanical ventilation--- Fatigue ?
+Invasive support with mechanical ventilation--- Long Covid
+Neuromuscular blocking agents--- Long Covid
+Non-invasive cannula/mask support--- times fallen?
+non-invasive HFNC--- New or worsening disease?
+Non-invasive CPAP/BPAP--- Long Covid
+Non-invasive CPAP/BPAP--- Kaletra treatment
+Other(s), specify--- Confusion?.1
+Other(s), specify--- Long Covid
+Other(s), specify--- Oxygen therapy
+Prone positioning--- Long Covid
+Prone positioning--- Number of doses received:
+Prone positioning--- Other antiviral treatment
+Tracheostomy--- Long Covid
+Vasopressor/inotropic support--- SEVERITY
+Vasopressor/inotropic support--- Edema?.1
+Vasopressor/inotropic support--- Long Covid
+Other virus?--- Long Covid
+Other virus?--- Other immunosuppressive medications?
+Other virus?--- Platelet (LOWEST)
+HFNC--- Liver disease ?
+Oxygen therapy with cannula/mask--- Headache ?
+Arthralgia?--- Long Covid
+Arthralgia?--- Myalgia?
+Arthralgia ?.1--- Long Covid
+Arthralgia ?.1--- Loss of taste / lost of smell ?.1
+Arthralgia ?.1--- Interferon beta treatment
+Edema?.1--- Long Covid
+Level of care (final)--- Age at arrival
+Liver disease ?--- Liver dysfunction?
+Liver dysfunction?--- Non-invasive CPAP/BPAP
+Liver dysfunction?--- Lymphocyte (relative value):
+Living where?--- Living with?
+Living where?--- Long Covid
+Long Covid--- Chronic hematologic disease ?
+Long Covid--- iNO
+Long Covid--- Prior myocardial infarction ?
+Long Covid--- Rhinorrhea?.1
+Loss of appetite ?--- Chronic kidney disease ?
+Loss of appetite ?--- Parainfluenza
+Loss of appetite ?--- Long Covid
+Loss of appetite ?.1--- Long Covid
+Loss of taste / lost of smell ?--- Basophil (relative):
+Loss of taste / lost of smell ?--- SEVERITY
+Loss of taste / lost of smell ?.1--- Arthralgia?
+Loss of taste / lost of smell ?.1--- Long Covid
+Loss of taste / lost of smell ?.1--- Loss of taste / lost of smell ?
+Lymphocyte (relative value):--- Nausea / vomiting ?.1
+Malignant neoplasm ?--- Long Covid
+Malnutrition ?--- Diarrhea ?.1
+Malnutrition ?--- Long Covid
+Mobility--- Self-care
+Myalgia?--- Nausea / vomiting ?
+Myalgia?.1--- Long Covid
+Nausea / vomiting ?--- ICU admission?
+Nausea / vomiting ?--- Long Covid
+Nausea / vomiting ?--- Other immunomodulator treatment
+Nausea / vomiting ?.1--- Extremity weakness or numbness ?.1
+Nausea / vomiting ?.1--- Neutrophil (x 10^9/L):
+Neutrophil (x 10^9/L):--- Other chronic lung disease ? 
+Neutrophil (x 10^9/L):--- Antifungal treatment
+Neutrophil (x 10^9/L):--- Stromectol treatment
+Neutrophil (x 10^9/L):--- Vital status at discharge:
+Number of comorbidities: --- Dizziness ?
+Number of comorbidities: --- Long Covid
+Number of doses received:--- Dizziness ?.1
+Number of doses received:--- Which company for vaccine?
+Number of doses received:--- Long Covid
+O2 saturation at room air:--- Number of comorbidities: 
+O2 saturation at room air:--- Systematic corticosteroid treatment
+Obesity ?--- Chest pain ?.1
+Obesity ?--- Long Covid
+Obesity ?--- Stem cells treatment
+On arrival, receiving oxygen ?--- Non-invasive cannula/mask support
+Other chronic cardiac disease ?--- Long Covid
+Other chronic cardiac disease ?--- Other chronic neurological disorder (other than stroke/TIA) ?
+Other chronic neurological disorder (other than stroke/TIA) ?--- Long Covid
+Other immunosuppressive medications?--- Anticoagulants?
+Other immunosuppressive medications?--- High-frequency oscillatory ventilation
+Other immunosuppressive medications?--- Immunosupressed state?
+Other immunosuppressive medications?--- Long Covid
+Other immunosuppressive medications?--- Systemic corticosteroid?
+Oxygen therapy--- from 0 to 100 how is your health TODAY?
+Pain and discomfort:--- Long Covid
+Platelet (LOWEST)--- Breathlessness:
+Platelet (LOWEST)--- Platelets:
+Platelet (LOWEST)--- Pleural effusion?
+from 0 to 100 how is your health TODAY?--- Long Covid
+Cannabis--- Long Covid
+Opiods--- Long Covid
+Pleural effusion?--- Dementia ? 
+Pleural effusion?--- Loss of appetite ?
+Pleural effusion?--- POCUS?
+Pleural effusion?--- Conjunctivitis?
+POCUS?--- Psychiatric disease?
+Positive viral infection during hospitalization:--- Other virus?
+Positive viral infection during hospitalization:--- Aphasia / Dysphasia?.1
+Prior stroke ? --- vaccinated?
+Prior stroke ? --- Tracheostomy
+Prior stroke ? --- Long Covid
+Psychiatric disease?--- Respiratory rate (associated with BP above):
+Conjunctivitis?--- Any side effects?
+Conjunctivitis?--- Disposition:
+Conjunctivitis?--- Long Covid
+Respiratory rate (associated with BP above):--- Respiratory rate (associated with BP above):.1
+Respiratory rate (associated with BP above):.1--- Rheumatologic disease ?
+Respiratory rate (associated with BP above):.1--- Rhinorrhea?
+Rheumatologic disease ?--- Skin rash ?.1
+Rhinorrhea?--- Long Covid
+Self-care--- Prone positioning
+Self-care--- Aralen treatment
+Self-care--- Usual activities
+Sex at birth:--- Long Covid
+Sex:--- Height in m:
+Sex:--- Metapneumovirus
+Sex:--- RSV
+Sex:--- Weight in kg:
+Dyspnea?.1--- Other(s), specify
+Dyspnea?.1--- Long Covid
+Skin rash ?--- Long Covid
+Skin rash ?.1--- Diarrhea ?
+Skin rash ?.1--- Smoking status:
+Smoking status:--- Sodium Na+:
+Smoking status:--- Systolic BP:.1
+Sodium Na+ (HIGHEST)--- SEVERITY
+Sodium Na+:--- Systolic BP:
+Sore throat ?--- Long Covid
+Sore throat ?.1--- Long Covid
+Sore throat ?.1--- Malnutrition ?
+Sore throat ?.1--- Ventilatory support:
+Systolic BP:--- Temperature:
+Systolic BP:.1--- Drugs?
+Temperature:--- Temperature:.1
+Temperature:.1--- Total WBC count:
+Total WBC count (HIGHEST) --- Sex:
+Total WBC count:--- Aphasia / Dysphasia?
+Antifungal treatment--- Long Covid
+Zithromax treatment--- Other antibiotic treatment
+Aralen treatment--- Sex:
+Colchicine treatment--- Long Covid
+Colchicine treatment--- Positive viral infection during hospitalization:
+Plaquenil treatment--- Long Covid
+Plaquenil treatment--- Sex at birth:
+Plaquenil treatment--- Zithromax treatment
+Interferon alpha treatment--- Sex:
+Stromectol treatment--- CRP (HIGHEST)
+Stromectol treatment--- Fever?
+Stromectol treatment--- Long Covid
+Kaletra treatment--- Long Covid
+Kaletra treatment--- Pain and discomfort:
+Other COVID-19 treatments--- Long Covid
+Other antibiotic treatment--- Vasopressor/inotropic support
+Other antibiotic treatment--- Positive bacterial culture during hospitalization?
+Other antiviral treatment--- Long Covid
+Other antiviral treatment--- Loss of appetite ?.1
+Other immunomodulator treatment--- Long Covid
+Plasma treatment--- Long Covid
+Remdesivir treatment--- Long Covid
+Actemra treatment--- COPD
+Actemra treatment--- Long Covid
+Aphasia / Dysphasia?--- Viral pneumonia/pneumonitis?
+Aphasia / Dysphasia?.1--- Long Covid
+Usual activities--- Plasma treatment
+Ventilatory support:--- SEVERITY
+Vital status at discharge:--- Other chronic cardiac disease ?
+Vital status at discharge:--- Colchicine treatment
+Weight in kg:--- BMI:
+Wheezing or stridor ?--- Hemoptysis / Bloody sputum ?
+Wheezing or stridor ?--- Dialysis or hemofiltration
+Wheezing or stridor ?--- Long Covid
+Wheezing or stridor ?.1--- Long Covid

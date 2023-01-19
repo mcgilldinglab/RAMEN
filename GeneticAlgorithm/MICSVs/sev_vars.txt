@@ -1,0 +1,298 @@
+Unnamed: 0
+Unnamed: 0.1
+ICU admission?
+Albumin (LOWEST value)
+If yes (check all that apply): (choice=Non-invasive support via High-flow nasal cannula (HFNC))
+Oxygen therapy
+Adjunctive therapy during hospitalization
+Emergency visit only?
+If yes (check all that apply): (choice=Invasive support with mechanical ventilation)
+Acute Respiratory Distress Syndrome (ARDS)?
+Ventilatory support:
+At the time of collection, is the participant receiving oxygen ?
+Vital status at discharge:
+Did or does the patient receive ventilatory support?
+APTT (activated partial thromboplastin time) (HIGHEST value)
+C-reactive protein (CRP) (HIGHEST value)
+If yes (check all that apply): (choice=Vasopressor/inotropic support)
+SpO2 (the lowest associated with the highest support):
+Glasgow Coma Scale (GCS) - lowest value:
+O2 saturation at room air :
+Glucose (HIGHEST value)
+Haemoglobin (LOWEST value)
+Sodium Na+ (HIGHEST value)
+On arrival,  is the participant receiving oxygen ?
+Albumin:
+International Normalized Ratio (INR) (HIGHEST value)
+If yes (check all that apply): (choice=Non-invasive cannula/mask support)
+C-reactive protein (CRP):
+International Normalized Ratio (INR):
+If yes (check all that apply): (choice=Neuromuscular blocking agents)
+Respiratory rate (associated with BP above):.1
+AVPU Scale:
+If yes (check all that apply): (choice=Prone positioning)
+If yes: (choice=Invasive with mechanical ventilation)
+Level of care (final):
+Treatments administered: (choice=Systematic corticosteroid)
+O2 saturation at room air :.1
+On arrival, SpO2 on oxygen:
+Number of other complications: 
+Bacterial pneumonia?
+LDH:
+Weight in kg:
+Treatments administered: (choice=Other antibiotic (specify))
+Age au recrutement
+Ability to self-care at discharge versus pre-COVID:
+D-Dimer (HIGHEST value)
+At the time of collection, SpO2 on oxygen:
+If yes (check all that apply): (choice=Blood transfusion)
+Lymphocyte (relative value) (LOWEST value)
+Treatments administered: (choice=Azithromycin (Zithromax))
+If yes: (choice=Vasopressor/inotropic support)
+Creatinine (HIGHEST value)
+Acute kidney injury?
+Duration of hospitalization:
+Platelet (LOWEST value)
+How would you rate your current level of functioning? See options above.
+Treatments administered: (choice=Tocilizumab (Actemra))
+Diastolic BP:.1
+Positive bacterial culture documented during hospitalization?
+Glucose:
+If yes (check all that apply): (choice=Inhaled nitric oxide (iNO))
+Treatments administered: (choice=Antifungal)
+Respiratory rate (associated with BP above):
+Urea (HIGHEST value)
+Lymphocyte (relative value):
+Number of other comorbidities: 
+BMI:
+If yes: (choice=High-flow nasal cannula (HFNC))
+Heart rate (associated with BP above):.1
+If yes (check all that apply): (choice=Non-invasive ventilation CPAP/BPAP)
+If yes (check all that apply): (choice=Tracheostomy)
+Asymptomatic?
+Disposition:
+Mobility
+Total bilirubin (HIGHEST value)
+If yes: (choice=Prone positioning)
+If yes (check all that apply): (choice=Dialysis or hemofiltration)
+Bacteremia?
+Heart rate (associated with BP above):
+If yes: (choice=Oxygen therapy with cannula/mask)
+If yes: (choice=Neuromuscular blocking agents)
+Headache ?
+D-Dimer:
+Living where?
+Self-care
+Baseline creatinine:
+Platelets:
+Creatinine:
+Does the patient have other comorbidities?
+Usual activities, including work, study, housework, family or leisure activities:
+Neutrophils (relative value):
+Hyperglycemia?
+Height in m:
+Other cardiac arrhythmia?
+How much difficulty do you have lifting or carrying 10 lbs?
+Runny nose (Rhinorrhea) ?
+Shortness of breath (Dyspnea) ?
+Procalcitonin (PCT):
+Viral pneumonia/pneumonitis?
+How much difficulty do you have transferring from a chair to a bed?
+Neutrophil (x 10^9/L):
+Potassium K+ (HIGHEST value)
+Loss of taste / lost of smell ?
+Pneumothorax?
+APTT (activated partial thromboplastin time):
+If yes (check all that apply): (choice=Extracorporeal membrane oxygenation (ECMO))
+Did or does the patient receive adjunctive therapy?
+Diastolic BP:
+Systolic BP:.1
+Temperature:
+How much difficulty do you have climbing a flight of 10 stairs?
+Total WBC count:
+Temperature:.1
+Living with?
+Haemoglobin :
+Pulmonary embolism (PE)?
+Treatments administered: (choice=Hydroxychloroquine (Plaquenil))
+Obesity ?
+If yes: (choice=Non-invasive ventilation CPAP/BPAP)
+Chest pain ?
+Eosinophil (relative value) (HIGHEST value)
+How much difficulty do you have walking across a room?
+Treatments administered: (choice=Other COVID-19 treatments (specify))
+Treatments administered: (choice=Other antiviral (specify))
+Sexe:
+Sex at birth:
+Liver dysfunction?
+Skin rash ?
+Anemia?
+Anticoagulants?
+Sore throat ?
+Other immunosuppressive medications?
+Dementia ? 
+ACE inhibitor or Angiotensin Receptor Blocker?
+Pleural effusion?
+If yes: (choice=Blood transfusion)
+COPD (emphysema, chronic bronchitis) ?
+Does the participant report persistent symptoms related to SARS-CoV-2 infection?
+Sodium Na+:
+If yes: (choice=Dialysis or hemofiltration)
+Total Bilirubin:
+Rhabdomyolysis or myositis?
+Arterial Hypertension ?
+Lymphocyte (x 10^9/L):
+Confusion / altered mental status ?.1
+Breathlessness:
+New atrial fibrillation or flutter (AF)?
+ALT (HIGHEST value)
+At the time of collection, FiO2:
+Muscle aches (Myalgia) ?
+ALT:
+Chronic kidney disease ?
+Cough ?
+Non-ST-elevation myocardial infarction (NSTEMI)? 
+Joint pain (Arthralgia) ?
+Neutrophil (relative value) (HIGHEST value)
+Eosinophil (x 10^9/L):
+Systemic corticosteroid?
+Atrial fibrillation or flutter ?
+Fatigue ?.1
+Diabetes ?
+Abdominal pain ?
+Systolic BP:
+Deep vein thrombosis (DVT)?
+If yes: (choice=Inhaled nitric oxide (iNO))
+Treatments administered: (choice=Remdesivir)
+Treatments administered: (choice=Other immunomodulator (specify))
+Monocyte (x 10^9/L):
+Rheumatologic disease ?
+Nausea / vomiting ?
+Urea:
+If yes: (choice=Extracorporeal membrane oxygenation (ECMO))
+Coronary artery disease ?
+Potassium K+:
+Fatigue ?
+Malignant neoplasm ?
+Monocyte (relative valeur) (HIGHEST value)
+Other chronic lung disease ? 
+Smoking status:
+Loss of appetite ?
+Patient pregnant?
+LDH (HIGHEST value)
+Shortness of breath (Dyspnea) ?.1
+Monocyte (relative value):
+Extremity weakness or numbness ?
+How many times have you fallen in the past year?
+Stroke?
+Immunosupressed state?
+Vital status:
+Confusion / altered mental status ?
+Dizziness ?.1
+Treatments administered: (choice=Kineret (Anakinra))
+Trouble speaking (Aphasia / Dysphasia) ?.1
+Cough ?.1
+HGO or insulin?
+Extremity weakness or numbness ?.1
+Pain and discomfort:
+Diarrhea ?
+Seizure ?.1
+If yes (check all that apply): (choice=Other(s), specify)
+Hemoptysis / Bloody sputum ?.1
+Skin rash ?.1
+Psychiatric disease?
+Headache ?.1
+Cardiac arrest?
+Ventricular tachycardia or fibrillation (VT/VF)?
+Heart failure ?
+Treatments administered: (choice=Ivermectin (Stromectol))
+Treatments administered: (choice=IVIG)
+Anxiety and depression:
+Treatments administered: (choice=Lopinavir/Ritonavir (Kaletra))
+Myocarditis?
+Is the participant employed as a Healthcare Worker?  
+Treatments administered: (choice=Plasma)
+Bronchiolitis?
+Wheezing or stridor ?
+Has the participant had any new disease and/or worsening and/or deterioration of a pre-existing disease?
+Colchicine?
+Cryptogenic organizing pneumonia (COP)?
+Pulmonary hypertension ?
+Red eye (Conjunctivitis) ?.1
+Prior stroke ? 
+Treatments administered: (choice=Neuraminidase inhibitor)
+Other chronic neurological disorder (other than stroke/TIA) ?
+Pancreatitis?
+Basophil (x 10^9/L):
+Ear pain ?
+Treatments administered: (choice=Colchicine)
+If yes: (choice=Tracheostomy)
+Fever (?38.0 Celcius) ?
+Total WBC count (HIGHEST value) 
+Gastrointestinal haemorrhage?
+Chronic hematologic disease ?
+Wheezing or stridor ?.1
+Chest pain ?.1
+Red eye (Conjunctivitis) ?
+Electronic cigarettes?
+Drugs?
+If yes, specify virus: (choice=Influenza)
+Coronary angiography (Cardiac catheterization)?
+Please specify drugs used. (choice=Opiods)
+Basophil (relative value) (HIGHEST value)
+If yes (check all that apply): (choice=High-frequency oscillatory ventilation (HFOV))
+Leg swelling (Edema) ?
+Please specify drugs used. (choice=Cannabis)
+Eosinophil (relative value)
+Treatments administered: (choice=Sarilumab (Kevzara))
+Dizziness ?
+Prior myocardial infarction ?
+FiO2 (associated with the previous SpO2):
+Positive viral infection documented during hospitalization:
+Diarrhea ?.1
+Decompensated heart failure?
+If yes, specify virus: (choice=RSV)
+Seizure ?
+Seizure?
+If yes, specify virus: (choice=Other, specify)
+Pericarditis?
+If yes: (choice=Other(s), (specify))
+Liver disease ?
+Joint pain (Arthralgia) ?.1
+Malnutrition ?
+Trouble speaking (Aphasia / Dysphasia) ?
+Hemoptysis / Bloody sputum ?
+Meningitis or encephalitis?
+Nausea / vomiting ?.1
+Please specify drugs used. (choice=Cocaine)
+Hypoglycemia?
+Prior transient ischemic attack (TIA) ?
+Runny nose (Rhinorrhea) ?.1
+Muscle aches (Myalgia) ?.1
+Abdominal pain ?.1
+Other chronic cardiac disease ?
+TIA?
+HIV or AIDS ?
+Fever (?38.0 Celcius) ?.1
+Please specify drugs used. (choice=Other)
+Basophil (relative value):
+ST-elevation myocardial infarction (STEMI)?
+If yes, specify virus: (choice=Rhinovirus/enterovirus)
+Sore throat ?.1
+Disseminated intravascular coagulation (DIC)?
+Endocarditis? 
+Loss of appetite ?.1
+Asthma ?
+Please specify drugs used. (choice=Amphetamines)
+Loss of taste / lost of smell ?.1
+Ear pain ?.1
+Leg swelling (Edema) ?.1
+Treatments administered: (choice=Stem cells)
+Treatments administered: (choice=Ribavirin)
+Treatments administered: (choice=Interferon beta)
+Treatments administered: (choice=Interferon alpha)
+Treatments administered: (choice=Chloroquine (Aralen))
+If yes: (choice=High-frequency oscillatory ventilation)
+If yes, specify virus: (choice=Parainfluenza)
+If yes, specify virus: (choice=Metapneumovirus)
+If yes, specify virus: (choice=Adenovirus)

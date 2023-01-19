@@ -1,0 +1,83 @@
+How would you rate your current level of functioning? See options above.--- Long Covid: 5.057332330693498e-11;;;TimesVisited: 2911.2
+Shortness of breath (Dyspnea) ?--- Long Covid: 0.0014087253869422556;;;TimesVisited: 686.1
+Severity of COPD:--- Long Covid: 0.0024379747683391795;;;TimesVisited: 618.2
+Joint pain (Arthralgia) ?--- Long Covid: 0.006766919555661777;;;TimesVisited: 493.5
+HIV or AIDS ?--- Long Covid: 0.0138365364263634;;;TimesVisited: 407.0
+Chronic kidney disease ?--- Long Covid: 0.0138365364263634;;;TimesVisited: 407.1
+Hemoptysis / Bloody sputum ?--- Long Covid: 0.0138365364263634;;;TimesVisited: 407.3
+Prior stroke ? --- Long Covid: 0.01407088747628793;;;TimesVisited: 405.2
+Please specify drugs used. (choice=Opiods)--- Long Covid: 0.014309325892933544;;;TimesVisited: 403.2
+Other chronic lung disease ? --- Long Covid: 0.014309325892933544;;;TimesVisited: 403.3
+Seizure ?--- Long Covid: 0.014674810189017617;;;TimesVisited: 400.1
+Loss of taste / lost of smell ?--- Long Covid: 0.014674810189017617;;;TimesVisited: 400.5
+Patient pregnant?--- Long Covid: 0.014798763341170251;;;TimesVisited: 399.7
+Leg swelling (Edema) ?--- Long Covid: 0.014798763341170251;;;TimesVisited: 399.2
+Is the participant employed in a Microbiology Laboratory?  --- Long Covid: 0.015049915234351507;;;TimesVisited: 397.5
+Dementia ? --- Long Covid: 0.015177133637560902;;;TimesVisited: 396.3
+Atrial fibrillation or flutter ?--- Long Covid: 0.015177133637560902;;;TimesVisited: 396.3
+Pulmonary hypertension ?--- Long Covid: 0.015177133637560902;;;TimesVisited: 396.3
+Coronary artery disease ?--- Long Covid: 0.015177133637560902;;;TimesVisited: 396.8
+Chronic hematologic disease ?--- Long Covid: 0.015177133637560902;;;TimesVisited: 396.6
+Please specify drugs used. (choice=Amphetamines)--- Long Covid: 0.015434905224286255;;;TimesVisited: 394.1
+Prior transient ischemic attack (TIA) ?--- Long Covid: 0.015434905224286255;;;TimesVisited: 394.6
+Dialysis ?--- Long Covid: 0.015434905224286255;;;TimesVisited: 394.7
+Heart failure ?--- Long Covid: 0.015565478643446262;;;TimesVisited: 393.8
+If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?--- Long Covid: 0.015565478643446262;;;TimesVisited: 393.1
+Please specify drugs used. (choice=Other)--- Long Covid: 0.015697190799707106;;;TimesVisited: 392.8
+Malignant neoplasm ?--- Long Covid: 0.015697190799707106;;;TimesVisited: 392.6
+Immunosupressed state?--- Long Covid: 0.015697190799707106;;;TimesVisited: 392.8
+Prior myocardial infarction ?--- Long Covid: 0.015697190799707106;;;TimesVisited: 392.9
+Ear pain ?--- Long Covid: 0.015697190799707106;;;TimesVisited: 392.3
+Malignant neoplasm - actively receiving treatment?--- Long Covid: 0.01583005205663668;;;TimesVisited: 391.7
+Liver disease ?--- Long Covid: 0.01583005205663668;;;TimesVisited: 391.3
+Skin rash ?--- Long Covid: 0.01583005205663668;;;TimesVisited: 391.2
+Please specify drugs used. (choice=Cocaine)--- Long Covid: 0.01596407287796142;;;TimesVisited: 390.7
+Malignant neoplasm - metastatic?--- Long Covid: 0.01596407287796142;;;TimesVisited: 390.6
+Other chronic neurological disorder (other than stroke/TIA) ?--- Long Covid: 0.01623563557581975;;;TimesVisited: 388.0
+Diabetes ?--- Long Covid: 0.01623563557581975;;;TimesVisited: 388.6
+Obesity ?--- Long Covid: 0.01623563557581975;;;TimesVisited: 388.0
+Asymptomatic?--- Long Covid: 0.01623563557581975;;;TimesVisited: 388.3
+Red eye (Conjunctivitis) ?--- Long Covid: 0.01623563557581975;;;TimesVisited: 388.3
+Confusion / altered mental status ?--- Long Covid: 0.016373198890130225;;;TimesVisited: 387.7
+Electronic cigarettes?--- Long Covid: 0.01665194382565005;;;TimesVisited: 385.0
+Other chronic cardiac disease ?--- Long Covid: 0.01665194382565005;;;TimesVisited: 385.2
+Malnutrition ?--- Long Covid: 0.016793147514622908;;;TimesVisited: 384.2
+Asthma ?--- Long Covid: 0.016935586908476297;;;TimesVisited: 383.0
+COPD (emphysema, chronic bronchitis) ?--- Long Covid: 0.016935586908476297;;;TimesVisited: 383.6
+Drugs?--- Long Covid: 0.017079273311142895;;;TimesVisited: 382.9
+Rheumatologic disease ?--- Long Covid: 0.017079273311142895;;;TimesVisited: 382.4
+Colchicine?--- Long Covid: 0.017079273311142895;;;TimesVisited: 382.4
+Abdominal pain ?--- Long Covid: 0.017079273311142895;;;TimesVisited: 382.1
+Anticoagulants?--- Long Covid: 0.01737043291025464;;;TimesVisited: 380.5
+Extremity weakness or numbness ?--- Long Covid: 0.01766671896632077;;;TimesVisited: 378.6
+Wheezing or stridor ?--- Long Covid: 0.01766671896632077;;;TimesVisited: 378.6
+Trouble speaking (Aphasia / Dysphasia) ?--- Long Covid: 0.017816813866338377;;;TimesVisited: 377.7
+Height in m:--- Long Covid: 0.017968225952031402;;;TimesVisited: 376.0
+Psychiatric disease?--- Long Covid: 0.017968225952031402;;;TimesVisited: 376.4
+Cough ?--- Long Covid: 0.017968225952031402;;;TimesVisited: 376.7
+Sex at birth:--- Long Covid: 0.018120967323001613;;;TimesVisited: 375.7
+Please specify drugs used. (choice=Cannabis)--- Long Covid: 0.018120967323001613;;;TimesVisited: 375.0
+ACE inhibitor or Angiotensin Receptor Blocker?--- Long Covid: 0.018120967323001613;;;TimesVisited: 375.1
+Systemic corticosteroid?--- Long Covid: 0.018120967323001613;;;TimesVisited: 375.9
+Sore throat ?--- Long Covid: 0.018120967323001613;;;TimesVisited: 375.4
+Headache ?--- Long Covid: 0.018120967323001613;;;TimesVisited: 375.2
+Runny nose (Rhinorrhea) ?--- Long Covid: 0.018430486913322608;;;TimesVisited: 373.0
+Is the participant employed as a Healthcare Worker?  --- Long Covid: 0.018587289929849482;;;TimesVisited: 372.6
+Fatigue ?--- Long Covid: 0.018587289929849482;;;TimesVisited: 372.5
+Arterial Hypertension ?--- Long Covid: 0.018745471828594318;;;TimesVisited: 371.6
+Chest pain ?--- Long Covid: 0.018905045314898894;;;TimesVisited: 370.8
+HGO or insulin?--- Long Covid: 0.019228418498338673;;;TimesVisited: 368.9
+Other immunosuppressive medications?--- Long Covid: 0.019228418498338673;;;TimesVisited: 368.7
+Dizziness ?--- Long Covid: 0.019228418498338673;;;TimesVisited: 368.7
+Diarrhea ?--- Long Covid: 0.019724240078938804;;;TimesVisited: 365.0
+Muscle aches (Myalgia) ?--- Long Covid: 0.020062118031413667;;;TimesVisited: 363.4
+Loss of appetite ?--- Long Covid: 0.020233296908684917;;;TimesVisited: 362.3
+Nausea / vomiting ?--- Long Covid: 0.020233296908684917;;;TimesVisited: 362.2
+Fever (?38.0 Celcius) ?--- Long Covid: 0.020405987516053714;;;TimesVisited: 361.6
+Smoking status:--- Long Covid: 0.02093327060706207;;;TimesVisited: 358.8
+Number of comorbidities: --- Long Covid: 0.02240946945611788;;;TimesVisited: 350.3
+Age au recrutement:--- Long Covid: 0.023386511904954776;;;TimesVisited: 345.9
+BMI:--- Long Covid: 0.024829200152038045;;;TimesVisited: 338.8
+Weight in kg:--- Long Covid: 0.029738822071604387;;;TimesVisited: 317.1
+Weight in kg:--- How would you rate your current level of functioning? See options above.: 0.03327601072773978;;;TimesVisited: 304.3
+Chest pain ?--- How would you rate your current level of functioning? See options above.: 0.04678684775587627;;;TimesVisited: 265.0

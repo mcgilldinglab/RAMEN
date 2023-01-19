@@ -1,0 +1,82 @@
+,Variable,MI
+0,How would you rate your current level of functioning? See options above.,0.3548872043769229
+1,Severity of COPD:,0.0746569759271618
+2,Shortness of breath (Dyspnea) ?,0.07164732786567152
+3,Joint pain (Arthralgia) ?,0.05142077831813752
+4,Loss of taste / lost of smell ?,0.04236191290856384
+5,Malignant neoplasm - actively receiving treatment?,0.04197129542296374
+6,Chest pain ?,0.04026009955791221
+7,Loss of appetite ?,0.02721107365475428
+8,Fatigue ?,0.025808161042291333
+9,Diarrhea ?,0.025765909317348012
+10,Extremity weakness or numbness ?,0.023025309518806103
+11,Number of comorbidities: ,0.01943633047009996
+12,Nausea / vomiting ?,0.018580421782351086
+13,Abdominal pain ?,0.01803912811332986
+14,Dizziness ?,0.017497508258814576
+15,Wheezing or stridor ?,0.01698993569781776
+16,Age au recrutement:,0.01592297808593779
+17,"If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?",0.015069204737864494
+18,Skin rash ?,0.014489050522104585
+19,Asthma ?,0.013634868629935903
+20,Sex at birth:,0.011698613905908095
+21,Muscle aches (Myalgia) ?,0.01154215733984476
+22,Confusion / altered mental status ?,0.009703506860048394
+23,Headache ?,0.00908586100007236
+24,Fever (?38.0 Celcius) ?,0.008795941960313192
+25,Height in m:,0.007679705838423478
+26,BMI:,0.0066640822021624135
+27,Weight in kg:,0.005978395178447116
+28,Obesity ?,0.0050570006236214105
+29,Runny nose (Rhinorrhea) ?,0.005011433140411081
+30,Psychiatric disease?,0.00486997698305941
+31,Ear pain ?,0.004451988547399477
+32,"COPD (emphysema, chronic bronchitis) ?",0.004423404685787724
+33,Trouble speaking (Aphasia / Dysphasia) ?,0.004347785591612863
+34,Anticoagulants?,0.004018372228612899
+35,Other chronic lung disease ? ,0.0033315213097886154
+36,Leg swelling (Edema) ?,0.0032969156838124902
+37,Asymptomatic?,0.003269398933434753
+38,Malignant neoplasm - metastatic?,0.0032255658444625412
+39,Pulmonary hypertension ?,0.003043771578715101
+40,Prior myocardial infarction ?,0.002867081883613516
+41,Sore throat ?,0.0024145184095405448
+42,Rheumatologic disease ?,0.002212765778081327
+43,Hemoptysis / Bloody sputum ?,0.002075517852257708
+44,Cough ?,0.0020051723499185936
+45,ACE inhibitor or Angiotensin Receptor Blocker?,0.001946247580069782
+46,Drugs?,0.0015877068841900766
+47,Please specify drugs used. (choice=Cannabis),0.0013482427435062005
+48,Malignant neoplasm ?,0.0012283850967707566
+49,Prior transient ischemic attack (TIA) ?,0.0012247734239145998
+50,Liver disease ?,0.001128849057669995
+51,Please specify drugs used. (choice=Opiods),0.0011254619922017595
+52,Is the participant employed as a Healthcare Worker?  ,0.0010084524885694002
+53,Other immunosuppressive medications?,0.0009562155540457917
+54,Colchicine?,0.0009394097397370516
+55,Please specify drugs used. (choice=Other),0.0009116388876320627
+56,Smoking status:,0.0008638689483706496
+57,HGO or insulin?,0.0007589304448097911
+58,Red eye (Conjunctivitis) ?,0.0007484552189413463
+59,Arterial Hypertension ?,0.0006953696607285842
+60,Atrial fibrillation or flutter ?,0.0006078107024539842
+61,Is the participant employed in a Microbiology Laboratory?  ,0.0005945154927609192
+62,Systemic corticosteroid?,0.0005139196571241622
+63,Chronic hematologic disease ?,0.0004983443878054244
+64,Dementia ? ,0.00047714483108884063
+65,Other chronic neurological disorder (other than stroke/TIA) ?,0.0003653801760186981
+66,HIV or AIDS ?,0.00035803584471647
+67,Patient pregnant?,0.00032138952948551625
+68,Prior stroke ? ,0.0002799555186137753
+69,Heart failure ?,0.00021040302397302285
+70,Diabetes ?,0.00018557228356308464
+71,Coronary artery disease ?,0.00013066971499241242
+72,Immunosupressed state?,9.647215544623944e-05
+73,Other chronic cardiac disease ?,5.475778953439869e-05
+74,Please specify drugs used. (choice=Amphetamines),1.290890135205447e-05
+75,Malnutrition ?,1.0313638667061586e-05
+76,Seizure ?,9.944881256357396e-06
+77,Please specify drugs used. (choice=Cocaine),1.6369081137918018e-06
+78,Chronic kidney disease ?,2.861012739496793e-07
+79,Electronic cigarettes?,5.096849892138877e-08
+80,Dialysis ?,0.0

@@ -1,0 +1,4 @@
+Delay between the diagnosis and the draw blood for the follow up--- Long Covid: 0.0;;;TimesVisited: 2328.9
+Long Covid--- Long Covid: 0.0;;;TimesVisited: 46113.2
+Number of doses received:--- Long Covid: 3.0730552547098e-09;;;TimesVisited: 935.9
+Country of birth:--- Long Covid: 6.119293315398622e-07;;;TimesVisited: 620.1

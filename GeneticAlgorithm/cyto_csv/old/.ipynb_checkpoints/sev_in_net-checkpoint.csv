@@ -1,0 +1,435 @@
+,Left,Right
+0,ACE inhibitor or Angiotensin Receptor Blocker?,SEVERITY
+1,SEVERITY,Height in m:
+2,SEVERITY,Urea (HIGHEST)
+3,ALT (HIGHEST),Coronary angiography (Cardiac catheterization)?
+4,ALT (HIGHEST),SEVERITY
+5,Coronary angiography (Cardiac catheterization)?,ARDS
+6,ALT,SEVERITY
+7,APTT,Meningitis or encephalitis?
+8,Meningitis or encephalitis?,Chronic hematologic disease ?
+9,Meningitis or encephalitis?,difficulty carrying/lifting 10lbs
+10,Meningitis or encephalitis?,SEVERITY
+11,Meningitis or encephalitis?,Arthralgia ?.1
+12,Meningitis or encephalitis?,Other chronic lung disease ? 
+13,AVPU Scale:,ALT
+14,AVPU Scale:,Temperature:.1
+15,AVPU Scale:,Ribavirin treatment
+16,Abdominal pain ?,Haemoglobin (LOWEST)
+17,Abdominal pain ?,Trouble speaking (Aphasia / Dysphasia) ?
+18,Haemoglobin (LOWEST),times fallen?
+19,Trouble speaking (Aphasia / Dysphasia) ?,Red eye (Conjunctivitis) ?
+20,Abdominal pain ?.1,SEVERITY
+21,ARDS,Psychiatric disease?
+22,Psychiatric disease?,Oxygen therapy
+23,Acute kidney injury?,Baseline creatinine:
+24,Acute kidney injury?,Cardiac arrest?
+25,Acute kidney injury?,Dizziness ?
+26,Baseline creatinine:,Albumin (LOWEST)
+27,Cardiac arrest?,Potassium K+ (HIGHEST)
+28,Cardiac arrest?,Smoking status:
+29,Dizziness ?,Malignant neoplasm ?
+30,Dizziness ?,Sodium Na+:
+31,Adjunctive therapy during hospitalization,Breathlessness:
+32,Adjunctive therapy during hospitalization,Kaletra treatment
+33,Kaletra treatment,Fever?
+34,Kaletra treatment,SEVERITY
+35,Kaletra treatment,Monocyte (x 10^9/L):
+36,Kaletra treatment,Number of other complications:
+37,Age au recrutement,SEVERITY
+38,Age au recrutement,RSV
+39,RSV,SEVERITY
+40,RSV,Adenovirus
+41,RSV,Ventilatory support:
+42,Albumin (LOWEST),SEVERITY
+43,Albumin,SEVERITY
+44,Anxiety and depression,SEVERITY
+45,Anxiety and depression,Vital status at discharge:
+46,Vital status at discharge:,Actemra treatment
+47,Arterial Hypertension ?,SEVERITY
+48,Asymptomatic?,Immunosupressed state?
+49,Asymptomatic?,Obesity ?
+50,Immunosupressed state?,SEVERITY
+51,Immunosupressed state?,If yes (check all that apply): (choice=High-frequency oscillatory ventilation (HFOV))
+52,Immunosupressed state?,Dialysis or hemofiltration
+53,SpO2 on oxygen:,APTT(HIGHEST)
+54,SpO2 on oxygen:,difficulty climbing 10 stairs?
+55,difficulty climbing 10 stairs?,difficulty walking across a room?
+56,difficulty climbing 10 stairs?,SEVERITY
+57,difficulty climbing 10 stairs?,Seizure?
+58,is the participant receiving oxygen ?,Duration of hospitalization:
+59,is the participant receiving oxygen ?,SEVERITY
+60,BMI:,SEVERITY
+61,Bacteremia?,SEVERITY
+62,Bacteremia?,Total WBC count (HIGHEST) 
+63,Total WBC count (HIGHEST) ,Diastolic BP:.1
+64,Total WBC count (HIGHEST) ,SEVERITY
+65,Bacterial pneumonia?,SEVERITY
+66,Bacterial pneumonia?,New atrial fibrillation or flutter?
+67,New atrial fibrillation or flutter?,Hyperglycemia?
+68,New atrial fibrillation or flutter?,SEVERITY
+69,New atrial fibrillation or flutter?,Temperature:
+70,Basophil (relative value) (HIGHEST value),Albumin
+71,Basophil (relative value) (HIGHEST value),Stem cells treatment
+72,Basophil (relative value):,Arterial Hypertension ?
+73,Basophil (relative value):,SEVERITY
+74,Basophil (x 10^9/L):,Electronic cigarettes?
+75,Basophil (x 10^9/L):,FiO2 (associated with the previous SpO2):
+76,Basophil (x 10^9/L):,HGO or insulin?
+77,Electronic cigarettes?,Headache ?
+78,Electronic cigarettes?,Prone positioning
+79,FiO2 (associated with the previous SpO2):,Cough ?
+80,FiO2 (associated with the previous SpO2):,SEVERITY
+81,FiO2 (associated with the previous SpO2):,Respiratory rate (associated with BP above):.1
+82,Bronchiolitis?,Ear pain ?.1
+83,Bronchiolitis?,SEVERITY
+84,CRP,CRP (HIGHEST)
+85,CRP,SEVERITY
+86,COPD,SEVERITY
+87,Potassium K+ (HIGHEST),VT/VF?
+88,Smoking status:,SEVERITY
+89,Smoking status:,Lymphocyte (relative value):
+90,Chest pain ?,djunctive therapy?
+91,Chest pain ?,Other chronic cardiac disease ?
+92,Chest pain ?,Sore throat ?.1
+93,Chest pain ?,Total Bilirubin:
+94,djunctive therapy?,Interferon beta treatment
+95,Other chronic cardiac disease ?,ALT (HIGHEST)
+96,Other chronic cardiac disease ?,SEVERITY
+97,Sore throat ?.1,SEVERITY
+98,Sore throat ?.1,Number of other comorbidities:
+99,Sore throat ?.1,Other antiviral treatment
+100,Total Bilirubin:,SEVERITY
+101,Total Bilirubin:,Vital status:
+102,Chronic hematologic disease ?,Glucose (HIGHEST)
+103,Chronic hematologic disease ?,SEVERITY
+104,Chronic hematologic disease ?,Leg swelling (Edema) ?.1
+105,Chronic hematologic disease ?,Urea:
+106,Glucose (HIGHEST),SEVERITY
+107,Glucose (HIGHEST),Liver dysfunction?
+108,Glucose (HIGHEST),Platelets:
+109,Glucose (HIGHEST),Other antibiotic treatment
+110,Leg swelling (Edema) ?.1,SEVERITY
+111,Chronic kidney disease ?,SEVERITY
+112,Confusion?,Invasive support with mechanical ventilation
+113,Confusion?,If yes- specify virus: (choice=Rhinovirus/enterovirus)
+114,Confusion?,Systematic corticosteroid treatment
+115,Invasive support with mechanical ventilation,Red eye (Conjunctivitis) ?.1
+116,If yes- specify virus: (choice=Rhinovirus/enterovirus),Pneumothorax?
+117,If yes- specify virus: (choice=Rhinovirus/enterovirus),Pulmonary hypertension ?
+118,If yes- specify virus: (choice=Rhinovirus/enterovirus),Antifungal treatment
+119,Systematic corticosteroid treatment,ACE inhibitor or Angiotensin Receptor Blocker?
+120,Confusion?.1,SEVERITY
+121,Coronary artery disease ?,HFNC
+122,Coronary artery disease ?,Please specify drugs used. (choice=Amphetamines)
+123,HFNC,SEVERITY
+124,HFNC,LDH (HIGHEST)
+125,HFNC,Trouble speaking (Aphasia / Dysphasia) ?.1
+126,HFNC,Viral pneumonia/pneumonitis?
+127,Please specify drugs used. (choice=Amphetamines),SpO2 on oxygen:
+128,Please specify drugs used. (choice=Amphetamines),SEVERITY
+129,Cough ?.1,Tracheostomy
+130,Tracheostomy,SEVERITY
+131,Tracheostomy,Sex:
+132,Cryptogenic organizing pneumonia (COP)?,APTT
+133,Cryptogenic organizing pneumonia (COP)?,Positive bacterial culture during hospitalization?
+134,Positive bacterial culture during hospitalization?,Chronic kidney disease ?
+135,Positive bacterial culture during hospitalization?,SEVERITY
+136,D-Dimer (HIGHEST),Diarrhea ?.1
+137,D-Dimer:,SEVERITY
+138,Decompensated heart failure?,Headache ?.1
+139,Decompensated heart failure?,On arrival- SpO2 on oxygen:
+140,Decompensated heart failure?,Interferon alpha treatment
+141,Headache ?.1,SEVERITY
+142,Headache ?.1,Please specify drugs used. (choice=Other)
+143,On arrival- SpO2 on oxygen:,SEVERITY
+144,DVT,D-Dimer (HIGHEST)
+145,DVT,SEVERITY
+146,DVT,Other(s)- specify
+147,DVT,Patient pregnant?
+148,Other(s)- specify,Positive viral infection documented during hospitalization:
+149,Patient pregnant?,SEVERITY
+150,Patient pregnant?,Oxygen therapy with cannula/mask
+151,Patient pregnant?,Level of care (final)
+152,Patient pregnant?,Malnutrition ?
+153,Dementia ? ,SEVERITY
+154,Diastolic BP:,Confusion?.1
+155,Diastolic BP:,SEVERITY
+156,Diastolic BP:.1,Diastolic BP:
+157,Diastolic BP:.1,SEVERITY
+158,ventilatory support?,SEVERITY
+159,ventilatory support?,Myalgia?
+160,ventilatory support?,Pain and discomfort:
+161,Pain and discomfort:,Extremity weakness or numbness ?
+162,Disposition:,SEVERITY
+163,Malignant neoplasm ?,Rheumatologic disease ?
+164,Sodium Na+:,Age au recrutement
+165,Sodium Na+:,SEVERITY
+166,Dizziness ?.1,SEVERITY
+167,persistent symptoms related to COVID,Treatments administered: (choice=Colchicine)
+168,Treatments administered: (choice=Colchicine),SEVERITY
+169,Treatments administered: (choice=Colchicine),Extracorporeal membrane oxygenation
+170,Treatments administered: (choice=Colchicine),Please specify drugs used. (choice=Cannabis)
+171,other comorbidities?,SEVERITY
+172,other comorbidities?,If yes: (choice=Other(s)- (specify))
+173,If yes: (choice=Other(s)- (specify)),Remdesivir treatment
+174,Drugs?,Atrial fibrillation or flutter ?
+175,Drugs?,SEVERITY
+176,Drugs?,Prone positioning2
+177,Prone positioning2,SEVERITY
+178,Prone positioning2,Parainfluenza
+179,Ear pain ?,SEVERITY
+180,Ear pain ?,Healthcare Worker?
+181,Ear pain ?,Neutrophils (relative value):
+182,Ear pain ?,Seizure ?
+183,Healthcare Worker?,SEVERITY
+184,Healthcare Worker?,Systemic corticosteroid?
+185,Neutrophils (relative value):,Haemoglobin :
+186,Neutrophils (relative value):,SEVERITY
+187,Neutrophils (relative value):,Sex at birth:
+188,Seizure ?,ventilatory support?
+189,Seizure ?,SEVERITY
+190,Headache ?,SEVERITY
+191,Headache ?,NSTEMI? 
+192,Prone positioning,Decompensated heart failure?
+193,Prone positioning,SEVERITY
+194,Prone positioning,Procalcitonin (PCT):
+195,Emergency visit only?,Vasopressor/inotropic support2
+196,Vasopressor/inotropic support2,Diabetes ?
+197,Vasopressor/inotropic support2,SEVERITY
+198,Endocarditis? ,SEVERITY
+199,Eosinophil (relative value),Bronchiolitis?
+200,Eosinophil (relative value),Disposition:
+201,Eosinophil (relative value),SEVERITY
+202,Eosinophil (relative value) (HIGHEST),Cryptogenic organizing pneumonia (COP)?
+203,Eosinophil (relative value) (HIGHEST),SEVERITY
+204,Eosinophil (x 10^9/L):,SEVERITY
+205,Eosinophil (x 10^9/L):,Please specify drugs used. (choice=Cocaine)
+206,Please specify drugs used. (choice=Cocaine),SEVERITY
+207,Extremity weakness or numbness ?.1,SEVERITY
+208,Extremity weakness or numbness ?.1,Other COVID-19 treatments
+209,Other COVID-19 treatments,Coronary artery disease ?
+210,Other COVID-19 treatments,SEVERITY
+211,Fatigue ?,GCS - lowest:
+212,Fever (?38.0 Celcius) ?.1,Metapneumovirus
+213,Metapneumovirus,SEVERITY
+214,Respiratory rate (associated with BP above):.1,SEVERITY
+215,Gastrointestinal haemorrhage?,Basophil (relative value) (HIGHEST value)
+216,Gastrointestinal haemorrhage?,SEVERITY
+217,Liver dysfunction?,SEVERITY
+218,Liver dysfunction?,Blood transfusion
+219,Platelets:,difficulty transferring from a chair to bed?
+220,Platelets:,Anakinra treatment
+221,Glucose:,SEVERITY
+222,Glucose:,Sodium Na+ (HIGHEST)
+223,HIV or AIDS ?,SEVERITY
+224,times fallen?,SEVERITY
+225,Haemoglobin :,Pancreatitis?
+226,Pancreatitis?,Disseminated intravascular coagulation (DIC)?
+227,Pancreatitis?,SEVERITY
+228,Pancreatitis?,Sore throat ?
+229,Pancreatitis?,TIA?
+230,New or worsening disease?,ST-elevation myocardial infarction (STEMI)?
+231,ST-elevation myocardial infarction (STEMI)?,Nausea / vomiting ?
+232,ST-elevation myocardial infarction (STEMI)?,Weight in kg:
+233,NSTEMI? ,DVT
+234,NSTEMI? ,SEVERITY
+235,NSTEMI? ,Blood transfusion
+236,Please specify drugs used. (choice=Other),SEVERITY
+237,Please specify drugs used. (choice=Other),Treatments administered: (choice=Ivermectin (Stromectol))
+238,Heart failure ?,Adjunctive therapy during hospitalization
+239,Heart failure ?,Bacteremia?
+240,Heart failure ?,SEVERITY
+241,Heart failure ?,Pericarditis?
+242,Pericarditis?,Abdominal pain ?
+243,Pericarditis?,Self-care
+244,Heart rate (associated with BP):,Neuraminidase inhibitor treatment
+245,Neuraminidase inhibitor treatment,Basophil (x 10^9/L):
+246,Neuraminidase inhibitor treatment,SEVERITY
+247,Heart rate (associated with BP):.1,SEVERITY
+248,Heart rate (associated with BP):.1,LDH:
+249,Heart rate (associated with BP):.1,Living with?
+250,Heart rate (associated with BP):.1,Rhabdomyolysis or myositis?
+251,LDH:,Chest pain ?
+252,LDH:,Heart failure ?
+253,Living with?,Potassium K+:
+254,Rhabdomyolysis or myositis?,Leg swelling (Edema) ?
+255,Rhabdomyolysis or myositis?,Living where?
+256,Height in m:,Creatinine:
+257,Hemoptysis / Bloody sputum ?,Eosinophil (relative value)
+258,Hemoptysis / Bloody sputum ?,New or worsening disease?
+259,Hemoptysis / Bloody sputum ?,SEVERITY
+260,Hemoptysis / Bloody sputum ?.1,SEVERITY
+261,difficulty walking across a room?,Myocarditis?
+262,Seizure?,Ear pain ?
+263,Seizure?,SEVERITY
+264,difficulty carrying/lifting 10lbs,SEVERITY
+265,difficulty carrying/lifting 10lbs,Loss of taste / lost of smell ?.1
+266,Loss of taste / lost of smell ?.1,SEVERITY
+267,Loss of taste / lost of smell ?.1,Wheezing or stridor ?.1
+268,difficulty transferring from a chair to bed?,Lymphocyte (relative value) (LOWEST)
+269,difficulty transferring from a chair to bed?,Runny nose (Rhinorrhea) ?.1
+270,Runny nose (Rhinorrhea) ?.1,SEVERITY
+271,Runny nose (Rhinorrhea) ?.1,Nausea / vomiting ?.1
+272,Myocarditis?,Acute kidney injury?
+273,Myocarditis?,SEVERITY
+274,Rate current level of functioning?,SEVERITY
+275,Hyperglycemia?,SEVERITY
+276,Hypoglycemia?,SEVERITY
+277,Hypoglycemia?,INR:
+278,INR:,Neutrophil (relative value) (HIGHEST)
+279,INR:,Prior stroke ? 
+280,ICU admission?,Confusion?
+281,ICU admission?,On arrival- receiving oxygen ?
+282,On arrival- receiving oxygen ?,SEVERITY
+283,ECMO,SEVERITY
+284,If yes (check all that apply): (choice=High-frequency oscillatory ventilation (HFOV)),Hemoptysis / Bloody sputum ?.1
+285,iNO,non-invasive HFNC
+286,non-invasive HFNC,Fatigue ?
+287,non-invasive HFNC,Inhaled nitric oxide
+288,non-invasive HFNC,Seizure ?.1
+289,Red eye (Conjunctivitis) ?.1,Usual activities
+290,Neuromuscular blocking agents,INR (HIGHEST)
+291,INR (HIGHEST),SEVERITY
+292,INR (HIGHEST),Neuromuscular blocking agents
+293,Non-invasive cannula/mask support,SEVERITY
+294,Non-invasive cannula/mask support,ECMO
+295,Inhaled nitric oxide,SEVERITY
+296,Seizure ?.1,Ability to self-care at discharge versus pre-COVID:
+297,Seizure ?.1,SEVERITY
+298,Seizure ?.1,Monocyte (relative value):
+299,Non-invasive CPAP/BPAP,Dizziness ?.1
+300,Non-invasive CPAP/BPAP,Influenza
+301,Non-invasive CPAP/BPAP,Other chronic neurological disorder (other than stroke/TIA) ?
+302,Non-invasive CPAP/BPAP,Platelet (LOWEST)
+303,Influenza,Total WBC count:
+304,Other chronic neurological disorder (other than stroke/TIA) ?,SEVERITY
+305,Platelet (LOWEST),High-frequency oscillatory ventilation
+306,Positive viral infection documented during hospitalization:,SEVERITY
+307,Positive viral infection documented during hospitalization:,Non-invasive ventilation CPAP/BPAP
+308,Procalcitonin (PCT):,SEVERITY
+309,Sex:,SEVERITY
+310,Sex:,Respiratory rate (associated with BP above):
+311,Vasopressor/inotropic support,SEVERITY
+312,Vasopressor/inotropic support,Liver disease ?
+313,Adenovirus,SEVERITY
+314,Total WBC count:,BMI:
+315,If yes- specify virus: (choice=Other- specify),iNO
+316,Parainfluenza,SEVERITY
+317,Ventilatory support:,Skin rash ?
+318,Pneumothorax?,Asymptomatic?
+319,Pulmonary hypertension ?,Basophil (relative value):
+320,Pulmonary hypertension ?,Other immunomodulator treatment
+321,Antifungal treatment,SEVERITY
+322,Dialysis or hemofiltration,Anxiety and depression
+323,Dialysis or hemofiltration,SEVERITY
+324,Dialysis or hemofiltration,Myalgia?.1
+325,Myalgia?.1,SEVERITY
+326,Myalgia?.1,Loss of taste / lost of smell ?
+327,Extracorporeal membrane oxygenation,SEVERITY
+328,Extracorporeal membrane oxygenation,Other immunosuppressive medications?
+329,Other immunosuppressive medications?,SEVERITY
+330,LDH (HIGHEST),Abdominal pain ?.1
+331,LDH (HIGHEST),other comorbidities?
+332,LDH (HIGHEST),SEVERITY
+333,LDH (HIGHEST),Arthralgia?
+334,Trouble speaking (Aphasia / Dysphasia) ?.1,Asthma ?
+335,Trouble speaking (Aphasia / Dysphasia) ?.1,is the participant receiving oxygen ?
+336,Trouble speaking (Aphasia / Dysphasia) ?.1,SEVERITY
+337,Viral pneumonia/pneumonitis?,D-Dimer:
+338,Invasive with mechanical ventilation,SEVERITY
+339,Invasive with mechanical ventilation,Vasopressor/inotropic support
+340,Non-invasive ventilation CPAP/BPAP,SEVERITY
+341,Non-invasive ventilation CPAP/BPAP,Treatments administered: (choice=Sarilumab (Kevzara))
+342,Treatments administered: (choice=Sarilumab (Kevzara)),Eosinophil (relative value) (HIGHEST)
+343,Treatments administered: (choice=Sarilumab (Kevzara)),SEVERITY
+344,Remdesivir treatment,SEVERITY
+345,Oxygen therapy with cannula/mask,SEVERITY
+346,Tracheostomy2,Gastrointestinal haemorrhage?
+347,Tracheostomy2,SEVERITY
+348,Prior stroke ? ,SEVERITY
+349,Systemic corticosteroid?,Please specify drugs used. (choice=Opiods)
+350,Arthralgia?,SEVERITY
+351,Arthralgia ?.1,SEVERITY
+352,Leg swelling (Edema) ?,Fever (?38.0 Celcius) ?.1
+353,Leg swelling (Edema) ?,ICU admission?
+354,Leg swelling (Edema) ?,Systolic BP:
+355,Systolic BP:,Heart rate (associated with BP):
+356,Systolic BP:,SEVERITY
+357,Level of care (final),SEVERITY
+358,Living where?,CRP
+359,Living where?,SEVERITY
+360,Potassium K+:,SEVERITY
+361,Loss of appetite ?,SEVERITY
+362,Loss of taste / lost of smell ?,SEVERITY
+363,Wheezing or stridor ?.1,SEVERITY
+364,Lymphocyte (relative value):,SEVERITY
+365,Lymphocyte (x 10^9/L):,SEVERITY
+366,Lymphocyte (x 10^9/L):,Tracheostomy2
+367,Rheumatologic disease ?,Heart rate (associated with BP):.1
+368,Rheumatologic disease ?,Mobility
+369,Malnutrition ?,HIV or AIDS ?
+370,Other chronic lung disease ? ,SEVERITY
+371,Other chronic lung disease ? ,Pleural effusion?
+372,Other chronic lung disease ? ,Dyspnea?.1
+373,Mobility,SEVERITY
+374,Monocyte (relative value) (HIGHEST),COPD
+375,Monocyte (relative value) (HIGHEST),SEVERITY
+376,Monocyte (relative value) (HIGHEST),O2 saturation at room air :.1
+377,O2 saturation at room air :.1,SEVERITY
+378,O2 saturation at room air :.1,Lymphocyte (x 10^9/L):
+379,Monocyte (relative value):,Prior transient ischemic attack (TIA) ?
+380,Prior transient ischemic attack (TIA) ?,SEVERITY
+381,Monocyte (x 10^9/L):,Cough ?.1
+382,Monocyte (x 10^9/L):,SEVERITY
+383,Monocyte (x 10^9/L):,IVIG treatment
+384,IVIG treatment,SEVERITY
+385,IVIG treatment,Invasive with mechanical ventilation
+386,IVIG treatment,O2 saturation at room air:
+387,Nausea / vomiting ?,Drugs?
+388,Nausea / vomiting ?,Endocarditis? 
+389,Nausea / vomiting ?,Eosinophil (x 10^9/L):
+390,Temperature:,Dementia ? 
+391,Number of other complications:,SEVERITY
+392,O2 saturation at room air:,Bacterial pneumonia?
+393,O2 saturation at room air:,SEVERITY
+394,O2 saturation at room air:,Plasma treatment
+395,Plasma treatment,Rate current level of functioning?
+396,Other cardiac arrhythmia?,Non-invasive CPAP/BPAP
+397,Pleural effusion?,FiO2:
+398,Pleural effusion?,SEVERITY
+399,Dyspnea?.1,Other cardiac arrhythmia?
+400,Sore throat ?,Creatinine (HIGHEST)
+401,Sore throat ?,Hypoglycemia?
+402,TIA?,persistent symptoms related to COVID
+403,TIA?,SEVERITY
+404,Self-care,SpO2 (lowest with highest support):
+405,Please specify drugs used. (choice=Cannabis),SEVERITY
+406,Please specify drugs used. (choice=Opiods),SEVERITY
+407,Treatments administered: (choice=Ivermectin (Stromectol)),Neuromuscular blocking agents
+408,Other immunomodulator treatment,SEVERITY
+409,Usual activities,Glucose:
+410,Usual activities,SEVERITY
+411,Usual activities,Rhinorrhea?
+412,Respiratory rate (associated with BP above):,Plaquenil treatment
+413,Plaquenil treatment,Monocyte (relative value) (HIGHEST)
+414,Rhinorrhea?,Dialysis or hemofiltration
+415,Rhinorrhea?,Systolic BP:.1
+416,Rhinorrhea?,Total bilirubin (HIGHEST)
+417,Systolic BP:.1,SEVERITY
+418,Systolic BP:.1,Wheezing or stridor ?
+419,Total bilirubin (HIGHEST),Anemia?
+420,SpO2 (lowest with highest support):,Emergency visit only?
+421,SpO2 (lowest with highest support):,SEVERITY
+422,Skin rash ?,Hemoptysis / Bloody sputum ?
+423,Skin rash ?,SEVERITY
+424,Other antiviral treatment,SEVERITY
+425,Other antiviral treatment,Loss of appetite ?
+426,Stroke?,Non-invasive cannula/mask support
+427,Stroke?,Neutrophil (x 10^9/L):
+428,Wheezing or stridor ?,Colchicine?
+429,Wheezing or stridor ?,SEVERITY
+430,Vital status:,SEVERITY
+431,Vital status:,Stroke?
+432,Vital status:,Zithromax treatment
+433,Actemra treatment,If yes- specify virus: (choice=Other- specify)

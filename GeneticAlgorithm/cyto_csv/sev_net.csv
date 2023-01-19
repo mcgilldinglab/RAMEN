@@ -1,0 +1,435 @@
+,Left,Right
+0,ACE Inh,SEV
+1,SEV,Height
+2,SEV,Urea H
+3,ALT H,Cor Ang
+4,ALT H,SEV
+5,Cor Ang,ARDS
+6,ALT,SEV
+7,APTT,Mening
+8,Mening,Chr Hema Dis
+9,Mening,Dif Lift
+10,Mening,SEV
+11,Mening,Arthralgia.1
+12,Mening,Oth Chr Lung Dis
+13,AVPU Sc,ALT
+14,AVPU Sc,Temp.1
+15,AVPU Sc,T Ribav
+16,Ab Pain,Haemogl L
+17,Ab Pain,Aphasia
+18,Haemogl L,Fall Past Y
+19,Aphasia,Conjunct
+20,Ab Pain.1,SEV
+21,ARDS,Psych Dis
+22,Psych Dis,O Tpy
+23,Kidney Inj,Base. Creat
+24,Kidney Inj,Card Arr
+25,Kidney Inj,Dizzy
+26,Base. Creat,Albumin L
+27,Card Arr,K+ H
+28,Card Arr,Smoke
+29,Dizzy,Malign Neop
+30,Dizzy,Na+
+31,Adj Tpy Hos,Breathless:
+32,Adj Tpy Hos,T Kaletra
+33,T Kaletra,Fever
+34,T Kaletra,SEV
+35,T Kaletra,Monoc u
+36,T Kaletra,Oth Comp C
+37,Age,SEV
+38,Age,V RSV
+39,V RSV,SEV
+40,V RSV,V Adenov
+41,V RSV,Vent Sup
+42,Albumin L,SEV
+43,Albumin,SEV
+44,Anxiety/D.,SEV
+45,Anxiety/D.,Vital Dis
+46,Vital Dis,T Actemra
+47,Art. Hyper.,SEV
+48,Asympt.,Immunosupr
+49,Asympt.,Obesity
+50,Immunosupr,SEV
+51,Immunosupr,HFOV
+52,Immunosupr,Dial or Hemof
+53,Coll SpO2,APTT H
+54,Coll SpO2,Dif Stairs
+55,Dif Stairs,Dif Walk
+56,Dif Stairs,SEV
+57,Dif Stairs,Seiz
+58,Rec O,Hos Dur
+59,Rec O,SEV
+60,BMI,SEV
+61,Bacterem,SEV
+62,Bacterem,Tot WBC H
+63,Tot WBC H,Diastolic BP.1
+64,Tot WBC H,SEV
+65,Bact Pneum,SEV
+66,Bact Pneum,New Atr Fibr
+67,New Atr Fibr,Hyperglyc
+68,New Atr Fibr,SEV
+69,New Atr Fibr,Temp
+70,Baso R H,Albumin
+71,Baso R H,T Stem Cs
+72,Baso R,Art. Hyper.
+73,Baso R,SEV
+74,Baso u,Ele Cig
+75,Baso u,FiO2->SPO2
+76,Baso u,HGO/Ins
+77,Ele Cig,Headache
+78,Ele Cig,Prone Pos Hos
+79,FiO2->SPO2,Cough
+80,FiO2->SPO2,SEV
+81,FiO2->SPO2,Resp Rate BP.1
+82,Bronch,Ear P.1
+83,Bronch,SEV
+84,CRP,CRP H
+85,CRP,SEV
+86,COPD,SEV
+87,K+ H,VT/VF
+88,Smoke,SEV
+89,Smoke,Lymph R
+90,Chest P,Adj Tpy
+91,Chest P,Chr Card Dis
+92,Chest P,Sore Throat.1
+93,Chest P,Tot Bili
+94,Adj Tpy,T Interf Beta
+95,Chr Card Dis,ALT H
+96,Chr Card Dis,SEV
+97,Sore Throat.1,SEV
+98,Sore Throat.1,Oth Comorb C
+99,Sore Throat.1,T Oth Antiv
+100,Tot Bili,SEV
+101,Tot Bili,Vital
+102,Chr Hema Dis,Glucose H
+103,Chr Hema Dis,SEV
+104,Chr Hema Dis,Edema.1
+105,Chr Hema Dis,Urea
+106,Glucose H,SEV
+107,Glucose H,Liv Dysf
+108,Glucose H,Platelets
+109,Glucose H,T Oth Antib
+110,Edema.1,SEV
+111,Chr Kidn Dis,SEV
+112,Confusion,Inv Mech Vent
+113,Confusion,V Rhinov/Enterov
+114,Confusion,T Sys Cortic
+115,Inv Mech Vent,Conjunct.1
+116,V Rhinov/Enterov,Pneumoth
+117,V Rhinov/Enterov,Pulm Hyper
+118,V Rhinov/Enterov,T Antifung
+119,T Sys Cortic,ACE Inh
+120,Confusion.1,SEV
+121,Cor Art Dis,HFNC
+122,Cor Art Dis,D Amphet
+123,HFNC,SEV
+124,HFNC,LDH H
+125,HFNC,Aph/Dysph.1
+126,HFNC,Vir pneum
+127,D Amphet,Coll SpO2
+128,D Amphet,SEV
+129,Cough.1,Trach Hos
+130,Trach Hos,SEV
+131,Trach Hos,Sexe
+132,COP,APTT
+133,COP,Pos Bact
+134,Pos Bact,Chr Kidn Dis
+135,Pos Bact,SEV
+136,D-Dimer H,Diarrhea.1
+137,D-Dimer,SEV
+138,Decomp Heart F,Headache.1
+139,Decomp Heart F,Arr SpO2->O
+140,Decomp Heart F,T Interf Alpha
+141,Headache.1,SEV
+142,Headache.1,Drug Oth
+143,Arr SpO2->O,SEV
+144,DVT,D-Dimer H
+145,DVT,SEV
+146,DVT,Oth Adj Tpy Hos
+147,DVT,Pregn
+148,Oth Adj Tpy Hos,Pos Viral Hos
+149,Pregn,SEV
+150,Pregn,O Tpy A/M
+151,Pregn,Care(Final)
+152,Pregn,Malnutr
+153,Dementia,SEV
+154,Diastolic BP,Confusion.1
+155,Diastolic BP,SEV
+156,Diastolic BP.1,Diastolic BP
+157,Diastolic BP.1,SEV
+158,Rec Vent Sup?,SEV
+159,Rec Vent Sup?,Myalgia
+160,Rec Vent Sup?,Pain
+161,Pain,Extrem Weak
+162,Disp,SEV
+163,Malign Neop,Rheumat Dis
+164,Na+,Age
+165,Na+,SEV
+166,Dizzy.1,SEV
+167,Pers Symp Cov,T Colchicine
+168,T Colchicine,SEV
+169,T Colchicine,ECMO
+170,T Colchicine,Dr Cannabis
+171,Oth Comorb,SEV
+172,Oth Comorb,Oth Adj Tpy
+173,Oth Adj Tpy,T Remdes
+174,Drugs,Atr Fibr
+175,Drugs,SEV
+176,Drugs,Prone Pos
+177,Prone Pos,SEV
+178,Prone Pos,V Parainfl
+179,Ear Pain,SEV
+180,Ear Pain,Health Work
+181,Ear Pain,Neutrop R
+182,Ear Pain,Seizure
+183,Health Work,SEV
+184,Health Work,Sys Cortic
+185,Neutrop R,Haemoglob
+186,Neutrop R,SEV
+187,Neutrop R,Sex
+188,Seizure,Rec Vent Sup?
+189,Seizure,SEV
+190,Headache,SEV
+191,Headache,NSTEMI
+192,Prone Pos Hos,Decomp Heart F
+193,Prone Pos Hos,SEV
+194,Prone Pos Hos,PCT
+195,Emerg Vis Only,Vasopr/Inotr Sup
+196,Vasopr/Inotr Sup,Diabetes
+197,Vasopr/Inotr Sup,SEV
+198,Endocard,SEV
+199,Eosinop R,Bronch
+200,Eosinop R,Disp
+201,Eosinop R,SEV
+202,Eosinop R H,COP
+203,Eosinop R H,SEV
+204,Eosinop u,SEV
+205,Eosinop u,Dr Cocaine
+206,Dr Cocaine,SEV
+207,Extrem Weak.1,SEV
+208,Extrem Weak.1,T Other
+209,T Other,Cor Art Dis
+210,T Other,SEV
+211,Fatigue,GCS L
+212,Fever.1,V Metapneumovs
+213,V Metapneumovs,SEV
+214,Resp Rate BP.1,SEV
+215,Gastroint Haem,Baso R H
+216,Gastroint Haem,SEV
+217,Liv Dysf,SEV
+218,Liv Dysf,Blood Transf Hos
+219,Platelets,Dif Chair->Bed
+220,Platelets,T Anakinra
+221,Glucose,SEV
+222,Glucose,Na+ H
+223,HIV/AIDS,SEV
+224,Fall Past Y,SEV
+225,Haemoglob,Pancreat
+226,Pancreat,DIC
+227,Pancreat,SEV
+228,Pancreat,Sore Throat
+229,Pancreat,TIA
+230,New/Worse Dis,STEMI
+231,STEMI,Nausea
+232,STEMI,Weight
+233,NSTEMI,DVT
+234,NSTEMI,SEV
+235,NSTEMI,Blood Transf
+236,Drug Oth,SEV
+237,Drug Oth,T Strom
+238,Heart Fail,Adj Tpy Hos
+239,Heart Fail,Bacterem
+240,Heart Fail,SEV
+241,Heart Fail,Pericard
+242,Pericard,Ab Pain
+243,Pericard,Self-care
+244,Heart Rate BP,T Neuram Inhib
+245,T Neuram Inhib,Baso u
+246,T Neuram Inhib,SEV
+247,Heart Rate- BP.1,SEV
+248,Heart Rate- BP.1,LDH
+249,Heart Rate- BP.1,Living With
+250,Heart Rate- BP.1,Rhabdom
+251,LDH,Chest P
+252,LDH,Heart Fail
+253,Living With,K+
+254,Rhabdom,Edema
+255,Rhabdom,Living Where
+256,Height,Creatinine
+257,Hemoptysis/B,Eosinop R
+258,Hemoptysis/B,New/Worse Dis
+259,Hemoptysis/B,SEV
+260,Hemoptysis/B.1,SEV
+261,Dif Walk,Myocard
+262,Seiz,Ear Pain
+263,Seiz,SEV
+264,Dif Lift,SEV
+265,Dif Lift,Taste/Smell.1
+266,Taste/Smell.1,SEV
+267,Taste/Smell.1,Wheeze/Strid.1
+268,Dif Chair->Bed,Lymph R L
+269,Dif Chair->Bed,Rhin.1
+270,Rhin.1,SEV
+271,Rhin.1,Nausea.1
+272,Myocard,Kidney Inj
+273,Myocard,SEV
+274,Cur Func,SEV
+275,Hyperglyc,SEV
+276,Hypoglyc,SEV
+277,Hypoglyc,INR
+278,INR,Neutrop R H
+279,INR,Pr Stroke
+280,ICU Adm,Confusion
+281,ICU Adm,Arr Rec O
+282,Arr Rec O,SEV
+283,ECMO,SEV
+284,HFOV,Hemoptysis/B.1
+285,iNO,HFNC
+286,HFNC,Fatigue
+287,HFNC,iNO
+288,HFNC,Seiz.1
+289,Conjunct.1,Usual Activ
+290,Neurom Bs Hos,INR H
+291,INR H,SEV
+292,INR H,Neurom Bs
+293,Non-I C/M Hos,SEV
+294,Non-I C/M Hos,ECMO
+295,iNO,SEV
+296,Seiz.1,Self-care->Disc
+297,Seiz.1,SEV
+298,Seiz.1,Monoc R
+299,CPAP/BPAP Hos,Dizzy.1
+300,CPAP/BPAP Hos,V Inf
+301,CPAP/BPAP Hos,Oth Chron Neuro D
+302,CPAP/BPAP Hos,Platelet L
+303,V Inf,Tot WBC C
+304,Oth Chron Neuro D,SEV
+305,Platelet L,H-freq Osc Vent.
+306,Pos Viral Hos,SEV
+307,Pos Viral Hos,CPAP/BPAP
+308,PCT,SEV
+309,Sexe,SEV
+310,Sexe,Resp Rate BP
+311,Vasopr/Inotr Sup Hos,SEV
+312,Vasopr/Inotr Sup Hos,Liv Dis
+313,V Adenov,SEV
+314,Tot WBC C,BMI
+315,V Oth,iNO
+316,V Parainfl,SEV
+317,Vent Sup,Skin Rash
+318,Pneumoth,Asympt.
+319,Pulm Hyper,Baso R
+320,Pulm Hyper,T Oth Immunomod
+321,T Antifung,SEV
+322,Dial or Hemof,Anxiety/D.
+323,Dial or Hemof,SEV
+324,Dial or Hemof,Myalgia.1
+325,Myalgia.1,SEV
+326,Myalgia.1,Taste/Smell
+327,ECMO,SEV
+328,ECMO,Oth Immunos med
+329,Oth Immunos med,SEV
+330,LDH H,Ab Pain.1
+331,LDH H,Oth Comorb
+332,LDH H,SEV
+333,LDH H,Arthralgia
+334,Aph/Dysph.1,Asthma
+335,Aph/Dysph.1,Rec O
+336,Aph/Dysph.1,SEV
+337,Vir pneum,D-Dimer
+338,Inv-Mech Vent,SEV
+339,Inv-Mech Vent,Vasopr/Inotr Sup Hos
+340,CPAP/BPAP,SEV
+341,CPAP/BPAP,T Kevzara
+342,T Kevzara,Eosinop R H
+343,T Kevzara,SEV
+344,T Remdes,SEV
+345,O Tpy A/M,SEV
+346,Trach,Gastroint Haem
+347,Trach,SEV
+348,Pr Stroke,SEV
+349,Sys Cortic,Dr Opiods
+350,Arthralgia,SEV
+351,Arthralgia.1,SEV
+352,Edema,Fever.1
+353,Edema,ICU Adm
+354,Edema,Syst BP
+355,Syst BP,Heart Rate BP
+356,Syst BP,SEV
+357,Care(Final),SEV
+358,Living Where,CRP
+359,Living Where,SEV
+360,K+,SEV
+361,Loss of Appetite,SEV
+362,Taste/Smell,SEV
+363,Wheeze/Strid.1,SEV
+364,Lymph R,SEV
+365,Lymph u,SEV
+366,Lymph u,Trach
+367,Rheumat Dis,Heart Rate- BP.1
+368,Rheumat Dis,Mobil
+369,Malnutr,HIV/AIDS
+370,Oth Chr Lung Dis,SEV
+371,Oth Chr Lung Dis,Pleural Eff
+372,Oth Chr Lung Dis,Dyspnea.1
+373,Mobil,SEV
+374,Monoc R H,COPD
+375,Monoc R H,SEV
+376,Monoc R H,O2 Sat Room.1
+377,O2 Sat Room.1,SEV
+378,O2 Sat Room.1,Lymph u
+379,Monoc R,Pr TIA
+380,Pr TIA,SEV
+381,Monoc u,Cough.1
+382,Monoc u,SEV
+383,Monoc u,T IVIG
+384,T IVIG,SEV
+385,T IVIG,Inv-Mech Vent
+386,T IVIG,O2 Sat Room
+387,Nausea,Drugs
+388,Nausea,Endocard
+389,Nausea,Eosinop u
+390,Temp,Dementia
+391,Oth Comp C,SEV
+392,O2 Sat Room,Bact Pneum
+393,O2 Sat Room,SEV
+394,O2 Sat Room,T Plasma
+395,T Plasma,Cur Func
+396,Oth Card Arrh,CPAP/BPAP Hos
+397,Pleural Eff,Coll FiO2
+398,Pleural Eff,SEV
+399,Dyspnea.1,Oth Card Arrh
+400,Sore Throat,Creatinine H
+401,Sore Throat,Hypoglyc
+402,TIA,Pers Symp Cov
+403,TIA,SEV
+404,Self-care,SpO2 L->H Sup
+405,Dr Cannabis,SEV
+406,Dr Opiods,SEV
+407,T Strom,Neurom Bs Hos
+408,T Oth Immunomod,SEV
+409,Usual Activ,Glucose
+410,Usual Activ,SEV
+411,Usual Activ,Rhinorrhea
+412,Resp Rate BP,T Plaquen
+413,T Plaquen,Monoc R H
+414,Rhinorrhea,Dial or Hemof Hos
+415,Rhinorrhea,Syst BP.1
+416,Rhinorrhea,Tot Bili H
+417,Syst BP.1,SEV
+418,Syst BP.1,Wheeze/Strid
+419,Tot Bili H,Anemia
+420,SpO2 L->H Sup,Emerg Vis Only
+421,SpO2 L->H Sup,SEV
+422,Skin Rash,Hemoptysis/B
+423,Skin Rash,SEV
+424,T Oth Antiv,SEV
+425,T Oth Antiv,Loss of Appetite
+426,Stroke,Non-I C/M Hos
+427,Stroke,Neutrop u
+428,Wheeze/Strid,Colchicine?
+429,Wheeze/Strid,SEV
+430,Vital,SEV
+431,Vital,Stroke
+432,Vital,T Zithromax
+433,T Actemra,V Oth

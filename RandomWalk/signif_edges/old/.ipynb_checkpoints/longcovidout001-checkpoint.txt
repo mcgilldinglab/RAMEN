@@ -1,0 +1,107 @@
+Time of blood draw:--- Long Covid: 0.0;;;TimesVisited: 2656.6
+Long Covid--- Long Covid: 0.0;;;TimesVisited: 79924.1
+Does the participant report persistent symptoms related to SARS-CoV-2 infection?--- Long Covid: 1.4099832412739488e-14;;;TimesVisited: 1841.0
+Time of blood draw:--- Time of blood draw:: 1.692666062869108e-08;;;TimesVisited: 910.7
+From which company did the participant receive the vaccine?--- Long Covid: 2.6001887643012367e-08;;;TimesVisited: 882.6
+How was this follow-up completed?--- Long Covid: 2.3612358024394098e-07;;;TimesVisited: 739.0
+Country of birth:--- Long Covid: 8.213057565154003e-07;;;TimesVisited: 659.5
+Usual activities, including work, study, housework, family or leisure activities:--- Long Covid: 2.316540936075917e-06;;;TimesVisited: 593.1
+Does the participant report persistent symptoms related to SARS-CoV-2 infection?--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 2.844478453445376e-06;;;TimesVisited: 580.5
+Shortness of breath (Dyspnea) ?--- Long Covid: 3.2281541982870365e-06;;;TimesVisited: 572.4
+Breathlessness:--- Long Covid: 7.861908008388596e-06;;;TimesVisited: 516.4
+How much difficulty do you have climbing a flight of 10 stairs?--- Long Covid: 1.931784295439165e-05;;;TimesVisited: 460.1
+Joint pain (Arthralgia) ?--- Long Covid: 2.6269744552886998e-05;;;TimesVisited: 441.3
+From which company did the participant receive the vaccine?--- From which company did the participant receive the vaccine?: 8.676193211376582e-05;;;TimesVisited: 368.1
+Loss of taste / lost of smell ?--- Long Covid: 8.820892646099754e-05;;;TimesVisited: 367.6
+Collected:--- Long Covid: 0.0001271001066571742;;;TimesVisited: 345.7
+Chest pain ?--- Long Covid: 0.0001527282173882094;;;TimesVisited: 334.4
+Pain and discomfort:--- Long Covid: 0.0001527282173882094;;;TimesVisited: 334.8
+How was this follow-up completed?--- How was this follow-up completed?: 0.0001806032326551188;;;TimesVisited: 324.7
+Loss of taste / lost of smell ?--- Loss of taste / lost of smell ?: 0.00019316460927787382;;;TimesVisited: 320.0
+Delay between the diagnosis and the draw blood for the follow up--- Long Covid: 0.0002708102661547196;;;TimesVisited: 300.9
+Blood drawn for the BQC19?--- Long Covid: 0.0003321484877549796;;;TimesVisited: 288.8
+Shortness of breath (Dyspnea) ?--- Shortness of breath (Dyspnea) ?: 0.000492883376110087;;;TimesVisited: 265.4
+How much difficulty do you have lifting or carrying 10 lbs?--- Long Covid: 0.000537385084241726;;;TimesVisited: 260.1
+Has the participant had any new disease and/or worsening and/or deterioration of a pre-existing disease?--- Long Covid: 0.0006067697992696575;;;TimesVisited: 253.0
+Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.--- Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.: 0.0006392824744779757;;;TimesVisited: 250.1
+Time of blood draw:--- From which company did the participant receive the vaccine?: 0.0006505163329916241;;;TimesVisited: 249.0
+Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.--- Long Covid: 0.0007098313515750965;;;TimesVisited: 244.1
+Country of birth:--- Country of birth:: 0.000735101390664683;;;TimesVisited: 242.8
+From which company did the participant receive the vaccine?--- Time of blood draw:: 0.0008609072574911059;;;TimesVisited: 233.3
+Collected:--- Collected:: 0.0008609072574911059;;;TimesVisited: 233.5
+Anxiety and depression:--- Long Covid: 0.0009570356696828597;;;TimesVisited: 227.9
+Fatigue ?--- Long Covid: 0.0010834540276866145;;;TimesVisited: 220.8
+Loss of appetite ?--- Long Covid: 0.001122681643851653;;;TimesVisited: 218.2
+Joint pain (Arthralgia) ?--- Joint pain (Arthralgia) ?: 0.0011633922906950644;;;TimesVisited: 216.6
+Diarrhea ?--- Long Covid: 0.0011633922906950644;;;TimesVisited: 216.6
+Breathlessness:--- Breathlessness:: 0.001295028562709688;;;TimesVisited: 210.7
+Time of blood draw:--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 0.0013184383078013173;;;TimesVisited: 209.6
+Extremity weakness or numbness ?--- Long Covid: 0.0015224233708420742;;;TimesVisited: 201.3
+How would you rate your current level of functioning? See options above.--- How would you rate your current level of functioning? See options above.: 0.001792008465815731;;;TimesVisited: 192.9
+Usual activities, including work, study, housework, family or leisure activities:--- Usual activities, including work, study, housework, family or leisure activities:: 0.0018926545390169913;;;TimesVisited: 189.7
+Anxiety and depression:--- Anxiety and depression:: 0.0019630430895626327;;;TimesVisited: 187.5
+Diarrhea ?--- Diarrhea ?: 0.0019992659674938906;;;TimesVisited: 186.2
+Fatigue ?--- Fatigue ?: 0.0020361936454658114;;;TimesVisited: 185.2
+If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?--- Long Covid: 0.0024476430053376186;;;TimesVisited: 175.7
+Delay between the diagnosis and the draw blood for the follow up--- Delay between the diagnosis and the draw blood for the follow up: 0.002540007264243971;;;TimesVisited: 173.7
+Number of doses received:--- Number of doses received:: 0.002587566932928609;;;TimesVisited: 172.7
+Age au recrutement:--- Age au recrutement:: 0.0027359953568517614;;;TimesVisited: 169.8
+Blood drawn for the BQC19?--- Blood drawn for the BQC19?: 0.0027359953568517614;;;TimesVisited: 169.5
+Country of birth:--- Time of blood draw:: 0.0028399477965104225;;;TimesVisited: 167.0
+Blood drawn for the BQC19?--- Delay between the diagnosis and the draw blood for the follow up: 0.00289348939695222;;;TimesVisited: 166.3
+Delay between the diagnosis and the draw blood for the follow up--- Blood drawn for the BQC19?: 0.00289348939695222;;;TimesVisited: 166.3
+Delay between the onset of symptoms  and the draw blood --- Delay between the onset of symptoms  and the draw blood : 0.002948104846469013;;;TimesVisited: 165.7
+Chest pain ?--- Chest pain ?: 0.003003817526459618;;;TimesVisited: 164.6
+Loss of appetite ?--- Loss of appetite ?: 0.003003817526459618;;;TimesVisited: 164.6
+Nausea / vomiting ?--- Long Covid: 0.003003817526459618;;;TimesVisited: 164.5
+Age au recrutement:--- Age at arrival:: 0.0030606513842830196;;;TimesVisited: 163.2
+Skin rash ?--- Long Covid: 0.0031186309488498987;;;TimesVisited: 162.6
+Pain and discomfort:--- Pain and discomfort:: 0.0031186309488498987;;;TimesVisited: 162.9
+How would you rate your current level of functioning? See options above.--- Long Covid: 0.0031186309488498987;;;TimesVisited: 162.4
+Muscle aches (Myalgia) ?--- Muscle aches (Myalgia) ?: 0.0031777813467098737;;;TimesVisited: 161.1
+Age at arrival:--- Age at arrival:: 0.0032381283186563303;;;TimesVisited: 160.3
+Delay between the onset of symptoms  and the draw blood --- Long Covid: 0.0032381283186563303;;;TimesVisited: 160.9
+Who answered the questions? (choice=Health-care professional)--- Long Covid: 0.0032381283186563303;;;TimesVisited: 160.6
+Age at arrival:--- Age au recrutement:: 0.003299698236865045;;;TimesVisited: 159.5
+Abdominal pain ?--- Long Covid: 0.003299698236865045;;;TimesVisited: 159.6
+Wheezing or stridor ?--- Long Covid: 0.003299698236865045;;;TimesVisited: 159.2
+Has the participant had any new disease and/or worsening and/or deterioration of a pre-existing disease?--- Has the participant had any new disease and/or worsening and/or deterioration of a pre-existing disease?: 0.003299698236865045;;;TimesVisited: 159.6
+Time of blood draw:--- Country of birth:: 0.0034920192372028813;;;TimesVisited: 156.9
+Dizziness ?--- Long Covid: 0.003558757921432454;;;TimesVisited: 155.9
+Number of comorbidities: --- Number of comorbidities: : 0.0036268615234816837;;;TimesVisited: 154.2
+Number of comorbidities: --- Long Covid: 0.0039135478263542245;;;TimesVisited: 150.1
+Age au recrutement:--- Time of blood draw:: 0.004065912414589201;;;TimesVisited: 148.5
+Fever (?38.0 Celcius) ?--- Fever (?38.0 Celcius) ?: 0.004144470540458078;;;TimesVisited: 147.0
+Nausea / vomiting ?--- Nausea / vomiting ?: 0.004144470540458078;;;TimesVisited: 147.7
+Ongoing consent status:--- Long Covid: 0.004224660815201453;;;TimesVisited: 146.7
+Age at arrival:--- Time of blood draw:: 0.00430652060354475;;;TimesVisited: 145.8
+Type of sample used for the PCR test determining the participant's COVID status:--- Type of sample used for the PCR test determining the participant's COVID status:: 0.00430652060354475;;;TimesVisited: 145.6
+How much difficulty do you have climbing a flight of 10 stairs?--- How much difficulty do you have climbing a flight of 10 stairs?: 0.00430652060354475;;;TimesVisited: 145.6
+Weight in kg:--- Weight in kg:: 0.004390088238976908;;;TimesVisited: 144.7
+Mobility--- Long Covid: 0.004475403052908167;;;TimesVisited: 143.9
+Dizziness ?--- Dizziness ?: 0.005125055611658547;;;TimesVisited: 136.1
+Headache ?--- Headache ?: 0.005225894017349186;;;TimesVisited: 135.7
+Number of doses received:--- Long Covid: 0.005225894017349186;;;TimesVisited: 135.9
+Asthma ?--- Long Covid: 0.005328883849706978;;;TimesVisited: 134.0
+Fatigue ?.1--- Fatigue ?.1: 0.0055415238516205445;;;TimesVisited: 132.1
+Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.--- Time of blood draw:: 0.005651280588575336;;;TimesVisited: 131.6
+BMI:--- BMI:: 0.00599496843280134;;;TimesVisited: 128.1
+Self-care--- Long Covid: 0.006114532376662707;;;TimesVisited: 127.5
+Runny nose (Rhinorrhea) ?--- Runny nose (Rhinorrhea) ?: 0.006236698839720889;;;TimesVisited: 126.9
+Abdominal pain ?--- Abdominal pain ?: 0.0064890959570999;;;TimesVisited: 124.9
+How much difficulty do you have walking across a room?--- Long Covid: 0.006619459514499826;;;TimesVisited: 123.6
+Did the participant experience any side effects?--- Did the participant experience any side effects?: 0.006619459514499826;;;TimesVisited: 123.5
+Weight in kg:--- Time of blood draw:: 0.00675269152207858;;;TimesVisited: 122.0
+Loss of taste / lost of smell ?.1--- Loss of taste / lost of smell ?.1: 0.00675269152207858;;;TimesVisited: 122.7
+Time of blood draw:--- Please move the slider to indicate from 0 to 100 how your health is TODAY, 100 being the best health you can imagine and 0 being the worst health you can imagine.: 0.007315762001683601;;;TimesVisited: 118.5
+Age at arrival:--- Long Covid: 0.007930824035922268;;;TimesVisited: 114.7
+Delay between the onset of symptoms  and the draw blood --- Delay between the diagnosis and the draw blood for the follow up: 0.007930824035922268;;;TimesVisited: 114.1
+Age au recrutement:--- Long Covid: 0.008963175139962698;;;TimesVisited: 108.7
+BMI:--- Time of blood draw:: 0.008963175139962698;;;TimesVisited: 108.4
+Delay between the onset of symptoms  and the draw blood --- Blood drawn for the BQC19?: 0.008963175139962698;;;TimesVisited: 108.6
+Living with?--- Living with?: 0.009149297127171496;;;TimesVisited: 107.5
+Asthma ?--- Asthma ?: 0.009149297127171496;;;TimesVisited: 107.8
+Confusion / altered mental status ?--- Long Covid: 0.009149297127171496;;;TimesVisited: 107.2
+Cough ?--- Cough ?: 0.009339723584381066;;;TimesVisited: 106.5
+Fatigue ?.1--- Long Covid: 0.009733953859467848;;;TimesVisited: 104.6
+Extremity weakness or numbness ?--- Extremity weakness or numbness ?: 0.009937999005848686;;;TimesVisited: 103.5

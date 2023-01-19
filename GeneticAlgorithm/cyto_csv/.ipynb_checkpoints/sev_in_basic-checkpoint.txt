@@ -1,0 +1,216 @@
+C-reactive protein (CRP):--- C-reactive protein (CRP) (HIGHEST value):;;;0.9623133694745498
+How much difficulty do you have climbing a flight of 10 stairs?--- How much difficulty do you have walking across a room?:;;;0.37212991925388983
+Albumin (LOWEST value)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.2826037196730491
+At the time of collection, is the participant receiving oxygen ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.21452814028222145
+Did or does the patient receive ventilatory support?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.20817624781603095
+Diastolic BP:.1--- Diastolic BP::;;;0.17803588187738617
+If yes (check all that apply): (choice=Vasopressor/inotropic support)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.17610074487841376
+SpO2 (the lowest associated with the highest support):--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.17246817496918054
+O2 saturation at room air :--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.15585517702279916
+Glucose (HIGHEST value)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.15137413204227435
+On arrival,  is the participant receiving oxygen ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.14415852218968928
+SpO2 (the lowest associated with the highest support):--- Emergency visit only?:;;;0.14377572251867732
+If yes: (choice=Invasive with mechanical ventilation)--- If yes (check all that apply): (choice=Vasopressor/inotropic support):;;;0.14310278152584388
+Albumin:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.13908583386118245
+International Normalized Ratio (INR) (HIGHEST value)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.12989932932118564
+If yes (check all that apply): (choice=Non-invasive cannula/mask support)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.12768504909044864
+C-reactive protein (CRP):--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.1259023129743626
+Respiratory rate (associated with BP above):.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.1220537943657074
+If yes (check all that apply): (choice=Prone positioning)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.11592825815159158
+If yes: (choice=Invasive with mechanical ventilation)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.11526152954104418
+Level of care (final):--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.11508127596147255
+O2 saturation at room air :.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.10568864143740964
+On arrival, SpO2 on oxygen:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.10052311003147674
+If yes (check all that apply): (choice=Neuromuscular blocking agents)--- International Normalized Ratio (INR) (HIGHEST value):;;;0.10002495146842932
+At the time of collection, SpO2 on oxygen:--- APTT (activated partial thromboplastin time) (HIGHEST value):;;;0.09984676423984551
+Number of other complications: --- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.09763292836743753
+Bacterial pneumonia?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.09549105457582585
+International Normalized Ratio (INR) (HIGHEST value)--- If yes: (choice=Neuromuscular blocking agents):;;;0.09200731770343706
+Age au recrutement--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.09162692366537728
+Patient pregnant?--- Level of care (final)::;;;0.08313540852351964
+ICU admission?--- On arrival,  is the participant receiving oxygen ?:;;;0.08164307146302874
+If yes: (choice=Vasopressor/inotropic support)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.0781638913566336
+Baseline creatinine:--- Albumin (LOWEST value):;;;0.06905968515948024
+How would you rate your current level of functioning? See options above.--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.06869674152527683
+Diastolic BP:.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.06391994731438766
+Positive bacterial culture documented during hospitalization?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.06264914259842813
+Glucose:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.061590665746271256
+Treatments administered: (choice=Antifungal)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.059590556052578125
+Glucose (HIGHEST value)--- Treatments administered: (choice=Other antibiotic (specify)):;;;0.05859929556875265
+Fatigue ?--- Glasgow Coma Scale (GCS) - lowest value::;;;0.058568165092715674
+Heart rate (associated with BP above):.1--- LDH::;;;0.05787031655667407
+If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?--- Urea (HIGHEST value):;;;0.05459722601925576
+Lymphocyte (relative value):--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.052438667529153715
+BMI:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.05182522191736494
+If yes: (choice=High-flow nasal cannula (HFNC))--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.04965898002368463
+Heart rate (associated with BP above):.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.04964077233760911
+Runny nose (Rhinorrhea) ?.1--- Nausea / vomiting ?.1:;;;0.04820084929058177
+If yes (check all that apply): (choice=Tracheostomy)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.04555785944192073
+Disposition:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.0435425488086143
+Mobility--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.04349104053306596
+Glucose:--- Sodium Na+ (HIGHEST value):;;;0.04325555688963001
+If yes: (choice=Prone positioning)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.042600425830668004
+Acute kidney injury?--- Baseline creatinine::;;;0.041415232290753834
+AVPU Scale:--- Temperature:.1:;;;0.04105517763959976
+Bacteremia?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.040607287527252955
+Usual activities, including work, study, housework, family or leisure activities:--- Glucose::;;;0.04044939496242472
+Sodium Na+:--- Age au recrutement:;;;0.039917735490956785
+If yes: (choice=Oxygen therapy with cannula/mask)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.03886859046115709
+O2 saturation at room air :.1--- Lymphocyte (x 10^9/L)::;;;0.036865435041685934
+Headache ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.03631098972978253
+At the time of collection, is the participant receiving oxygen ?--- Duration of hospitalization::;;;0.03620106786403876
+Systolic BP:--- Heart rate (associated with BP above)::;;;0.03612592524779057
+D-Dimer:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.03553994916493863
+Living where?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.034491037568150085
+Loss of taste / lost of smell ?.1--- Wheezing or stridor ?.1:;;;0.03384451167169289
+Self-care--- SpO2 (the lowest associated with the highest support)::;;;0.03252510679452669
+Glucose (HIGHEST value)--- Platelets::;;;0.03234068537012624
+International Normalized Ratio (INR):--- Neutrophil (relative value) (HIGHEST value):;;;0.03232968176103468
+Does the patient have other comorbidities?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.03223226363020015
+Usual activities, including work, study, housework, family or leisure activities:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.03190196270496193
+Neutrophils (relative value):--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.03186243772251485
+Hyperglycemia?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.031686569665860365
+Total WBC count:--- BMI::;;;0.030607037554930328
+If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?--- Height in m::;;;0.029977329978387868
+How much difficulty do you have lifting or carrying 10 lbs?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.028902473563462205
+Procalcitonin (PCT):--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.02784609788979761
+Loss of taste / lost of smell ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.0258581956452113
+If yes (check all that apply): (choice=Extracorporeal membrane oxygenation (ECMO))--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.0251397043085497
+Diastolic BP:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.02479073778376062
+Systolic BP:.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.024629234421704282
+Heart rate (associated with BP above):.1--- Living with?:;;;0.024317883414043617
+How much difficulty do you have climbing a flight of 10 stairs?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.02419482605460188
+Rheumatologic disease ?--- Mobility:;;;0.02313432549463751
+At the time of collection, SpO2 on oxygen:--- How much difficulty do you have climbing a flight of 10 stairs?:;;;0.02279813247730611
+O2 saturation at room air :--- Bacterial pneumonia?:;;;0.020918430506175145
+If yes: (choice=Non-invasive ventilation CPAP/BPAP)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.020074731824665876
+Eosinophil (relative value) (HIGHEST value)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.01995047987919668
+Treatments administered: (choice=Other COVID-19 treatments (specify))--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.019570596077179703
+Treatments administered: (choice=Other antiviral (specify))--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.019422545186446233
+Monocyte (relative valeur) (HIGHEST value)--- O2 saturation at room air :.1:;;;0.019419682353515155
+Sexe:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.019249876317368075
+Liver dysfunction?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.01898850535322183
+Skin rash ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.0185214685713182
+Leg swelling (Edema) ?--- Systolic BP::;;;0.017926426369864135
+Other immunosuppressive medications?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.01695252754855958
+Dementia ? --- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.01690012793236073
+ACE inhibitor or Angiotensin Receptor Blocker?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.01689669114611636
+If yes (check all that apply): (choice=Inhaled nitric oxide (iNO))--- If yes (check all that apply): (choice=Non-invasive support via High-flow nasal cannula (HFNC)):;;;0.016875920479456352
+Pleural effusion?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.016868405355063676
+Treatments administered: (choice=Plasma)--- How would you rate your current level of functioning? See options above.:;;;0.01679626477275792
+Diastolic BP:--- Confusion / altered mental status ?.1:;;;0.016576537850757855
+If yes (check all that apply): (choice=Prone positioning)--- Procalcitonin (PCT)::;;;0.016481872620141558
+COPD (emphysema, chronic bronchitis) ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.016228496272925774
+Sodium Na+:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.015932872066950265
+If yes: (choice=Dialysis or hemofiltration)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.015851530476261436
+Total Bilirubin:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.015573206377138854
+Arterial Hypertension ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.015500024132453216
+Lymphocyte (x 10^9/L):--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.01534024294423006
+Confusion / altered mental status ?.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.0153164927101197
+Haemoglobin (LOWEST value)--- How many times have you fallen in the past year?:;;;0.015217637133767337
+Chest pain ?--- Total Bilirubin::;;;0.015074558065644061
+New atrial fibrillation or flutter (AF)?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.014943365581004786
+ALT (HIGHEST value)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.014919883480624507
+Platelets:--- How much difficulty do you have transferring from a chair to a bed?:;;;0.01452418522876986
+Living with?--- Potassium K+::;;;0.014352547631098389
+Viral pneumonia/pneumonitis?--- D-Dimer::;;;0.01423476810164015
+Did or does the patient receive ventilatory support?--- Pain and discomfort::;;;0.014138266612394368
+ALT:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.014107239177838737
+Chronic kidney disease ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.014042190954756117
+Non-ST-elevation myocardial infarction (NSTEMI)? --- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.01318947845193158
+Joint pain (Arthralgia) ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.01297879557527104
+Eosinophil (x 10^9/L):--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.012824355434287005
+Systolic BP:.1--- Wheezing or stridor ?:;;;0.012813417196801957
+Living where?--- C-reactive protein (CRP)::;;;0.012719566543807792
+If yes (check all that apply): (choice=Non-invasive ventilation CPAP/BPAP)--- Platelet (LOWEST value):;;;0.012664918003735925
+Deep vein thrombosis (DVT)?--- D-Dimer (HIGHEST value):;;;0.012222471815638361
+Treatments administered: (choice=Lopinavir/Ritonavir (Kaletra))--- Number of other complications: :;;;0.012025210940159306
+Decompensated heart failure?--- On arrival, SpO2 on oxygen::;;;0.011987308455606832
+Smoking status:--- Lymphocyte (relative value)::;;;0.011906811989787602
+Total bilirubin (HIGHEST value)--- Anemia?:;;;0.011871031346402383
+AVPU Scale:--- ALT::;;;0.011862875400305839
+Emergency visit only?--- If yes: (choice=Vasopressor/inotropic support):;;;0.011590352820146976
+If yes (check all that apply): (choice=Non-invasive support via High-flow nasal cannula (HFNC))--- Seizure ?.1:;;;0.011477469642419136
+Systolic BP:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.01143526622113189
+Deep vein thrombosis (DVT)?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.0114086653323211
+If yes: (choice=Inhaled nitric oxide (iNO))--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.011385223349987067
+Acute kidney injury?--- Cardiac arrest?:;;;0.011226144139665717
+Treatments administered: (choice=Remdesivir)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.011205909785835078
+Chest pain ?--- Did or does the patient receive adjunctive therapy?:;;;0.011144261440284908
+Treatments administered: (choice=Other immunomodulator (specify))--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.011086517309213534
+Monocyte (x 10^9/L):--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.01105049686426296
+Extremity weakness or numbness ?.1--- Treatments administered: (choice=Other COVID-19 treatments (specify)):;;;0.010649303103372532
+If yes: (choice=Extracorporeal membrane oxygenation (ECMO))--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.010073703307958926
+Monocyte (x 10^9/L):--- Cough ?.1:;;;0.010047571800766653
+D-Dimer (HIGHEST value)--- Diarrhea ?.1:;;;0.009953758510865662
+Potassium K+:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.009880914013497444
+Height in m:--- Creatinine::;;;0.009636106125450294
+Monocyte (relative valeur) (HIGHEST value)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.009478050388074144
+Other chronic lung disease ? --- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.009444045639674714
+Smoking status:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.00910207962054388
+Loss of appetite ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.009062394242571159
+O2 saturation at room air :--- Treatments administered: (choice=Plasma):;;;0.009008435971598727
+Patient pregnant?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.008964707838540031
+LDH (HIGHEST value)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.008931065539107282
+Rheumatologic disease ?--- Heart rate (associated with BP above):.1:;;;0.008834597664139299
+LDH:--- Chest pain ?:;;;0.00875874832692869
+Wheezing or stridor ?--- Colchicine?:;;;0.008719364432701437
+New atrial fibrillation or flutter (AF)?--- Hyperglycemia?:;;;0.00863066849084454
+Neutrophils (relative value):--- Haemoglobin ::;;;0.008620874724442285
+Sore throat ?--- Creatinine (HIGHEST value):;;;0.008527347757979808
+Seizure ?.1--- Ability to self-care at discharge versus pre-COVID::;;;0.008437815602394816
+How many times have you fallen in the past year?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.008313895044530728
+Muscle aches (Myalgia) ?.1--- Loss of taste / lost of smell ?:;;;0.008248451279838198
+Immunosupressed state?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.008187165075811575
+Malignant neoplasm ?--- Rheumatologic disease ?:;;;0.008107497203720171
+Vital status:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.00795612255489403
+Total WBC count (HIGHEST value) --- Diastolic BP:.1:;;;0.007909401336052375
+How much difficulty do you have transferring from a chair to a bed?--- Lymphocyte (relative value) (LOWEST value):;;;0.0077390978338194305
+Basophil (x 10^9/L):--- HGO or insulin?:;;;0.00770352077022729
+Neutrophils (relative value):--- Sex at birth::;;;0.007591742776750954
+Ear pain ?--- Neutrophils (relative value)::;;;0.007537560472809346
+Dizziness ?.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.007364450570885195
+International Normalized Ratio (INR):--- Prior stroke ? :;;;0.007258348364673761
+Positive bacterial culture documented during hospitalization?--- Chronic kidney disease ?:;;;0.007104551291373884
+Trouble speaking (Aphasia / Dysphasia) ?.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.007017545533761549
+Sexe:--- Respiratory rate (associated with BP above)::;;;0.006936717100950673
+Cryptogenic organizing pneumonia (COP)?--- APTT (activated partial thromboplastin time)::;;;0.006757301938809482
+Sore throat ?.1--- Number of other comorbidities: :;;;0.006702552981118992
+Abdominal pain ?--- Haemoglobin (LOWEST value):;;;0.0066593482197856435
+Extremity weakness or numbness ?.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.006630032633808347
+Bacterial pneumonia?--- New atrial fibrillation or flutter (AF)?:;;;0.006595403197612315
+Pleural effusion?--- At the time of collection, FiO2::;;;0.006358044003383467
+LDH:--- Heart failure ?:;;;0.006132686918734365
+Chronic hematologic disease ?--- Glucose (HIGHEST value):;;;0.005985788819534266
+How much difficulty do you have lifting or carrying 10 lbs?--- Loss of taste / lost of smell ?.1:;;;0.005878334388480511
+If yes: (choice=High-flow nasal cannula (HFNC))--- Viral pneumonia/pneumonitis?:;;;0.00582034362210293
+Runny nose (Rhinorrhea) ?--- Systolic BP:.1:;;;0.005801491952257987
+Seizure ?.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.005659801445064255
+How much difficulty do you have transferring from a chair to a bed?--- Runny nose (Rhinorrhea) ?.1:;;;0.0056528976291079225
+Pain and discomfort:--- Extremity weakness or numbness ?:;;;0.005613392493683644
+Hemoptysis / Bloody sputum ?.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.00561067973836929
+Confusion / altered mental status ?--- Treatments administered: (choice=Systematic corticosteroid):;;;0.005578174550137982
+Headache ?.1--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.00548749831021389
+Heart failure ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.005416676369000062
+Glucose (HIGHEST value)--- Liver dysfunction?:;;;0.005394275573014307
+Haemoglobin :--- Pancreatitis?:;;;0.005333983921801622
+Please specify drugs used. (choice=Amphetamines)--- At the time of collection, SpO2 on oxygen::;;;0.00533304591310332
+Temperature:--- Dementia ? :;;;0.005176121113545706
+Chronic hematologic disease ?--- Leg swelling (Edema) ?.1:;;;0.005167726393531247
+Trouble speaking (Aphasia / Dysphasia) ?.1--- Asthma ?:;;;0.005131463871911102
+Treatments administered: (choice=IVIG)--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.005130727844301491
+Platelets:--- Treatments administered: (choice=Kineret (Anakinra)):;;;0.0051208725503260055
+Anxiety and depression:--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.005091468715670011
+Dizziness ?--- Sodium Na+::;;;0.005062111226163735
+Treatments administered: (choice=Lopinavir/Ritonavir (Kaletra))--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.004951713603981417
+Myocarditis?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.004922955025979801
+Ventilatory support:--- Skin rash ?:;;;0.004860225048309852
+Trouble speaking (Aphasia / Dysphasia) ?.1--- At the time of collection, is the participant receiving oxygen ?:;;;0.004839416648467099
+Adjunctive therapy during hospitalization--- Treatments administered: (choice=Lopinavir/Ritonavir (Kaletra)):;;;0.00479812735372287
+Is the participant employed as a Healthcare Worker?  --- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.004759411913209777
+Bronchiolitis?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.004543839811458866
+If yes: (choice=High-flow nasal cannula (HFNC))--- LDH (HIGHEST value):;;;0.004515570411591285
+Treatments administered: (choice=Colchicine)--- If yes: (choice=Extracorporeal membrane oxygenation (ECMO)):;;;0.004422018034228606
+If yes: (choice=High-flow nasal cannula (HFNC))--- Trouble speaking (Aphasia / Dysphasia) ?.1:;;;0.004341381794832788
+If yes (check all that apply): (choice=Non-invasive support via High-flow nasal cannula (HFNC))--- If yes: (choice=Inhaled nitric oxide (iNO)):;;;0.004317532764559484
+Wheezing or stridor ?--- If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?:;;;0.004313239401044722

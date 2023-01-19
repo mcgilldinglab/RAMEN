@@ -1,0 +1,81 @@
+How would you rate your current level of functioning? See options above.
+Severity of COPD:
+Shortness of breath (Dyspnea) ?
+Joint pain (Arthralgia) ?
+Loss of taste / lost of smell ?
+Malignant neoplasm - actively receiving treatment?
+Chest pain ?
+Loss of appetite ?
+Fatigue ?
+Diarrhea ?
+Extremity weakness or numbness ?
+Number of comorbidities: 
+Nausea / vomiting ?
+Abdominal pain ?
+Dizziness ?
+Wheezing or stridor ?
+Age au recrutement:
+If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?
+Skin rash ?
+Asthma ?
+Sex at birth:
+Muscle aches (Myalgia) ?
+Confusion / altered mental status ?
+Headache ?
+Fever (?38.0 Celcius) ?
+Height in m:
+BMI:
+Weight in kg:
+Obesity ?
+Runny nose (Rhinorrhea) ?
+Psychiatric disease?
+Ear pain ?
+COPD (emphysema, chronic bronchitis) ?
+Trouble speaking (Aphasia / Dysphasia) ?
+Anticoagulants?
+Other chronic lung disease ? 
+Leg swelling (Edema) ?
+Asymptomatic?
+Malignant neoplasm - metastatic?
+Pulmonary hypertension ?
+Prior myocardial infarction ?
+Sore throat ?
+Rheumatologic disease ?
+Hemoptysis / Bloody sputum ?
+Cough ?
+ACE inhibitor or Angiotensin Receptor Blocker?
+Drugs?
+Please specify drugs used. (choice=Cannabis)
+Malignant neoplasm ?
+Prior transient ischemic attack (TIA) ?
+Liver disease ?
+Please specify drugs used. (choice=Opiods)
+Is the participant employed as a Healthcare Worker?  
+Other immunosuppressive medications?
+Colchicine?
+Please specify drugs used. (choice=Other)
+Smoking status:
+HGO or insulin?
+Red eye (Conjunctivitis) ?
+Arterial Hypertension ?
+Atrial fibrillation or flutter ?
+Is the participant employed in a Microbiology Laboratory?  
+Systemic corticosteroid?
+Chronic hematologic disease ?
+Dementia ? 
+Other chronic neurological disorder (other than stroke/TIA) ?
+HIV or AIDS ?
+Patient pregnant?
+Prior stroke ? 
+Heart failure ?
+Diabetes ?
+Coronary artery disease ?
+Immunosupressed state?
+Other chronic cardiac disease ?
+Please specify drugs used. (choice=Amphetamines)
+Malnutrition ?
+Seizure ?
+Please specify drugs used. (choice=Cocaine)
+Chronic kidney disease ?
+Electronic cigarettes?
+Dialysis ?

@@ -1,0 +1,131 @@
+,Left,Right
+0,ACE inhibitor or Angiotensin Receptor Blocker?,Long Covid
+1,Abdominal pain ?,Long Covid
+2,Abdominal pain ?,Obesity ?
+3,Obesity ?,Long Covid
+4,Obesity ?,Pulmonary hypertension ?
+5,Age during recruitment:,Long Covid
+6,Arterial Hypertension ?,Long Covid
+7,Asymptomatic?,Ear pain ?
+8,Ear pain ?,SEVERITY
+9,Ear pain ?,Long Covid
+10,Ear pain ?,Malignant neoplasm ?
+11,Atrial fibrillation or flutter ?,Long Covid
+12,Atrial fibrillation or flutter ?,Sex at birth:
+13,COPD,Long Covid
+14,Chest pain ?,Chronic hematologic disease ?
+15,Chest pain ?,Dialysis ?
+16,Chest pain ?,Long Covid
+17,Chest pain ?,Prior myocardial infarction ?
+18,Chronic hematologic disease ?,Hemoptysis / Bloody sputum ?
+19,Chronic hematologic disease ?,Long Covid
+20,Dialysis ?,Long Covid
+21,Prior myocardial infarction ?,Headache ?
+22,Prior myocardial infarction ?,Long Covid
+23,Chronic kidney disease ?,Asthma ?
+24,Chronic kidney disease ?,Prior stroke ? 
+25,Colchicine?,Long Covid
+26,Confusion?,Dementia ? 
+27,Confusion?,Long Covid
+28,Dementia ? ,Long Covid
+29,Coronary artery disease ?,Age during recruitment:
+30,Coronary artery disease ?,Diabetes ?
+31,Coronary artery disease ?,Long Covid
+32,Diabetes ?,Long Covid
+33,Diabetes ?,Number of comorbidities: 
+34,Diabetes ?,Other chronic cardiac disease ?
+35,Diabetes ?,Aphasia / Dysphasia?
+36,Cough ?,Please specify drugs used. (choice=Cocaine)
+37,Cough ?,Sore throat ?
+38,Please specify drugs used. (choice=Cocaine),Long Covid
+39,Sore throat ?,Loss of appetite ?
+40,Number of comorbidities: ,Long Covid
+41,Number of comorbidities: ,Severity of COPD:
+42,Other chronic cardiac disease ?,Please specify drugs used. (choice=Other)
+43,Aphasia / Dysphasia?,Long Covid
+44,Diarrhea ?,Long Covid
+45,Diarrhea ?,Loss of taste / lost of smell ?
+46,Diarrhea ?,Dyspnea?
+47,Dyspnea?,Long Covid
+48,Dizziness ?,Extremity weakness or numbness ?
+49,Dizziness ?,Patient pregnant?
+50,Extremity weakness or numbness ?,Long Covid
+51,Extremity weakness or numbness ?,Malignant neoplasm - metastatic?
+52,Patient pregnant?,Electronic cigarettes?
+53,Drugs?,Asymptomatic?
+54,Drugs?,Immunosupressed state?
+55,Drugs?,Long Covid
+56,Immunosupressed state?,Long Covid
+57,Immunosupressed state?,Smoking status:
+58,SEVERITY,Psychiatric disease?
+59,SEVERITY,Rhinorrhea?
+60,Electronic cigarettes?,Long Covid
+61,Fatigue ?,Long Covid
+62,Fever?,Long Covid
+63,Fever?,Wheezing or stridor ?
+64,HGO or insulin?,Confusion?
+65,HGO or insulin?,Long Covid
+66,HGO or insulin?,Conjunctivitis?
+67,Conjunctivitis?,Long Covid
+68,Conjunctivitis?,Other immunosuppressive medications?
+69,HIV or AIDS ?,Drugs?
+70,HIV or AIDS ?,Leg swelling (Edema) ?
+71,HIV or AIDS ?,Long Covid
+72,Leg swelling (Edema) ?,Anticoagulants?
+73,Headache ?,Long Covid
+74,Headache ?,Systemic corticosteroid?
+75,Systemic corticosteroid?,Long Covid
+76,Heart failure ?,Please specify drugs used. (choice=Amphetamines)
+77,Please specify drugs used. (choice=Amphetamines),Chronic kidney disease ?
+78,Please specify drugs used. (choice=Amphetamines),Long Covid
+79,Please specify drugs used. (choice=Amphetamines),Rheumatologic disease ?
+80,Please specify drugs used. (choice=Amphetamines),Skin rash ?
+81,Height in m:,Long Covid
+82,Height in m:,Malignant neoplasm - actively receiving treatment?
+83,Height in m:,Seizure ?
+84,Malignant neoplasm - actively receiving treatment?,Fever?
+85,Malignant neoplasm - actively receiving treatment?,Long Covid
+86,Malignant neoplasm - actively receiving treatment?,Prior transient ischemic attack (TIA) ?
+87,Seizure ?,Cannabis
+88,Rate current level of functioning?,Diarrhea ?
+89,Rate current level of functioning?,Weight in kg:
+90,Weight in kg:,BMI:
+91,Psychiatric disease?,Healthcare Worker?
+92,Rhinorrhea?,Chest pain ?
+93,Rhinorrhea?,Long Covid
+94,Smoking status:,Abdominal pain ?
+95,Smoking status:,Long Covid
+96,Smoking status:,Opiods
+97,Healthcare Worker?,Long Covid
+98,Is the participant employed in a Microbiology Laboratory?  ,Cough ?
+99,Is the participant employed in a Microbiology Laboratory?  ,Fatigue ?
+100,Is the participant employed in a Microbiology Laboratory?  ,Long Covid
+101,Arthralgia?,Liver disease ?
+102,Arthralgia?,Long Covid
+103,Liver disease ?,Heart failure ?
+104,Liver disease ?,Long Covid
+105,Loss of appetite ?,ACE inhibitor or Angiotensin Receptor Blocker?
+106,Loss of appetite ?,HIV or AIDS ?
+107,Loss of appetite ?,Long Covid
+108,Prior transient ischemic attack (TIA) ?,Other chronic neurological disorder (other than stroke/TIA) ?
+109,Malnutrition ?,HGO or insulin?
+110,Malnutrition ?,Long Covid
+111,Malnutrition ?,Myalgia?
+112,Myalgia?,Is the participant employed in a Microbiology Laboratory?  
+113,Myalgia?,Long Covid
+114,Myalgia?,Nausea / vomiting ?
+115,Nausea / vomiting ?,Dizziness ?
+116,Nausea / vomiting ?,Rate current level of functioning?
+117,Please specify drugs used. (choice=Other),Arterial Hypertension ?
+118,Please specify drugs used. (choice=Other),Long Covid
+119,Other chronic lung disease ? ,Long Covid
+120,Other chronic neurological disorder (other than stroke/TIA) ?,Arthralgia?
+121,Other immunosuppressive medications?,Colchicine?
+122,Other immunosuppressive medications?,Other chronic lung disease ? 
+123,Rheumatologic disease ?,COPD
+124,Rheumatologic disease ?,Coronary artery disease ?
+125,Rheumatologic disease ?,Long Covid
+126,Skin rash ?,Long Covid
+127,Skin rash ?,Malnutrition ?
+128,Cannabis,Atrial fibrillation or flutter ?
+129,Cannabis,Long Covid
