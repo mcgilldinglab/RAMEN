@@ -1,5 +1,4 @@
 # RAMEN Method Overview
-
 The Ramen method is composed of two major components: random walks to select the most relevant variables to the COVID-19 outcomes (severity or long-COVID) 
 and build a draft candidate network; Genetic Algorithm to find the optimized network that represents the relationships between different clinical 
 variables based on the candidate network draft from the random walk. 
@@ -15,3 +14,4 @@ to search for the Bayesian network with a Genetic Algorithm. First, we will gene
 random walks. Next, we will crossover all those parent networks to produce offspring networks. Third, each of the offspring networks will mutate to 
 produce more candidate networks. Fourth, all these candidate networks (parents, offspring, and their mutations) will be scored to select the best networks 
 as the parents for the next generation. We will keep performing the above ‘evolution’ process until convergence to obtain the final relationship network.
+![Y8%QE}`V(K11GO75 0PFS3N](https://user-images.githubusercontent.com/62433629/213577208-9bfea64a-84a3-4724-91ff-da09dc2aa5a9.png)
