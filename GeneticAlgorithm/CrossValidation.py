@@ -1,9 +1,9 @@
-from Scorer import Scorer
-from GeneticAlgorithmLauncher import SignificantEdgesToVertices, InitializeVarToIndexDictionary
+from .Scorer import Scorer
+from .GeneticAlgorithmLauncher import SignificantEdgesToVertices, InitializeVarToIndexDictionary
 import pandas as pd
-import BinaryStringToBayesianN as BSTB
+import .BinaryStringToBayesianN as BSTB
 import numpy as np
-from ParameterLearning import EdgesToGraph, SignificantEdgesToVertices
+from .ParameterLearning import EdgesToGraph, SignificantEdgesToVertices
 
 def ScoreNetwork( scoring_dataframe_file, significant_edges_file ):
     ScoringDataframe = pd.read_csv( scoring_dataframe_file )

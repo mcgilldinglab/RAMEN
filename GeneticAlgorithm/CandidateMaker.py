@@ -1,24 +1,23 @@
 import networkx as nx
 import random
 
-import BinaryStringToBayesianN as BSTB
+from .BinaryStringToBayesianN import NetworkTo2dMatrix, MatrixToNetwork
 import numpy as np
-from AdjMatrixStructure import AdjMatrix
+from .AdjMatrixStructure import AdjMatrix
 import timeit
 import sknetwork
 
 
-def MakeCandidates( filename, scorer, index_to_vertex, var_to_index_dict, num_candidates ):
+def MakeCandidates( significant_edges, scorer, index_to_vertex, var_to_index_dict, num_candidates ):
     graphs = []
-
     for i in range( num_candidates ):
-        graph = SignificantEdgesToGraph( filename )
+        graph = SignificantEdgesToGraph( significant_edges )
         graphs.append( graph )
     
     candidates = []
 
     for j in range( len( graphs ) ):
-        matrix = np.array( BSTB.NetworkTo2dMatrix( graphs[ j ], var_to_index_dict ) )
+        matrix = np.array( NetworkTo2dMatrix( graphs[ j ], var_to_index_dict ) )
         if ( sknetwork.topology.is_connected( matrix ) and sknetwork.topology.is_acyclic( matrix ) ):
             matrixObj = AdjMatrix( matrix, scorer )
             candidates.append( matrixObj )
@@ -30,31 +29,10 @@ def MakeCandidates( filename, scorer, index_to_vertex, var_to_index_dict, num_ca
         print( matrixObj.score )
     return candidates
 
-def MakePipelineGraphDAGs( filename, num_candidates ):
-    graphs = []
-    for i in range( num_candidates ):
-        graph = SignificantEdgesToGraph( filename )
-        graphs.append( graph )
-    var_to_index = {}
-    index_to_vertex = list( graphs[ 0 ].nodes )
-    for i in range( len( index_to_vertex ) ):
-        var_to_index[ index_to_vertex[ i ] ] = i
-    candidates = []
-    for j in range( len( graphs ) ):
-        matrix = np.array( BSTB.NetworkTo2dMatrix( graphs[ j ], var_to_index ) )
-        if ( sknetwork.topology.is_connected( matrix ) and sknetwork.topology.is_acyclic( matrix ) ):
-            candidates.append( BSTB.MatrixToNetwork( matrix, index_to_vertex ) )
-            continue
-        RemoveCyclesMatrix( matrix )
-        MakeConnected( matrix )
-        candidates.append( BSTB.MatrixToNetwork( matrix, index_to_vertex ) )
-    return candidates
-
 ########### private functions ############
-def SignificantEdgesToGraph( filename ):
+def SignificantEdgesToGraph( signif_edges ):
     g = nx.DiGraph()
-    file1 = open( filename, 'r')
-    Lines = file1.readlines()
+    Lines = signif_edges
     edges = []
 
     for line in Lines:
@@ -72,7 +50,6 @@ def SignificantEdgesToGraph( filename ):
             edges.append( edge )
     for edge in edges:
         g.add_edge( edge[ 0 ], edge[ 1 ] )
-    file1.close()
     return g
 
 def GetVerticesFromString( string ):
@@ -254,6 +231,9 @@ def SimplifyStructure( matrix, index_to_vertex ):
             for j in range( len( predecessors ) ):
                 if ( predecessors[ j ] != to_keep ):
                     matrix[ predecessors[ j ] ][ i ] = 0
+
+def testing_imports():
+    print("bob")
                     
         
         

@@ -1,9 +1,17 @@
 import numpy as np
 from pyitlib import discrete_random_variable as drv
 import random
-import tools as tools
-from InitializeGraph import InitializeMutualInfoMatrixGraph
+from .tools import CreateAdjMatrix
+from .InitializeGraph import InitializeMutualInfoMatrixGraph
 import pandas as pd
+
+
+def MakeMutualInfoMatrixNoSave( df ):
+    print( "Initializing mutual information matrix, this might take a few minutes." )
+    g = InitializeMutualInfoMatrixGraph( df )
+    matrix = np.array(InitializeMutualInfoMatrix( g ) )
+    print( "done" )
+    return matrix
 
 #assumption here is that data file is already processed ProcessDataframe.py
 def MakeMutualInfoMatrixNpy( csv_file, save_file_name ):
@@ -50,7 +58,7 @@ def GenerateGraphVectorMatrix(g):
 
 def ComputeMutualInformation( array, lower_bound = 0 ):
     size = len( array )
-    mutual_info_matrix = tools.CreateAdjMatrix(size, size)
+    mutual_info_matrix = CreateAdjMatrix(size, size)
     for i in range( len( array ) ):
         current_var = array[i]
         for j in range( len( array ) ):

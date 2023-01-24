@@ -1,7 +1,7 @@
-from MatrixMutater import MutateMatrix
-from Scorer import IsAcyclic, IsConnected
-from SortedList import SortedList, MutationList
-from CrossBreeder import Mate
+from .MatrixMutater import MutateMatrix
+from .Scorer import IsAcyclic, IsConnected
+from .SortedList import SortedList, MutationList
+from .CrossBreeder import Mate
 import timeit
 import multiprocessing
 import math

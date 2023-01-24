@@ -1,8 +1,8 @@
+from .variable_classification import GetVariableType
+from .VarNameTranslator import MakeMapping, MakeReverseMapping
 import pandas as pd
 import networkx as nx
-from variable_classification import GetVariableType
 from pyitlib import discrete_random_variable as drv
-from VarNameTranslator import MakeMapping, MakeReverseMapping
 import numpy as np
 import pickle
 

@@ -1,6 +1,5 @@
 import random
-import tools as tools
-from AdjMatrixStructure import AdjMatrix
+from .AdjMatrixStructure import AdjMatrix
 from copy import deepcopy
 
 def Mate( matrixObj1, matrixObj2, scorer ):

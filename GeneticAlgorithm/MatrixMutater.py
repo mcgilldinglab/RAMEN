@@ -1,5 +1,5 @@
 import random
-from Mutation import MutationMake
+from .Mutation import MutationMake
 
 def MutateMatrix( matrix, scorer ):
     dice = random.randint( 0, 1 )

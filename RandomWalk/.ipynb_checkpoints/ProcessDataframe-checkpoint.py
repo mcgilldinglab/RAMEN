@@ -1,12 +1,27 @@
 import pandas as pd
 import numpy as np
-from VectorizeDataframe import VectorizeDataframe
-from BadVariableEliminater import DropBadVars
+from .VectorizeDataframe import VectorizeDataframe
+from .BadVariableEliminater import DropBadVars
+
+def ProcessDataframeNoSave( data_file, ref_save_name, bad_var_threshold = 500 ):
+    dataframe = pd.read_csv( data_file )
+    dataframe = ConvertNanTo999( dataframe )
+    print( "starting patient cleaning ")    
+    start_col = len( dataframe.columns )
+    print( "dropping bad vars" )
+    DropBadVars( dataframe, bad_var_threshold )
+    print( "vectorizing dataframe" )
+    dataframe = VectorizeDataframe( dataframe, ref_save_name )
+    end_col = len( dataframe.columns )
+    print( "Removed " + str( start_col - end_col ) + "Variables because of insufficient data. If deleted too many, please adjust the bad_var_threshold" )
+    print( "Processing Done :)")
+    return dataframe
+    
 
 #TODO NEED to fix a bug where if we just do clean neg and drop bad vars it works but with all the stuff above it doesn't work. Key Error
 def ProcessDataframe( data_file, to_name, ref_save_name, bad_var_threshold = 500 ):
     dataframe = pd.read_csv( data_file )
-    #dataframe = ConvertNanTo999( dataframe )
+    dataframe = ConvertNanTo999( dataframe )
     #CompleteFirstVisit( dataframe )
     #dataframe = RemoveDuplicateVisits( dataframe )
     print( "starting patient cleaning ")
@@ -119,7 +134,3 @@ def CleanOneValueVariables( in_csv, filename ):
     dataframe.drop( columns = to_drop, inplace=True )
     print( len( dataframe.columns ) )
     dataframe.to_csv( filename )
-
-if __name__ == "__main__":
-    #ProcessDataframe( "csv/long_covid_out1.csv", "csv/long_covid_out2.csv" )
-    CleanOneValueVariables( "csv/long_covid_out2.csv", "csv/long_covid_out2.csv" )

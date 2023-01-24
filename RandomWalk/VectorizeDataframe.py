@@ -1,4 +1,4 @@
-from Discretization import Discretize
+from .Discretization import Discretize
 import pandas as pd
 import pickle
 

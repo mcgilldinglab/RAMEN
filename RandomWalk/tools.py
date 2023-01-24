@@ -1,7 +1,6 @@
 import math
 import random
 import numpy as np
-from Discretization import *
 
 ##################################################################
 

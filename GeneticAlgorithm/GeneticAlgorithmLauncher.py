@@ -1,34 +1,26 @@
-from CandidateMaker import MakeCandidates
-from GeneticAlgorithm import GeneticRun
+from .CandidateMaker import MakeCandidates
+from .GeneticAlgorithm import GeneticRun
+from .Scorer import Scorer
 import pandas as pd
-from Scorer import Scorer
 import timeit
 import pickle
+from .BinaryStringToBayesianN import MatrixToNetwork
 
-def StructuredLearningRun( scoring_dataframe_file, significant_edges_file, num_candidates, end_thresh, mutate_num, best_cand_num, bad_reprod_accept, regular_factor, end_file_name, hard_stop_counter = 50, pickle_save_file = "", alpha = 0.5, beta = 0.5 ):
-    ScoringDataframe = pd.read_csv( scoring_dataframe_file )
-    index_to_vertex = SignificantEdgesToVertices( significant_edges_file )
+def StructuredLearningRun( ScoringDataframe, significant_edges, num_candidates, end_thresh, mutate_num, best_cand_num, bad_reprod_accept, regular_factor, hard_stop_counter = 50 ):
+    index_to_vertex = SignificantEdgesToVertices( significant_edges )
     print( len( index_to_vertex ) )
     var_to_index_dict = InitializeVarToIndexDictionary( index_to_vertex )
     print("initializing scorer")
-    scorer = Scorer( index_to_vertex, ScoringDataframe, regular_factor, var_to_index_dict, alpha, beta )
+    scorer = Scorer( index_to_vertex, ScoringDataframe, regular_factor, var_to_index_dict )
     print("done initializing scorer")
     print("making candidates" )
-    startime = timeit.default_timer()
-    if ( pickle_save_file != "" ):
-        pickle_open = open( pickle_save_file,'rb' )
-        candidates = pickle.load( pickle_open )
-    else:
-        candidates = MakeCandidates( significant_edges_file, scorer, index_to_vertex, var_to_index_dict, num_candidates )
+    startime = timeit.default_timer()  
+    candidates = MakeCandidates( significant_edges, scorer, index_to_vertex, var_to_index_dict, num_candidates )
     endtime = timeit.default_timer()
     print( "Finished making candidates in", end = ": ")
     print( endtime-startime )
     children = GeneticRun( candidates, end_thresh, mutate_num, best_cand_num, bad_reprod_accept, scorer, hard_stop_counter )
-    
-    outfile = open("CandidatesSaveFile" + "0" + str(alpha)[2:],'wb')
-    pickle.dump(children, outfile)
-    outfile.close()
-    WriteEdgesToTxt( children[ 0 ].matrix, index_to_vertex, end_file_name ) 
+    return MatrixToNetwork( children[ 0 ].matrix, index_to_vertex )
 
 ######## private functions #############
 
@@ -50,15 +42,12 @@ def WriteEdgesToTxt( matrix, index_to_vertex, to_file_name ):
                 f.write( "\n" )
     f.close()
 
-def SignificantEdgesToVertices( filename ):
+def SignificantEdgesToVertices( Lines ):
     vertices = set()
-    file1 = open( filename, 'r')
-    Lines = file1.readlines()
     for line in Lines:
         bounds = GetVerticesFromString( line )
         vertices.add( bounds[0] )
         vertices.add( bounds[1] )
-    file1.close()
     return sorted(list( vertices ))
 
 def GetVerticesFromString( string ):

@@ -1,5 +1,3 @@
-from numpy import size
-
 class EdgeVisitTracker( object ):
 
     def __init__ ( self, size ):

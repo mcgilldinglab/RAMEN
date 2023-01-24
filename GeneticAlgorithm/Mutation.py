@@ -1,5 +1,5 @@
 import copy
-from AdjMatrixStructure import AdjMatrix
+from .AdjMatrixStructure import AdjMatrix
 
 def MutationMake( matrixObj, changeList, affected_nodes, scorer ):
     mutation = Mutation( matrixObj, changeList, affected_nodes, scorer )

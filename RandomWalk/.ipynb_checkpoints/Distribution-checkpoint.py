@@ -1,51 +1,39 @@
-import ArraySaver as AS
+from .tools import TwoDArrayToOneDArray
+from .InitializeGraph import InitializeRandomWalkGraph
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt, seaborn as sns
 from scipy.stats import nbinom
 import statsmodels.api as sm
 from statsmodels.stats.multitest import multipletests
-import InitializeGraph as ig
-import RandomWalk as RW
-import PlotRandomDistribution as PRD
-import tools as tools
 import copy
-from InitializeGraph import InitializeRandomWalkGraph
 
-def FitAndExtractSignificantEdges( data_csv, rw_result, random_result, fdr = True, bonf = False ):
-    g = MakeDistributionGraph( data_csv, rw_result )
+def FitAndExtractSignificantEdges( dataframe, rw_result, random_result, p_value = 0.05, mode = "default" ):
+    g = MakeDistributionGraph( dataframe, rw_result )
 
     ( n, p ) = GetDistributionParametersDir( random_result )
 
     p_values = GetPValues( g, n, p )
-
-    not_input = copy.deepcopy( p_values )
     
-    SignificantEdgesToTxt( g, not_input, 0.20, "signif_edges/notcorrected020.txt" )
-    SignificantEdgesToTxt( g, not_input, 0.05, "signif_edges/notcorrected005.txt" )
-    SignificantEdgesToTxt( g, not_input, 0.01, "signif_edges/notcorrected001.txt" )
-    
-    if ( bonf ):
-        bonf_input = copy.deepcopy( p_values )
-        SignificantEdgesToTxt( g, bonf_input, 0.05/len(bonf_input), "signif_edges/bonf005.txt" )
-        SignificantEdgesToTxt( g, bonf_input, 0.01/len(bonf_input), "signif_edges/bonf001.txt" )
-    if ( fdr ):
+    if ( mode == "fdr" ):
         fdr_input = copy.deepcopy( p_values )
         fdr_p_values = FDRCorrection( fdr_input )
-        SignificantEdgesToTxt( g, fdr_p_values, 0.05, "signif_edges/fdr005.txt" )
-        SignificantEdgesToTxt( g, fdr_p_values, 0.01, "signif_edges/fdr001.txt" )
+        return SignificantEdgesToList( g, fdr_p_values, p_value )
+    else:
+        not_input = copy.deepcopy( p_values )
+        return SignificantEdgesToList( g, not_input, p_value )
 
 def GetDistributionParameters( filename ):
-    data = AS.LoadArrayFromFile( filename )
+    data = np.load( filename )
     X = np.ones_like( data )
     res = sm.NegativeBinomial( data, X ).fit( start_params = [ 1,1 ])
     p = 1/( 1 + np.exp( res.params[0] )*res.params[1] )
     n = np.exp( res.params[0] )*p/( 1-p )
     return ( n, p )
 
-def GetDistributionParametersDir( filename ):
-    pre_data = AS.LoadArrayFromFile( filename )
-    data = tools.TwoDArrayToOneDArray( pre_data )
+def GetDistributionParametersDir( pre_data ):
+    data = TwoDArrayToOneDArray( pre_data )
     X = np.ones_like( data )
     res = sm.NegativeBinomial( data, X ).fit( start_params = [ 1,1 ])
     p = 1/( 1 + np.exp( res.params[0] )*res.params[1] )
@@ -60,7 +48,7 @@ def Make2DArrayInto1D( array ):
     return np.array( new_array )
 
 def PlotFil( filename ):
-    data = Make2DArrayInto1D( AS.LoadArrayFromFile( filename ) )
+    data = Make2DArrayInto1D( np.load( filename ) )
     print( data )
     n, p = GetDistributionParametersDir( filename )
     x_plot = np.linspace( 0, 50 )
@@ -85,8 +73,7 @@ def WriteEdgeTuplistToTxt( edgeTupList, filename ):
 
     f.close()
 
-
-def SignificantEdgesToTxt( g, p_values, threshold, out_filename ):
+def SignificantEdgesToList( g, p_values, threshold ):
     edgeTups = []
     
     visited = set()
@@ -125,6 +112,14 @@ def SignificantEdgesToTxt( g, p_values, threshold, out_filename ):
 
                 to_add = ( string, p_values[ID][1] )
                 AddEdgeToSortedArray( to_add, edgeTups )
+    signif_edges = []
+    for edge in edgeTups:
+        signif_edges.append( edge[ 0 ] )
+    return signif_edges
+    
+    
+def SignificantEdgesToTxt( g, p_values, threshold, out_filename ):
+    edgeTups = SignificantEdgesToList( g, p_values, threshold )
     WriteEdgeTuplistToTxt( edgeTups, out_filename )
 
 
@@ -157,9 +152,8 @@ def FDRCorrection( array ):
     return np.reshape( corrected[1], ( array.shape[0], array.shape[1]))    
 
 
-def MakeDistributionGraph( dataframe_csv, edge_visit_count_file ):
-    g = InitializeRandomWalkGraph( dataframe_csv )
-    visit_array = AS.LoadArrayFromFile( edge_visit_count_file )    
+def MakeDistributionGraph( dataframe, visit_array ):
+    g = InitializeRandomWalkGraph( dataframe )
     for i in range( len( g.es ) ):
         try:
             g.es[ i ][ "AB" ] = visit_array[ i ][ 0 ]

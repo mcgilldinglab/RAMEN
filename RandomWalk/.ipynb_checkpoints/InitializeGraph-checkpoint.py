@@ -1,7 +1,7 @@
 from igraph import*
-from ProcessDataframe import ProcessDataframe
+from .ProcessDataframe import ProcessDataframe
 import numpy as np
-import tools as tools
+from .tools import *
 import pandas as pd
 
 def InitializeMutualInfoMatrixGraph( dataframe ):
@@ -19,10 +19,8 @@ def InitializeMutualInfoMatrixGraph( dataframe ):
     return g
 
 #assumption here is that the csv_file has already been processed using ProcessDataframe
-def InitializeRandomWalkGraph( csv_file ):
+def InitializeRandomWalkGraph( dataframe ):
     g = Graph()
-    dataframe = pd.read_csv( csv_file )
-
     clinic_vars = list( dataframe.columns )
     slicing_index = GetStartVarIndex( clinic_vars )
     g.add_vertices( len( clinic_vars[ slicing_index: ] ) )
@@ -55,20 +53,6 @@ def CreateEdges( g ):
                 g.es[ID]["AB"] = []
                 g.es[ID]["BA"] = []
                 added.add((h,i))
-
-def InitializeProbabilityMatrix(MutualInfoMatrix):
-    Mutual = np.array(MutualInfoMatrix)
-    totals = Mutual.sum(axis = 1)
-    
-    size = len(MutualInfoMatrix)
-    prob_matrix = tools.CreateAdjMatrix(size, size)
-    for i in range(size):
-        for j in range(size):
-            if ( totals[i] == 0 ):
-                prob_matrix[i][j] = 0
-            else:
-                prob_matrix[i][j] = MutualInfoMatrix[i][j]/totals[i]
-    return prob_matrix
 
 def GetStartVarIndex( liste ):
     for i in range( len( liste ) ):

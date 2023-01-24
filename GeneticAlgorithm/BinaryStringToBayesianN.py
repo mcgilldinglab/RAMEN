@@ -1,9 +1,7 @@
-from operator import index
 import networkx as nx
 from pgmpy.models import BayesianNetwork
-import tools as tools
+from .tools import CreateAdjMatrix
 from pgmpy.estimators import K2Score
-import StructureLearningData as SLD
 
 
 def DictionaryToList( dictionary ):
@@ -49,7 +47,7 @@ def IncrementBinaryString( bin_string ):
 def NetworkTo2dMatrix( network, vertex_to_index ):
     size = len( vertex_to_index )
     network_as_edges = list( network.edges )
-    matrix = tools.CreateAdjMatrix( size, size )
+    matrix = CreateAdjMatrix( size, size )
     for i in range( len( network_as_edges ) ):
         index1 = vertex_to_index[ network_as_edges[i][0] ]
         index2 = vertex_to_index[ network_as_edges[i][1] ]

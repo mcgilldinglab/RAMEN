@@ -1,7 +1,7 @@
 from sklearn.linear_model import LogisticRegression
 import numpy as np
 import pandas as pd
-from ParameterComputerSklearn import ParameterComputer
+from .ParameterComputerSklearn import ParameterComputer
 import networkx as nx
 
 def ComputeParameter( network_edge_file, training_data_file, test_data_file ):

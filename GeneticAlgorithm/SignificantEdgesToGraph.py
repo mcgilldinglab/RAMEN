@@ -1,21 +1,20 @@
 import networkx as nx
 from pgmpy.models import BayesianNetwork
 import pandas as pd
-from TwoDMatrixIterator2 import IsDAG
+from .TwoDMatrixIterator2 import IsDAG
 import tools as tools
-import DisplayGraph as dg
+import .DisplayGraph as dg
 import ReadCSV as rcsv
 import pgmpy
 import timeit
 import copy    
 import pickle
-import GeneticAlgorithm as GA
-import CrossBreeder as TMI
-import BinaryStringToBayesianN as BSTB
+import .GeneticAlgorithm as GA
+import .CrossBreeder as TMI
+import .BinaryStringToBayesianN as BSTB
 import random
-from SortedList import SortedList
-from AdjMatrixStructure import AdjMatrix
-import DisplayGraph as DG
+from .SortedList import SortedList
+from .AdjMatrixStructure import AdjMatrix
 import numpy as np
 
 def InitializeVarToIndexDictionary( IndexToVarListe ):
@@ -199,55 +198,3 @@ def WriteEdgesToTxt( matrix, index_to_vertex ):
                 f.write( v1 + "---" + v2 )
                 f.write( "\n" )
     f.close()
-
-
-
-if __name__ == "__main__":
-    g = SignificantEdgesToGraph( "notcorrectedSorted11005.txt")
-    index_to_var_liste = list( g.nodes )
-    var_to_index_dict = InitializeVarToIndexDictionary( index_to_var_liste )
-    ScoringDataframe = pd.read_csv('ScoringDataframe.csv')
-
-    es = bidirectional_edges()
-    
-    scoredic = pickle.load(open('networkscores.pickle','rb'))
-    
-    
-    '''select top k candidates'''
-    k=10
-    firstnet = format(0, '#015b')[2:]
-    firstscore = scoredic[firstnet]
-    topk_b=[]
-    topk_scores=[]
-    for i in range(k):
-        topk_b.append(firstnet)
-        topk_scores.append(firstscore)
-    for representation in scoredic.keys():
-        score = scoredic[representation]
-        for i in range(k):
-            if (topk_scores[i] < score):
-                topk_scores[i] = score
-                topk_b[i] = representation
-                break
-    
-    
-    ''' get topk graphs and adjacency matrices'''
-    topk_g=[]
-    adjs=[]
-    for b in topk_b:
-        candidate = btog(b,es,g)
-        if nx.is_directed_acyclic_graph(candidate)==False:
-            print('not DAG!')
-        topk_g.append(candidate)
-        adj = BSTB.NetworkTo2dMatrix( candidate, var_to_index_dict )
-        adjs.append(adj)
-    
-    matrixObjs = []
-    for adj in adjs:
-        matrixObj = AdjMatrix( adj, index_to_var_liste, ScoringDataframe )
-        matrixObjs.append( matrixObj )
-
-    children = GA.GeneticRun( matrixObjs, 0.0001, 10, 10, 3, index_to_var_liste, ScoringDataframe )
-    bestDescendant = children[ 0 ].matrix
-    graph = BSTB.MatrixToNetwork( bestDescendant, index_to_var_liste )
-    WriteEdgesToTxt( bestDescendant, index_to_var_liste ) 
