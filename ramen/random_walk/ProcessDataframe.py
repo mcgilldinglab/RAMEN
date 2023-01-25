@@ -9,10 +9,10 @@ def ProcessDataframeNoSave( data_file, ref_save_name, bad_var_threshold = 500 ):
     print( "Starting removing vars with too few values, vectorizing dataframe, and initializing mutual information matrix, this might take a few minutes.")    
     start_col = len( dataframe.columns )
     DropBadVars( dataframe, bad_var_threshold )
-    dataframe = VectorizeDataframe( dataframe, ref_save_name )
+    dataframe, mapping = VectorizeDataframe( dataframe, ref_save_name )
     end_col = len( dataframe.columns )
     print( "Removed " + str( start_col - end_col ) + " variables because of insufficient data. If deleted too many, please adjust the bad_var_threshold" )
-    return dataframe
+    return dataframe, mapping
     
 
 #TODO NEED to fix a bug where if we just do clean neg and drop bad vars it works but with all the stuff above it doesn't work. Key Error
@@ -28,7 +28,7 @@ def ProcessDataframe( data_file, to_name, ref_save_name, bad_var_threshold = 500
     print( "dropping bad vars" )
     DropBadVars( dataframe, bad_var_threshold )
     print( "vectorizing dataframe" )
-    dataframe = VectorizeDataframe( dataframe, ref_save_name )
+    dataframe, mapping = VectorizeDataframe( dataframe, ref_save_name )
     end_col = len( dataframe.columns )
     print( "Removed " + str( start_col - end_col ) + "Variables because of insufficient data. If deleted too many, please adjust the bad_var_threshold" )
     dataframe.to_csv( to_name )

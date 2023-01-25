@@ -17,7 +17,6 @@ import numpy as np
 #scoring_dataframe is the dataframe we are going to use to score our graphs
 def GeneticRun( start_parents, end_thresh, mutate_numb, best_cand_num, bad_reprod_accept, scorer, hard_stop_counter ):
     print("starting Genetic Algorithm")
-    scoreLog = open( "ramen/output_objects/gen_score_by_iter.txt", "w")
     difference = 1
     previous_gen_best = -9999999
     current_bad_reprod = 0
@@ -27,7 +26,6 @@ def GeneticRun( start_parents, end_thresh, mutate_numb, best_cand_num, bad_repro
     while(  counter < hard_stop_counter ):
         next_Gen = MakeNextGen( lastGen, mutate_numb, best_cand_num, scorer )
         best = next_Gen[ 0 ].score
-        LogScoreAndEdges( scoreLog, next_Gen[ 0 ].matrix, next_Gen[ 0 ].score )
         difference = abs( best - previous_gen_best )
         print( "generation: " + str( counter ), end = " " )
         print( "best: " + str( best ) )
@@ -47,7 +45,6 @@ def GeneticRun( start_parents, end_thresh, mutate_numb, best_cand_num, bad_repro
         else:
             current_bad_reprod = 0
         counter += 1
-    scoreLog.close()
     return lastGen
 
 ################ Private Function Section #####################

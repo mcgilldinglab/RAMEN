@@ -10,7 +10,9 @@ from .genetic_algorithm.PickleSaver import Pickle, UnPickle
 class Ramen( object ):
     def __init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_string = "", bad_var_threshold = 500 ):
         assert( csv_data is not None )
-        self.df = ProcessDataframeNoSave( csv_data, ref_save_name, bad_var_threshold )
+        df, var_ref = ProcessDataframeNoSave( csv_data, ref_save_name, bad_var_threshold )
+        self.df = df
+        self.var_ref = var_ref
         self.mutual_info_array = MakeMutualInfoMatrixNoSave( self.df )
         self.signif_edges = None
         self.network = None

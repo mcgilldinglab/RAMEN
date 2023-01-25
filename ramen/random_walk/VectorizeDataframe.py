@@ -10,13 +10,8 @@ def VectorizeDataframe( dataframe, variable_ref_file ):
         liste = list( dataframe[ variables[i] ] )
         new_data_dict[ variables[i] ] = ConvertToVector( liste, variables[ i ], discr_var_dic )
     new_data_frame = pd.DataFrame( new_data_dict )
-    try:
-        discr_var_file = open( "ramen/output_objects/"+ variable_ref_file, 'wb' )
-        pickle.dump( discr_var_dic, discr_var_file )
-        discr_var_file.close()
-    except:
-        print( "Something went wrong when saving the reference dictionary for discrete variables" )
-    return new_data_frame
+    
+    return new_data_frame, discr_var_dic
 
 ###################### Private Function Section ######################
 
