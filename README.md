@@ -26,13 +26,13 @@ To install Ramen, run the following command "pip install git+https://github.com/
 To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The only mandatory parameter for the constructor is a csv for the data. The data should be processed before using Ramen. Ramen will discretize the data, and remove the variables that have a certain threshold of missing values. It is possible to adjust the threshold through the constructor or parameter of the Ramen object. To continue the next steps, a end_var must be set as well.
 
 ### Constuctor
-__init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_string = "", bad_var_threshold = 500 )\
+__init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_string = "", bad_var_threshold = 500 )
 * csv_data: This parameter is mandatory, it is the data in csv format. Preprocessing should be done before using it in Ramen. Missing values in the dataset should either be NaN or -999. Ramen will discretize the data to be used for the subsequent steps.
 * end_string: This parameter must be the name in string of the variable that is studied in the dataset. If it is not a variable in the dataset, it will raise an Assertion Error.
 * bad_var_threshold: All variables with less than this amount of non-missing values will be removed from the dataframe.
 
 ### Random Walk
-random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, mode = "default" )\
+random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, mode = "default" )
 * num_exp: Number of experiments in the random walk.
 * num_walks: Number of walks in one experiment of random walk.
 * num_steps: Number of steps per walk.
@@ -40,7 +40,7 @@ random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.0
 * mode: The correction to the p-value, currently "fdr" is implemented, otherwise, it defaults to "default", no correction.
 
 ### Genetic Algorithm
-genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100 )\
+genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100 )
 * num_candidates: The number of starting candidates.
 * end_thresh: If the increase in score from one generation to the next is less than 0.01, then it is considered a bad generation.
 * mutate_num: The number of mutation children for each candidate.
