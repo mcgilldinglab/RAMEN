@@ -27,26 +27,26 @@ To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen o
 
 ### Constuctor
 __init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_string = "", bad_var_threshold = 500 )\
-*csv_data: This parameter is mandatory, it is the data in csv format. Preprocessing should be done before using it in Ramen. Missing values in the dataset should either be NaN or -999. Ramen will discretize the data to be used for the subsequent steps.
-*end_string: This parameter must be the name in string of the variable that is studied in the dataset. If it is not a variable in the dataset, it will raise an Assertion Error.
-*bad_var_threshold: All variables with less than this amount of non-missing values will be removed from the dataframe.
+* csv_data: This parameter is mandatory, it is the data in csv format. Preprocessing should be done before using it in Ramen. Missing values in the dataset should either be NaN or -999. Ramen will discretize the data to be used for the subsequent steps.
+* end_string: This parameter must be the name in string of the variable that is studied in the dataset. If it is not a variable in the dataset, it will raise an Assertion Error.
+* bad_var_threshold: All variables with less than this amount of non-missing values will be removed from the dataframe.
 
 ### Random Walk
-random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, mode = "default" )
-*num_exp: Number of experiments in the random walk.
-*num_walks: Number of walks in one experiment of random walk.
-*num_steps: Number of steps per walk.
-*p_value: The p-value cutoff for the permutation test. Another standard cutoff is 0.01.
-*mode: The correction to the p-value, currently "fdr" is implemented, otherwise, it defaults to "default", no correction.
+random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, mode = "default" )\
+* num_exp: Number of experiments in the random walk.
+* num_walks: Number of walks in one experiment of random walk.
+* num_steps: Number of steps per walk.
+* p_value: The p-value cutoff for the permutation test. Another standard cutoff is 0.01.
+* mode: The correction to the p-value, currently "fdr" is implemented, otherwise, it defaults to "default", no correction.
 
 ### Genetic Algorithm
-genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100 )
-*num_candidates: The number of starting candidates.
-*end_thresh: If the increase in score from one generation to the next is less than 0.01, then it is considered a bad generation.
-*mutate_num: The number of mutation children for each candidate.
-*best_cand_num: The number of best candidates that is kept at each generation.
-*bad_reprod_accept: The number of bad generations accepted before terminating. This counter is reset whenever there is a good generation.
-*reg_factor: The score that is deducted for each edge in the network.
-*hard_stop: Maximum iteration before terminating.
+genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100 )\
+* num_candidates: The number of starting candidates.
+* end_thresh: If the increase in score from one generation to the next is less than 0.01, then it is considered a bad generation.
+* mutate_num: The number of mutation children for each candidate.
+* best_cand_num: The number of best candidates that is kept at each generation.
+* bad_reprod_accept: The number of bad generations accepted before terminating. This counter is reset whenever there is a good generation.
+* reg_factor: The score that is deducted for each edge in the network.
+* hard_stop: Maximum iteration before terminating.
 
 ## Example Pipeline
