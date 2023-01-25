@@ -1,11 +1,11 @@
 import pandas as pd
-from random_walk.ProcessDataframe import ProcessDataframeNoSave
-from random_walk.MutualInformation import MakeMutualInfoMatrixNoSave
-from random_walk.InitializeGraph import InitializeRandomWalkGraph
-from random_walk.RandomWalk import RunExperiments, RunExperiments, RunRandomExperiment
-from random_walk.Distribution import FitAndExtractSignificantEdges
-from genetic_algorithm.GeneticAlgorithmLauncher import StructuredLearningRun
-from genetic_algorithm.PickleSaver import Pickle, UnPickle
+from .random_walk.ProcessDataframe import ProcessDataframeNoSave
+from .random_walk.MutualInformation import MakeMutualInfoMatrixNoSave
+from .random_walk.InitializeGraph import InitializeRandomWalkGraph
+from .random_walk.RandomWalk import RunExperiments, RunExperiments, RunRandomExperiment
+from .random_walk.Distribution import FitAndExtractSignificantEdges
+from .genetic_algorithm.GeneticAlgorithmLauncher import StructuredLearningRun
+from .genetic_algorithm.PickleSaver import Pickle, UnPickle
 
 class Ramen( object ):
     def __init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_string = "", bad_var_threshold = 500 ):

@@ -11,7 +11,7 @@ def VectorizeDataframe( dataframe, variable_ref_file ):
         new_data_dict[ variables[i] ] = ConvertToVector( liste, variables[ i ], discr_var_dic )
     new_data_frame = pd.DataFrame( new_data_dict )
     try:
-        discr_var_file = open( "output_objects/"+ variable_ref_file, 'wb' )
+        discr_var_file = open( "ramen/output_objects/"+ variable_ref_file, 'wb' )
         pickle.dump( discr_var_dic, discr_var_file )
         discr_var_file.close()
     except:

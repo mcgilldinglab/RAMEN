@@ -17,7 +17,7 @@ import numpy as np
 #scoring_dataframe is the dataframe we are going to use to score our graphs
 def GeneticRun( start_parents, end_thresh, mutate_numb, best_cand_num, bad_reprod_accept, scorer, hard_stop_counter ):
     print("starting Genetic Algorithm")
-    scoreLog = open( "output_objects/gen_score_by_iter.txt", "w")
+    scoreLog = open( "ramen/output_objects/gen_score_by_iter.txt", "w")
     difference = 1
     previous_gen_best = -9999999
     current_bad_reprod = 0
