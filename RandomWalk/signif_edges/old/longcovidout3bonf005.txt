@@ -1,9 +1,0 @@
-Long Covid--- Long Covid: 0.0;;;TimesVisited: 84704.0
-Does the participant report persistent symptoms related to SARS-CoV-2 infection?--- Long Covid: 1.1102230246251565e-16;;;TimesVisited: 2281.6
-From which company did the participant receive the vaccine?--- Long Covid: 7.38631933394629e-10;;;TimesVisited: 1178.1
-How was this follow-up completed?--- Long Covid: 1.946603356284271e-08;;;TimesVisited: 955.1
-Country of birth:--- Long Covid: 9.211261331465437e-08;;;TimesVisited: 850.1
-Does the participant report persistent symptoms related to SARS-CoV-2 infection?--- Does the participant report persistent symptoms related to SARS-CoV-2 infection?: 1.4178077500925923e-07;;;TimesVisited: 821.7
-Usual activities, including work, study, housework, family or leisure activities:--- Long Covid: 4.4109161367877903e-07;;;TimesVisited: 745.2
-Shortness of breath (Dyspnea) ?--- Long Covid: 6.815365543033636e-07;;;TimesVisited: 716.9
-Breathlessness:--- Long Covid: 1.6088366208144578e-06;;;TimesVisited: 659.0

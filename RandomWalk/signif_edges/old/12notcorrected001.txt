@@ -1,3 +1,0 @@
-Shortness of breath (Dyspnea) ?--- Long Covid: 0.002313363875529828;;;TimesVisited: 1156.8
-Sex at birth:--- Sexe:: 0.009625814317673731;;;TimesVisited: 844.3
-Joint pain (Arthralgia) ?--- Long Covid: 0.009896703552622288;;;TimesVisited: 838.2

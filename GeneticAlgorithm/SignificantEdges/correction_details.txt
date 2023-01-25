@@ -1,2 +1,0 @@
-long_cov_sig are the significant edges for Long Covid. There are no correction to its p-values.
-sev_sig are the significant edges for Severity, we have taken a p-value of 0.05 with a FDR correction.
