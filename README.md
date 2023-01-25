@@ -25,7 +25,7 @@ To install Ramen, run the following command "pip install git+https://github.com/
 ## Usage
 To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The only mandatory parameter for the constructor is a csv for the data. The data should be processed before using Ramen. Ramen will discretize the data, and remove the variables that have a certain threshold of missing values. It is possible to adjust the threshold through the constructor or parameter of the Ramen object. To continue the next steps, a end_var must be set as well.
 
-### Constuctor
+### Constructor
 __init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_string = "", bad_var_threshold = 500 )
 * csv_data: This parameter is mandatory, it is the data in csv format. Preprocessing should be done before using it in Ramen. Missing values in the dataset should either be NaN or -999. Ramen will discretize the data to be used for the subsequent steps.
 * end_string: This parameter must be the name in string of the variable that is studied in the dataset. If it is not a variable in the dataset, it will raise an Assertion Error.
