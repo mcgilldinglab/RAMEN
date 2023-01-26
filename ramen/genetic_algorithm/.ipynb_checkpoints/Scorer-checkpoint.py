@@ -2,7 +2,6 @@ import sknetwork
 from pyitlib import discrete_random_variable as drv
 import numpy as np
 import math
-from sklearn.impute import KNNImputer
 import timeit
 import sys
 import math
