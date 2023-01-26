@@ -1,5 +1,4 @@
 # RAMEN Method Overview
-<p style='text-align: justify;'>
 The Ramen method is composed of two major components: random walks to select the most relevant variables to the COVID-19 outcomes (severity or long-COVID) 
 and build a draft candidate network; Genetic Algorithm to find the optimized network that represents the relationships between different clinical 
 variables based on the candidate network draft from the random walk. 
@@ -15,7 +14,6 @@ to search for the Bayesian network with a Genetic Algorithm. First, we will gene
 random walks. Next, we will crossover all those parent networks to produce offspring networks. Third, each of the offspring networks will mutate to 
 produce more candidate networks. Fourth, all these candidate networks (parents, offspring, and their mutations) will be scored to select the best networks 
 as the parents for the next generation. We will keep performing the above ‘evolution’ process until convergence to obtain the final relationship network.
-</p>
   
 ![PipelineGraph](https://user-images.githubusercontent.com/76263492/214885937-6d897412-17fe-42d8-82fe-5bcc3b587d24.png)
 
@@ -25,9 +23,7 @@ as the parents for the next generation. We will keep performing the above ‘evo
 To install Ramen, run the following command "pip install git+https://github.com/mcgilldinglab/RAMEN" on command prompt. 
 
 ## Usage
-<div style="text-align: justify">
 To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The data should be processed before using Ramen. Ramen will only remove the variables that have a certain threshold of missing values and discretize the data. It is possible to adjust the threshold through the constructor or parameter of the Ramen object. An end variable must also be set, so that RandomWalk terminates upon reaching the variable. After setting the parameters, Random Walk and Genetic Algorithm can be run (details below). Random Walk must be run before Genetic Algorithm, as the output from Random Walk is used as input for Genetic Algorithm to create the starting candidates.
-</div>
 
 ### Ramen Object Fields
 * __df__ (pandas.DataFrame): discretized dataframe, must be input when creating the object.
