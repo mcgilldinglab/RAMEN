@@ -63,10 +63,10 @@ genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 10
 After installing Ramen package using command above:
 
 
+<img width="1010" alt="Screen Shot 2023-01-26 at 10 28 55 AM" src="https://user-images.githubusercontent.com/76263492/214884830-fb6e61a1-c8df-418a-88e8-53e81918991d.png">
 
+<img width="996" alt="Screen Shot 2023-01-26 at 10 29 05 AM" src="https://user-images.githubusercontent.com/76263492/214884862-0b811731-3beb-407e-a5e0-385878e833d8.png">
 
-
-
-
+<img width="1000" alt="Screen Shot 2023-01-26 at 10 29 14 AM" src="https://user-images.githubusercontent.com/76263492/214884881-c33700c5-b2c0-4d73-b663-0b5c66a9370e.png">
 
 
