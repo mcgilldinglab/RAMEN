@@ -23,30 +23,50 @@ as the parents for the next generation. We will keep performing the above ‘evo
 To install Ramen, run the following command "pip install git+https://github.com/mcgilldinglab/RAMEN" on command prompt. 
 
 ## Usage
-To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The only mandatory parameter for the constructor is a csv for the data. The data should be processed before using Ramen. Ramen will discretize the data, and remove the variables that have a certain threshold of missing values. It is possible to adjust the threshold through the constructor or parameter of the Ramen object. To continue the next steps, a end_var must be set as well.
+To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The data should be processed before using Ramen. Ramen will only remove the variables that have a certain threshold of missing values and discretize the data. It is possible to adjust the threshold through the constructor or parameter of the Ramen object. An end variable must also be set, so that RandomWalk terminates upon reaching the variable. After setting the parameters, Random Walk and Genetic Algorithm can be run (details below). Random Walk must be run before Genetic Algorithm, as the output from Random Walk is used as input for Genetic Algorithm to create the starting candidates.
 
-### Constructor
+### Ramen Object Fields
+* df (pandas.DataFrame): discretized dataframe, must be input when creating the object.
+* var_ref (dictionary): dictionary mapping the real values to the discretized value e.g { variable: { "Yes" : 0, "No" : 1 } }.
+* end_string (string): variable indicating the termination node for random_walk. The string must represent a column in the dataframe.
+* mutual_info_array (np.array): 2D array continaining the mutual information for all pairs of variables, initialized at the constructor.
+* signif_edges (list): list containing all of the significant edges after random walk permutation test stored in string format. this field is None before running random_walk.
+* network (networkx.DiGraph): graph object of the final network after terminating RAMEN method. this is set to None before running genetic_algorithm.
+
+
+### Ramen Constructor
 __init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_string = "", bad_var_threshold = 500 )
-* csv_data: This parameter is mandatory, it is the data in csv format. Preprocessing should be done before using it in Ramen. Missing values in the dataset should either be NaN or -999. Ramen will discretize the data to be used for the subsequent steps.
-* end_string: This parameter must be the name in string of the variable that is studied in the dataset. If it is not a variable in the dataset, it will raise an Assertion Error.
-* bad_var_threshold: All variables with less than this amount of non-missing values will be removed from the dataframe.
+* csv_data (string: path for a csv file): This parameter is mandatory, it is the data in csv format. Preprocessing should be done before using it in Ramen. Missing values in the dataset should either be NaN or -999. Ramen will discretize the data to be used for the subsequent steps.
+* end_string (string): This parameter must be the name in string of the variable that is studied in the dataset. If it is not a variable in the dataset, it will raise an Assertion Error.
+* bad_var_threshold (int): All variables with less than this amount of non-missing values will be removed from the dataframe.
 
-### Random Walk
+### Random Walk Method
 random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, mode = "default" )
-* num_exp: Number of experiments in the random walk.
-* num_walks: Number of walks in one experiment of random walk.
-* num_steps: Number of steps per walk.
-* p_value: The p-value cutoff for the permutation test. Another standard cutoff is 0.01.
-* mode: The correction to the p-value, currently "fdr" is implemented, otherwise, it defaults to "default", no correction.
+* num_exp (int): Number of experiments in the random walk.
+* num_walks (int): Number of walks in one experiment of random walk.
+* num_steps (int): Number of steps per walk.
+* p_value (float): The p-value cutoff for the permutation test. Another standard cutoff is 0.01.
+* mode (string): The correction to the p-value, currently "fdr" is implemented, otherwise, it defaults to "default", no correction.
 
-### Genetic Algorithm
+### Genetic Algorithm Method
 genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100 )
-* num_candidates: The number of starting candidates.
-* end_thresh: If the increase in score from one generation to the next is less than 0.01, then it is considered a bad generation.
-* mutate_num: The number of mutation children for each candidate.
-* best_cand_num: The number of best candidates that is kept at each generation.
-* bad_reprod_accept: The number of bad generations accepted before terminating. This counter is reset whenever there is a good generation.
-* reg_factor: The score that is deducted for each edge in the network.
-* hard_stop: Maximum iteration before terminating.
+* num_candidates (int): The number of starting candidates.
+* end_thresh (float): If the increase in score from one generation to the next is less than the end_thresh, then it is considered a bad generation.
+* mutate_num (int): The number of mutation children for each candidate.
+* best_cand_num (int): The number of best candidates that is kept at each generation.
+* bad_reprod_accept (int): The number of bad generations accepted before terminating. This counter is reset whenever there is a good generation.
+* reg_factor (float): The score that is deducted for each edge in the network.
+* hard_stop (int): Maximum iteration before terminating.
 
 ## Example Pipeline
+
+After installing Ramen package using command above:
+
+
+
+
+
+
+
+
+
