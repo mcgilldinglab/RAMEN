@@ -15,7 +15,7 @@ random walks. Next, we will crossover all those parent networks to produce offsp
 produce more candidate networks. Fourth, all these candidate networks (parents, offspring, and their mutations) will be scored to select the best networks 
 as the parents for the next generation. We will keep performing the above ‘evolution’ process until convergence to obtain the final relationship network.
 
-![Y8%QE}`V(K11GO75 0PFS3N](https://user-images.githubusercontent.com/62433629/213577208-9bfea64a-84a3-4724-91ff-da09dc2aa5a9.png)
+![PipelineGraph](https://user-images.githubusercontent.com/76263492/214885937-6d897412-17fe-42d8-82fe-5bcc3b587d24.png)
 
 # Technical Summary
 
