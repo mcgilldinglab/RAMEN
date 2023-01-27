@@ -72,5 +72,5 @@ After installing Ramen package using command above:
 <img width="1000" alt="Screen Shot 2023-01-26 at 10 29 14 AM" src="https://user-images.githubusercontent.com/76263492/214884881-c33700c5-b2c0-4d73-b663-0b5c66a9370e.png">
 
 # Credits
-This repository is developped by __Yiwei Xiong__ and __Jingtao Wang__. We also have a webapp http://dinglab.rimuhc.ca/pgm/ to interact with networks developped by __Xiaoxiao Shang__.
+This repository is developped by __Yiwei Xiong__ and __Jingtao Wang__. We also have a webapp http://dinglab.rimuhc.ca/pgm/ to interact with networks developped by __Xiaoxiao Shang__. This project is done under the supervision of Professor Jun Ding.
 
