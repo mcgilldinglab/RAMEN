@@ -23,15 +23,15 @@ as the parents for the next generation. We will keep performing the above ‘evo
 To install Ramen, run the following command "pip install git+https://github.com/mcgilldinglab/RAMEN" on command prompt. 
 
 ## Usage
-To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The data should be processed before using Ramen. Ramen will only remove the variables that have a certain threshold of missing values and discretize the data. It is possible to adjust the threshold through the constructor or parameter of the Ramen object. An end variable must also be set, so that RandomWalk terminates upon reaching the variable. After setting the parameters, Random Walk and Genetic Algorithm can be run (details below). Random Walk must be run before Genetic Algorithm, as the output from Random Walk is used as input for Genetic Algorithm to create the starting candidates.
+To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The data should be processed before using Ramen. Ramen will only remove the variables that have a certain threshold of non missing values and discretize the data. It is possible to adjust the threshold through the constructor or field of the Ramen object. An end variable must also be set, so that RandomWalk terminates upon reaching the variable. After initializing the Ramen object, random_walk can be run. random_walk must be run before genetic_algorithm, as the output from Random Walk is used as input for Genetic Algorithm to create the starting candidates. genetic_algorithm will generate the final network.
 
 ### Ramen Object Fields
 * __df__ (pandas.DataFrame): discretized dataframe, must be input when creating the object.
 * __var_ref__ (dictionary): dictionary mapping the real values to the discretized value e.g { variable: { "Yes" : 0, "No" : 1 } }.
 * __end_string__ (string): variable indicating the termination node for random_walk. The string must represent a column in the dataframe.
 * __mutual_info_array__ (np.array): 2D array continaining the mutual information for all pairs of variables, initialized at the constructor.
-* __signif_edges__ (list): list containing all of the significant edges after random walk permutation test stored in string format. this field is None before running random_walk.
-* __network__ (networkx.DiGraph): graph object of the final network after terminating RAMEN method. this is set to None before running genetic_algorithm.
+* __signif_edges__ (list): list containing all of the significant edges after random walk permutation test stored in string format. This field is None and is initialized after termination of random_walk.
+* __network__ (networkx.DiGraph): graph object of the final network after terminating RAMEN method. This is set to None and initialized after termination of genetic_algorithm.
 
 
 ### Ramen Constructor
