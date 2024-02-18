@@ -98,30 +98,28 @@ def CheckMatrixOnlyOneAndZero( matrix ):
 def GetNeightbours( matrix, current ):
     neighbours = []
     neighbourhood = matrix[ current ]
-    for i in range( len( neighbourhood ) ):
-        if ( neighbourhood[ i ] == 1 ):
-            neighbours.append( i )
-    return neighbours
+    return np.where( neighbourhood == 1 )[ 0 ] 
 
 def FindEdgesToRemoveFromStart( matrix, start ):
-    edges_to_remove = []
-    stack = []
-    visited = [ 0 ]*len( matrix )
-    stack.insert( 0, start )
-    while( len( stack ) != 0 ):
-        popped = stack.pop( 0 )
-        neighbours = GetNeightbours( matrix, popped )
-        for neighbour in neighbours:
-            if ( visited[ neighbour ] == 0 ):
-                visited[ neighbour ] = 1
-                stack.insert( 0, neighbour )
-            else:
-                edge = ( popped, neighbour )
-                edges_to_remove.append( edge )
-    return edges_to_remove
+    visited = set()
+    stack = set()
 
+    def dfs( node ):
+        visited.add( node )
+        stack.add( node )
+        to_remove = []
+        for neighbor in GetNeightbours( matrix, node ):
+            if neighbor not in visited:
+                to_remove += dfs( neighbor )
+            elif neighbor in stack:
+                to_remove += [ ( node, neighbor ) ]
+        stack.remove(node)
+        return to_remove
+    
+    return dfs( start )
+    
 def RemoveCyclesMatrix( matrix ):
-    for i in range( len( matrix ) ):
+    for i in range( matrix.shape[ 0 ] ):
         edges_to_remove = FindEdgesToRemoveFromStart( matrix, i )
         for edge in edges_to_remove:
             x, y = edge
@@ -130,7 +128,7 @@ def RemoveCyclesMatrix( matrix ):
 def FindAllReachableEdges( matrix, start ):
     stack = []
     stack.insert( 0, start )
-    visited = [ 0 ]*len( matrix )
+    visited = [ 0 ] * matrix.shape[ 0 ]
     reachables = []
     while( len( stack ) != 0 ):
         popped = stack.pop( 0 )
@@ -155,7 +153,7 @@ def MakeConnected( matrix ):
             matrix[ starter ][ receiver ] = 1
 
 def FindIslands( matrix ):
-    size = len( matrix )
+    size = matrix.shape[ 0 ]
     reachableDict = {}
     for i in range( size ):
         reachableDict[ i ] = FindAllReachableEdges( matrix, i )
@@ -219,24 +217,4 @@ def GetPredecessors( matrix, index ):
         if ( matrix[ i ][ index ] == 1 ):
             predecessors.append( i )
     return predecessors
-
-def SimplifyStructure( matrix, index_to_vertex ):
-    severity = 'If a screening test for SARS-CoV-2 by PCR was performed, what is the most severe severity level (according to WHO) achieved?'
-    for i in range( len( matrix ) ):
-        if ( index_to_vertex[ i ] == severity ):
-            continue
-        predecessors = GetPredecessors( matrix, i )
-        if ( len( predecessors ) > 2 ):
-            to_keep = predecessors [ random.randint( 0, len( predecessors ) - 1 ) ]
-            for j in range( len( predecessors ) ):
-                if ( predecessors[ j ] != to_keep ):
-                    matrix[ predecessors[ j ] ][ i ] = 0
-
-def testing_imports():
-    print("bob")
                     
-        
-        
-        
-    
-    
