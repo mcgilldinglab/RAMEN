@@ -2,12 +2,9 @@ from .MatrixMutater import MutateMatrix
 from .Scorer import IsAcyclic, IsConnected
 from .SortedList import SortedList, MutationList
 from .CrossBreeder import Mate
-import timeit
 import multiprocessing
-import math
 import random
 import sknetwork
-import numpy as np
 
 #start_parents are the start candidates
 #end_thresh represents the minimum difference % from gen to gen for the algorithm to continue running

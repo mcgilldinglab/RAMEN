@@ -1,9 +1,7 @@
 from .CandidateMaker import MakeCandidates
 from .GeneticAlgorithm import GeneticRun
 from .Scorer import Scorer
-import pandas as pd
 import timeit
-import pickle
 from .GraphConverter import MatrixToNetwork
 
 def StructuredLearningRun( ScoringDataframe, significant_edges, num_candidates, end_thresh, mutate_num, best_cand_num, bad_reprod_accept, regular_factor, hard_stop_counter = 50 ):
