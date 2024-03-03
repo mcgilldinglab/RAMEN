@@ -1,4 +1,3 @@
-import pandas as pd
 from .random_walk.ProcessDataframe import ProcessDataframeNoSave
 from .random_walk.MutualInformation import MakeMutualInfoMatrixNoSave
 from .random_walk.InitializeGraph import InitializeRandomWalkGraph
@@ -9,7 +8,8 @@ from .genetic_algorithm.PickleSaver import Pickle, UnPickle
 
 class Ramen( object ):
     def __init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_string = "", bad_var_threshold = 500 ):
-        assert( csv_data is not None )
+        if (csv_data is None):
+            raise Exception("csv_data cannot be None.")
         df, var_ref = ProcessDataframeNoSave( csv_data, ref_save_name, bad_var_threshold )
         self.df = df
         self.var_ref = var_ref
@@ -17,9 +17,10 @@ class Ramen( object ):
         self.signif_edges = None
         self.network = None
         self.end_string = end_string
+        if (self.end_string not in list(self.df.columns)):
+            raise Exception("couldn't find end_string in the csv columns.")
         
     def random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, mode = "default" ):
-        assert( self.end_string in list( self.df.columns ) )
         g_rand = InitializeRandomWalkGraph( self.df )
         g = InitializeRandomWalkGraph( self.df )
         result_rand = RunRandomExperiment( g_rand, self.mutual_info_array, num_walks, num_steps, self.end_string )
@@ -27,18 +28,21 @@ class Ramen( object ):
         self.signif_edges = FitAndExtractSignificantEdges( self.df, result, result_rand, p_value, mode )
     
     def genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100 ):
-        assert ( self.signif_edges is not None )
+        if (self.signif_edges is None):
+            raise Exception("Cannot start genetic algorithm before running random walk.")
         self.network = StructuredLearningRun( self.df, self.signif_edges, num_candidates, end_thresh, mutate_num, best_cand_num, bad_reprod_accept, reg_factor, hard_stop )
     
     def pickle_signif_edges( self, filename ):
-        assert( self.signif_edges is not None )
+        if (self.signif_edges is None):
+            raise Exception("significant edges is None.")
         Pickle( self.signif_edges, filename )
     
     def load_signif_edges_pickle( self, filename ):
         self.signif_edges = UnPickle( filename )
     
     def pickle_final_network( self, filename ):
-        assert( self.network is not None )
+        if (self.network is None):
+            raise Exception("network is None.")
         Pickle( self.network, filename )
     
     def set_end_string( self, end_string ):
