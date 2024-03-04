@@ -6,21 +6,22 @@ from .random_walk.Distribution import FitAndExtractSignificantEdges
 from .genetic_algorithm.GeneticAlgorithmLauncher import StructuredLearningRun
 from .genetic_algorithm.PickleSaver import Pickle, UnPickle
 
+
 class Ramen( object ):
     def __init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_string = "", min_values = 500 ):
         """
         Constructor of the Ramen Object, which will be used to run random walk and genetic algorithm.
 
         Args:
-            csv_data (str): path to the data in csv form. This parameter is mandatory.
+            csv_data (str): path to the data in csv form.
             ref_save_name (str): when the csv is discretized, this is the mapping of the discrete values to the actual values.
-            end_string (str): the destination variable of absorbing random walk. This parameter is mandatory.
+            end_string (str): the destination variable of absorbing random walk.
 
         Returns:
             type: Ramen object
 
         Raises:
-            Exception: Exception is raised, if csv_data is not provided, and when the end_string is not in the dataset.
+            Exception: if csv_data is not provided, and when the end_string is not in the dataset.
         """
 
         if (csv_data is None):
@@ -34,6 +35,7 @@ class Ramen( object ):
         self.end_string = end_string
         if (self.end_string not in list(self.df.columns)):
             raise Exception("couldn't find end_string in the csv columns.")
+        
         
     def random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, correction = "no_correction" ):
         """
@@ -55,6 +57,7 @@ class Ramen( object ):
         result_rand = RunRandomExperiment( g_rand, self.mutual_info_array, num_walks, num_steps, self.end_string )
         result = RunExperiments( g, self.mutual_info_array, num_exp, num_walks, num_steps, self.end_string )
         self.signif_edges = FitAndExtractSignificantEdges( self.df, result, result_rand, p_value, correction )
+
     
     def genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100 ):
         """
@@ -79,6 +82,7 @@ class Ramen( object ):
             raise Exception("Cannot start genetic algorithm before running random walk.")
         self.network = StructuredLearningRun( self.df, self.signif_edges, num_candidates, end_thresh, mutate_num, best_cand_num, bad_reprod_accept, reg_factor, hard_stop )
     
+
     def pickle_signif_edges( self, filename = "signif_edges.pickle"):
         """
         Method to save the significant edges to a pickle object.
@@ -95,6 +99,7 @@ class Ramen( object ):
             raise Exception("significant edges is None.")
         Pickle( self.signif_edges, filename )
     
+
     def load_signif_edges_pickle( self, filename ):
         """
         Method to load the significant edges from a pickle object.
@@ -106,6 +111,7 @@ class Ramen( object ):
         """
         self.signif_edges = UnPickle( filename )
     
+
     def pickle_final_network( self, filename = "final_net.pickle"):
         """
         Method to save the final network as a NetworkX DiGraph.
@@ -121,6 +127,7 @@ class Ramen( object ):
             raise Exception("network is None.")
         Pickle( self.network, filename )
     
+
     def set_end_string( self, end_string ):
         """
         Method to modify the end_string of absorbing random walk.
@@ -146,6 +153,7 @@ class Ramen( object ):
             return None
         return self.signif_edges.copy()
     
+
     def set_signif_edges(self, signif_edges):
         """
         Set the significant edges.
@@ -157,6 +165,7 @@ class Ramen( object ):
         """
         self.signif_edges = signif_edges
     
+
     def get_var_ref(self):
         """
         get the discrete to variable value reference.
@@ -167,6 +176,7 @@ class Ramen( object ):
             type: dict
         """
         return self.var_ref
+    
     
     def get_mutual_info_array(self):
         """
