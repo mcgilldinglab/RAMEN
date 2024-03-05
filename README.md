@@ -20,10 +20,10 @@ as the parents for the next generation. We will keep performing the above ‘evo
 # Technical Summary
 
 ## Installation
-To install Ramen, go to project environment, and run
-```pip install git+https://github.com/mcgilldinglab/RAMEN```
+To install Ramen, go to the project environment, and run
+`pip install git+https://github.com/mcgilldinglab/RAMEN`
 
-Note that some other packages might need to be installed to run this package, if anaconda is used, then most of the dependencies will be present.
+Note that some other packages might need to be installed to run this package, if Anaconda is used, then most of the dependencies will be present.
 
 ## Usage
 To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The data should be processed before using Ramen. Ramen will only remove the variables that have a certain threshold of non missing values and discretize the data. It is possible to adjust the threshold through the constructor or field of the Ramen object. An end variable must also be set, so that RandomWalk terminates upon reaching the variable. After initializing the Ramen object, random_walk can be run. random_walk must be run before genetic_algorithm, as the output from Random Walk is used as input for Genetic Algorithm to create the starting candidates. genetic_algorithm will generate the final network.
@@ -39,19 +39,19 @@ To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen o
 ### Ramen Constructor
 __init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_string = "", bad_var_threshold = 500 )
 * __csv_data__ (string: path for a csv file): This parameter is mandatory, it is the data in csv format. Preprocessing should be done before using it in Ramen. Missing values in the dataset should either be NaN or -999. Ramen will discretize the data to be used for the subsequent steps.
-* __end_string__ (string): This parameter must be the name in string of the variable that is studied in the dataset. If it is not a variable in the dataset, it will raise an Assertion Error.
-* __bad_var_threshold__ (int): All variables with less than this amount of non-missing values will be removed from the dataframe.
+* __end_string__ (string): This parameter must be the name in string of the variable that is studied in the dataset. If it is not a variable in the dataset, it will raise an Exception.
+* __min_values__ (int): All variables with less than this amount of non-missing values will be removed from the dataframe.
 
 ### Random Walk Method
-random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, mode = "default" )
+__random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, mode = "default" )__
 * __num_exp__ (int): Number of experiments in the random walk.
 * __num_walks__ (int): Number of walks in one experiment of random walk.
 * __num_steps__ (int): Number of steps per walk.
 * __p_value__ (float): The p-value cutoff for the permutation test. Another standard cutoff is 0.01.
-* __mode__ (string): The correction to the p-value, currently "fdr" is implemented, otherwise, it defaults to "default", no correction.
+* __correction__ (string): The correction to the p-value, currently "fdr" is implemented, otherwise, it defaults to "no_correction".
 
 ### Genetic Algorithm Method
-genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100 )
+__genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100 )__
 * __num_candidates__ (int): The number of starting candidates.
 * __end_thresh__ (float): If the increase in score from one generation to the next is less than the end_thresh, then it is considered a bad generation.
 * __mutate_num__ (int): The number of mutation children for each candidate.
@@ -59,6 +59,28 @@ genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 10
 * __bad_reprod_accept__ (int): The number of bad generations accepted before terminating. This counter is reset whenever there is a good generation.
 * __reg_factor__ (float): The score that is deducted for each edge in the network.
 * __hard_stop__ (int): Maximum iteration before terminating.
+
+### Other methods
+__pickle_signif_edges(self, filename = "significant_edges.pickle")__ -> save signif_edges to a pickle file.
+* __filename__ (str): save path of pickle.
+
+__load_signif_edges_pickle(self, filename)__ -> load signif_edges from a pickle file
+* __filename__ (str): the path of the pickle saving the significant edges.
+
+__pickle_final_network(self, filename)__ -> save final network to a pickle object
+* __filename__ (str): save path of pickle.
+
+__set_end_string(self, end_string)__ -> set the end_string
+* __end_string__ (str): new end string
+
+__get_signif_edges(self)__ -> get the signif_edges
+
+__set_signif_edges(self, signif_edges)__ -> set the signif_edges field
+* __signif_edges__ (list): set the significant edges to be a new list of edges.
+
+__get_var_ref(self)__ -> get the variable values mapping created from discretization
+
+__get_mutual_info_array(self)__ -> get the mutual information matrix
 
 ## Example usage
 
