@@ -30,7 +30,7 @@ def ProcessDataframe( data_file, to_name, ref_save_name, bad_var_threshold = 500
     print( "vectorizing dataframe" )
     dataframe, mapping = VectorizeDataframe( dataframe, ref_save_name )
     end_col = len( dataframe.columns )
-    print( "Removed " + str( start_col - end_col ) + "Variables because of insufficient data. If deleted too many, please adjust the bad_var_threshold" )
+    print( "Removed " + str( start_col - end_col ) + "Variables because of insufficient data. If deleted too many, please adjust the min_values" )
     dataframe.to_csv( to_name )
     print( "Processing Done :)")
     print( "Processed csv saved to " + to_name )
