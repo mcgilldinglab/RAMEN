@@ -1,3 +1,7 @@
+# Documentation
+
+https://ramen20.readthedocs.io/
+
 # RAMEN Method Overview
 The Ramen method is composed of two major components: random walks to select the most relevant variables to the COVID-19 outcomes (severity or long-COVID) 
 and build a draft candidate network; Genetic Algorithm to find the optimized network that represents the relationships between different clinical 
