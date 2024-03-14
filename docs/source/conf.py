@@ -5,7 +5,7 @@ import os, sys
 
 sys.path.insert(0, os.path.abspath('.'))
 
-project = 'RAMEN'
+project = 'Ramen'
 version = '1.0.0'
 release = '1.0.0'
 author = "Yi Wei Xiong - Jing Tao Wang"
