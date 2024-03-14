@@ -2,13 +2,9 @@ r"""
 Sphinx configuration
 """
 import os, sys
-import inspect
-import sphinx_autodoc_typehints
 
-sys.path.insert(0, os.path.abspath('../..'))
+sys.path.insert(0, os.path.abspath('.'))
 
-
-import ramen
 project = 'RAMEN'
 version = '1.0.0'
 release = '1.0.0'
