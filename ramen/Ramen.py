@@ -32,29 +32,29 @@ class Ramen( object ):
             raise Exception("couldn't find end_string in the csv columns.")
         
         
-    # def random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, correction = "no_correction" ):
-    #     """Method to begin the absorbing random walk once the Ramen object is initialized. The significant edges will be stored in ramen_object.signif_edges.
+    def random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, correction = "no_correction" ):
+        """Method to begin the absorbing random walk once the Ramen object is initialized. The significant edges will be stored in ramen_object.signif_edges.
 
-    #     :param num_exp the number of random walk experiments. (default value is 10).
-    #     :type num_exp: int
-    #     :param num_walks: the number of random walks per experiment. (default value is 50000)
-    #     :type num_walks: int
-    #     :param num_steps: the number of steps per random walk. (default value is 7)
-    #     :type num_steps: int
-    #     :param p_value: the cutoff value to determine significance of edge visits. An edge is significant if it is below p_value. (default value is 0.05)
-    #     :type p_value: float
-    #     :param correction: choose correction method on the significant edges p-values. (supported correction: ["fdr", "no_correction"])
-    #     :type correction: str
+        :param num_exp the number of random walk experiments. (default value is 10).
+        :type num_exp: int
+        :param num_walks: the number of random walks per experiment. (default value is 50000)
+        :type num_walks: int
+        :param num_steps: the number of steps per random walk. (default value is 7)
+        :type num_steps: int
+        :param p_value: the cutoff value to determine significance of edge visits. An edge is significant if it is below p_value. (default value is 0.05)
+        :type p_value: float
+        :param correction: choose correction method on the significant edges p-values. (supported correction: ["fdr", "no_correction"])
+        :type correction: str
 
-    #     :return: None
-    #     :rtype: None
-    #     """
+        :return: None
+        :rtype: None
+        """
 
-    #     g_rand = InitializeRandomWalkGraph( self.df )
-    #     g = InitializeRandomWalkGraph( self.df )
-    #     result_rand = RunRandomExperiment( g_rand, self.mutual_info_array, num_walks, num_steps, self.end_string )
-    #     result = RunExperiments( g, self.mutual_info_array, num_exp, num_walks, num_steps, self.end_string )
-    #     self.signif_edges = FitAndExtractSignificantEdges( self.df, result, result_rand, p_value, correction )
+        g_rand = InitializeRandomWalkGraph( self.df )
+        g = InitializeRandomWalkGraph( self.df )
+        result_rand = RunRandomExperiment( g_rand, self.mutual_info_array, num_walks, num_steps, self.end_string )
+        result = RunExperiments( g, self.mutual_info_array, num_exp, num_walks, num_steps, self.end_string )
+        self.signif_edges = FitAndExtractSignificantEdges( self.df, result, result_rand, p_value, correction )
 
     
     def genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100 ):
