@@ -24,7 +24,7 @@ This section provides documentation for public APIs for RAMEN
 
       Method to begin the absorbing random walk once the Ramen object is initialized. The significant edges will be stored in ramen_object.signif_edges.
 
-      :param: num_exp the number of random walk experiments. (default value is 10).
+      :param num_exp: the number of random walk experiments. (default value is 10).
       :type num_exp: int
       :param num_walks: the number of random walks per experiment. (default value is 50000)
       :type num_walks: int
