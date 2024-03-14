@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 
 
 import ramen
-project = 'scSemiProfiler'
+project = 'RAMEN'
 version = '1.0.0'
 release = '1.0.0'
 author = "Jingtao Wang"
@@ -76,8 +76,7 @@ templates_path = ['_templates']
 
 source_suffix = '.rst'
 master_doc = 'index'
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store',\
-'scSemiProfiler.fast_generator.reparameterize_gaussian', 'scSemiProfiler.fast_generator.AdversarialTrainingPlan']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_show_sourcelink = True
 set_type_checking_flag = True
