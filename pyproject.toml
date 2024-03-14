@@ -3,11 +3,11 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "scSemiProfiler"
-authors = [{name = "Jingtao Wang", email = "jingtao.wang@mail.mcgill.ca"}]
+name = "RAMEN"
+authors = [{name = "Yi Wei Xiong, email = "yiwei.xiong@mail.mcgill.ca"}, {name = "Jing Tao Wang, email = "jingtao.wang@mail.mcgill.ca"}]
 dynamic = ["version", "description"]
     dependencies = [
-    'numpy>= 1.26.2',
+    'numpy>= 1.26.2',q
     'scanpy>= 1.9.6',
     'scipy>= 1.11.4',
     'anndata>= 0.10.3',
