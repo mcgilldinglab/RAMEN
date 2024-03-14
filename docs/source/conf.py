@@ -12,7 +12,7 @@ import ramen
 project = 'RAMEN'
 version = '1.0.0'
 release = '1.0.0'
-author = "Jingtao Wang"
+author = "Yi Wei Xiong - Jing Tao Wang"
 copyright = "McGill Ding Lab, 2023"
 
 
