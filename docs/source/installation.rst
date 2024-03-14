@@ -16,4 +16,6 @@ Second, create a new conda environment and activate it::
 Installing RAMEN
 -------------------------
 
-Download RAMEN package from the `pip install git+https://github.com/mcgilldinglab/RAMEN`_,
+Download RAMEN package:: 
+    
+    pip install git+https://github.com/mcgilldinglab/RAMEN
