@@ -88,7 +88,7 @@ __get_mutual_info_array(self)__ -> get the mutual information matrix
 
 ## Example usage
 
-After installing Ramen package using command above:
+After installing Ramen package using the command above:
 
 ### Initializing Ramen object
 <img width="1010" alt="Screen Shot 2023-01-26 at 10 28 55 AM" src="https://user-images.githubusercontent.com/76263492/214884830-fb6e61a1-c8df-418a-88e8-53e81918991d.png">
@@ -100,5 +100,7 @@ After installing Ramen package using command above:
 <img width="1000" alt="Screen Shot 2023-01-26 at 10 29 14 AM" src="https://user-images.githubusercontent.com/76263492/214884881-c33700c5-b2c0-4d73-b663-0b5c66a9370e.png">
 
 # Credits
-This repository is developped by __Yiwei Xiong__ and __Jingtao Wang__. We also have a webapp http://dinglab.rimuhc.ca/pgm/ to interact with networks developped by __Xiaoxiao Shang__. This project is done under the supervision of Professor Jun Ding.
+This repository is developed by __Yiwei Xiong__ and __Jingtao Wang__. We also have a web app http://dinglab.rimuhc.ca/pgm/ to interact with networks developed by __Xiaoxiao Shang__. This project is done under the supervision of Professor __Jun Ding__.
+
+__Tingting Chen__ processed data allowing us to test our methods. Professor __Douglas D. Fraser__ provided an alternative dataset allowing us to check our method on an alternative dataset. Professor __Gregory Fonseca__ and __Simon Rousseau__ provided the dataset on which the method is built and provided insights into biology knowledge.
 
