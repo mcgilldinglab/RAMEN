@@ -9,5 +9,5 @@ The Ramen method is composed of two major components: random walks to select the
 
    installation
    api
-   example.rst
+   usage_example
    credits
