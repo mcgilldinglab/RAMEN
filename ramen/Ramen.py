@@ -72,3 +72,4 @@ class Ramen( object ):
     
     def get_mutual_info_array(self):
         return self.mutual_info_array
+        
