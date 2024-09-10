@@ -25,7 +25,7 @@ as the parents for the next generation. We will keep performing the above ‘evo
 
 ## Installation
 To install Ramen, go to the project environment, and run
-`pip install git+https://github.com/mcgilldinglab/RAMEN`
+`pip install git+https://github.com/mcgilldinglab/RAMEN@main`
 
 Note that some other packages might need to be installed to run this package, if Anaconda is used, then most of the dependencies will be present.
 
