@@ -35,7 +35,6 @@ def GeneticRun( start_parents, end_thresh, mutate_numb, best_cand_num, bad_repro
         
         if ( bad_reprod ):
             if ( current_bad_reprod > bad_reprod_accept ):
-                scoreLog.close()
                 return next_Gen
             else:
                 current_bad_reprod += 1
