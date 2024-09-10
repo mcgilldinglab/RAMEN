@@ -2,7 +2,6 @@ import multiprocessing
 import random
 from .tools import SetNextToItself, Shuffle2DMatrix, CreateArrayOfZeros, RollRandom, AverageListValue, CreateAdjMatrix
 from .ExpEdgeVisitTracker import EdgeVisitTracker
-import numpy as np
 import copy
 
 def RunExperiments( g, mutual_info_matrix, times, numb_walks, numb_steps, end_string ):

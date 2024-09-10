@@ -1,6 +1,5 @@
 from .Discretization import Discretize
 import pandas as pd
-import pickle
 
 def VectorizeDataframe( dataframe, variable_ref_file ):
     new_data_dict = {}

@@ -5,7 +5,7 @@ def Pickle( to_pickle, filename ):
     pickle.dump( to_pickle, pickle_file )
     pickle_file.close()
 
-def UnPickle( file ):
+def UnPickle( filename ):
     pickle_file = open( filename, "rb" )
     obj = pickle.load( pickle_file )
     pickle_file.close()
