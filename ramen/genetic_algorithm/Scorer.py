@@ -1,10 +1,6 @@
 import sknetwork
 from pyitlib import discrete_random_variable as drv
 import numpy as np
-import math
-import timeit
-import sys
-import math
 
 class Scorer( object ):
     def __init__( self, index_to_vertex, scoring_dataframe, regular_factor, var_to_index_dict ):

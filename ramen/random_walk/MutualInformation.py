@@ -1,5 +1,5 @@
 import numpy as np
-from pyitlib import discrete_random_variable as drv
+from sklearn.metrics import mutual_info_score
 import random
 from .tools import CreateAdjMatrix
 from .InitializeGraph import InitializeMutualInfoMatrixGraph
@@ -72,6 +72,4 @@ def ComputeMutualInformationVar( var1, var2 ):
     if ( len(x1) == 0 ):
         return 0
     else: 
-        return drv.entropy( x1 ) - drv.entropy_conditional( x1, x2 )
-        
-        #return drv.information_mutual( x1.reshape( 1, x1.shape[0] ), x2.reshape( 1, x2.shape[0] ) )
+        return mutual_info_score(x1, x2)
