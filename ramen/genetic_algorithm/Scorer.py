@@ -1,5 +1,5 @@
 import sknetwork
-from pyitlib import discrete_random_variable as drv
+from collections import Counter
 import numpy as np
 
 class Scorer( object ):
@@ -60,9 +60,9 @@ def ScoreEntireGraphFromAdjMatrix( matrix, regular_factor, all_patients ):
         parents_and_node = MakeEvaluationMatrix( to_score, all_patients )
         
         if ( parents.size != 0 ):
-            score = - ( drv.entropy_joint( parents_and_node ) - drv.entropy_joint( parents ) )
+            score = - ( compute_joint_entropy( parents_and_node ) - compute_joint_entropy( parents ) )
         else:
-            score = - ( drv.entropy_joint( parents_and_node ) )
+            score = - ( compute_joint_entropy( parents_and_node ) )
         if ( score > 0 ):
             score = 0
         elif ( np.isnan(score) ):
@@ -89,3 +89,16 @@ def MakeEvaluationMatrix( indices_to_evaluate, variables ):
     eval_matrix = variables[ indices_to_evaluate ]
     mask = ( eval_matrix.sum(axis=0) >= 0 )
     return eval_matrix[ :, mask ]
+
+def compute_joint_entropy(random_var_list):
+    joint_values = list(zip(*random_var_list))
+    joint_count = Counter(joint_values)
+
+    total_count = sum(joint_count.values())
+
+    joint_probabilities = np.array([count / total_count for count in joint_count.values()])
+
+    non_zero_probs = joint_probabilities[joint_probabilities > 0]
+    entropy = -np.sum(non_zero_probs * np.log2(non_zero_probs))
+
+    return entropy
