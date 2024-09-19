@@ -39,9 +39,9 @@ def ScoreSelectNodesFromAdjMatrix( matrix, nodes_to_score, regular_factor, all_p
         to_score = np.append( to_score, [ nodes_to_score[ i ] ] )
         parents_and_node = MakeEvaluationMatrix( to_score, all_patients )
         if ( parents.size != 0 ):
-            score = - ( drv.entropy_joint( parents_and_node ) - drv.entropy_joint( parents ) )
+            score = - ( compute_joint_entropy( parents_and_node ) - compute_joint_entropy( parents ) )
         else:
-            score = - ( drv.entropy_joint( parents_and_node ) )
+            score = - ( compute_joint_entropy( parents_and_node ) )
         if ( score > 0 ):
             score = 0
         elif ( np.isnan(score) ):
