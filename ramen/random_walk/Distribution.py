@@ -123,8 +123,8 @@ def make_distribution_graph(dataframe, visit_array):
 def make_edge_visit_dictionary(graph):
     edge_dict = {}
     for edge in graph.es:
-        node1 = graph.vs[edge.source]['name']
-        node2 = graph.vs[edge.target]['name']
+        node1 = graph.vs[edge.source]["clinic_vars"]
+        node2 = graph.vs[edge.target]["clinic_vars"]
 
         edge_dict[(node1, node2)] = edge['AB']
         edge_dict[(node2, node1)] = edge['BA']
