@@ -17,6 +17,7 @@ class Ramen(object):
         self.mutual_info_array = make_mutual_info_matrix_no_save(self.df)
         self.signif_edges = None
         self.network = None
+        self.edge_visit_dict = None
         self.end_string = end_string
         if self.end_string not in list(self.df.columns):
             raise Exception("couldn't find end_string in the csv columns.")
@@ -27,7 +28,9 @@ class Ramen(object):
         g = initialize_random_walk_graph(self.df)
         result_rand = run_random_experiments(g_rand, self.mutual_info_array, num_walks, num_steps, self.end_string)
         result = run_experiments(g, self.mutual_info_array, num_exp, num_walks, num_steps, self.end_string)
-        self.signif_edges = fit_and_extract_significant_edges(self.df, result, result_rand, p_value, correction)
+        signif_edges, edge_visits_dic = fit_and_extract_significant_edges(self.df, result, result_rand, p_value, correction)
+        self.signif_edges = signif_edges
+        self.edge_visit_dict = edge_visits_dic
 
     
     def genetic_algorithm(self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100):
@@ -51,10 +54,18 @@ class Ramen(object):
             raise Exception("network is None.")
         Pickle(self.network, filename)
 
+
     def pickle_var_ref(self, filename = "var_ref.pickle"):
         if self.var_ref is None:
             raise Exception("no variable reference.")
         Pickle(self.var_ref, filename)
+
+
+    def pickle_edge_visits(self, filename = "edge_visits.pickle"):
+        if self.edge_visit_dict is None:
+            raise Exception("no variable reference.")
+        Pickle(self.edge_visit_dict, filename)
+
 
     def set_end_string(self, end_string):
         self.end_string = end_string
@@ -64,7 +75,13 @@ class Ramen(object):
         if self.get_signif_edges is None:
             return None
         return self.signif_edges.copy()
-    
+
+
+    def get_edge_visit_dict(self):
+        if self.edge_visit_dict is None:
+            return None
+        return self.edge_visit_dict
+
 
     def set_signif_edges(self, signif_edges):
         self.signif_edges = signif_edges

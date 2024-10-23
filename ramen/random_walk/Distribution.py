@@ -1,5 +1,5 @@
 from .InitializeGraph import initialize_random_walk_graph
-
+from igraph import*
 import numpy as np
 from scipy.stats import nbinom
 import statsmodels.api as sm
@@ -8,6 +8,7 @@ import copy
 
 def fit_and_extract_significant_edges(dataframe, rw_result, random_result, p_value = 0.05, mode = "default"):
     g = make_distribution_graph(dataframe, rw_result)
+    edge_visit_dict = make_edge_visit_dictionary(g)
 
     (n, p) = get_distribution_parameters_dir(random_result)
 
@@ -16,10 +17,10 @@ def fit_and_extract_significant_edges(dataframe, rw_result, random_result, p_val
     if (mode == "fdr"):
         fdr_input = copy.deepcopy(p_values)
         fdr_p_values = fdr_correction(fdr_input)
-        return significant_edges_to_list(g, fdr_p_values, p_value)
+        return significant_edges_to_list(g, fdr_p_values, p_value), edge_visit_dict
     else:
         not_input = copy.deepcopy(p_values)
-        return significant_edges_to_list(g, not_input, p_value)
+        return significant_edges_to_list(g, not_input, p_value), edge_visit_dict
 
 def get_distribution_parameters_dir(pre_data):
     data = np.array(pre_data).flatten()
@@ -119,4 +120,13 @@ def make_distribution_graph(dataframe, visit_array):
             print(str(i) + " " + "failed")
     return g
 
-    
+def make_edge_visit_dictionary(graph):
+    edge_dict = {}
+    for edge in graph.es:
+        node1 = graph.vs[edge.source]['name']
+        node2 = graph.vs[edge.target]['name']
+
+        edge_dict[(node1, node2)] = edge['AB']
+        edge_dict[(node2, node1)] = edge['BA']
+    return edge_dict
+
