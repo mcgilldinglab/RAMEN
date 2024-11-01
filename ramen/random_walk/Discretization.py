@@ -1,68 +1,46 @@
 import numpy as np
-import pandas as pd
 
-def Discretize( dataEntries ):
-    discretized = []
+def discretize(variable_values):
+    non_nan_indices = get_non_missing_value_indices(variable_values)
+    possible_values = get_all_possible_values(variable_values, non_nan_indices)
 
-    NonNanIndices = NonMissingValuesIndices( dataEntries )
-    CompleteValues = GetCompleteValuesFromIndices( dataEntries, NonNanIndices )
-
-    xmax = int( max( CompleteValues ) ) + 1
-    xmin = int( min( CompleteValues ) )
+    xmax = int(max(possible_values)) + 1
+    xmin = int(min(possible_values))
     
     bins_mapping = {}
-    bins = BuildBins( xmin, xmax, 10 )
-    for i in range( len( bins ) - 1 ):
-        bins_mapping[ ( bins[ i ], bins[ i + 1 ] ) ] = i
-    discretized = list( np.digitize( CompleteValues, bins ) )
+    bins = build_bins(xmin, xmax, 10)
+    for i in range(len(bins) - 1):
+        bins_mapping[(bins[i], bins[i + 1])] = i
+    discretized = list(np.digitize(possible_values, bins))
 
-    UpdateDataEntries( dataEntries, NonNanIndices, discretized )
+    update_variable_values(variable_values, non_nan_indices, discretized)
 
-    return dataEntries, bins_mapping
+    return variable_values, bins_mapping
 
 ###################### Private Function Section ######################
 
-# this creates the bins necessary for discretizing
-
-def BuildBins( start, end, num_bins ):
+def build_bins(start, end, num_bins):
     increment = (end - start)/num_bins
     current = start
     bins = []
-    for i in range( num_bins + 1 ):
-        bins.append( current )
+    for i in range(num_bins + 1):
+        bins.append(current)
         current += increment
     return bins
 
-def UpdateDataEntries( liste, indices, completeValues ):
-    for i in range( len( completeValues ) ):
-        liste[indices[i]] = completeValues[i]
+def update_variable_values(variable_values, indices, complete_values):
+    for i in range(len(complete_values)):
+        variable_values[indices[i]] = complete_values[i]
 
-def NonMissingValuesIndices( liste ):
+def get_non_missing_value_indices(values):
     indices = []
-    for i in range( len( liste ) ):
-        if ( liste[i] != -999 ):
-            indices.append( i )
+    for i in range(len(values)):
+        if (values[i] != -999):
+            indices.append(i)
     return indices
 
-def GetCompleteValuesFromIndices( liste, indices ):
+def get_all_possible_values(variable_values, indices):
     values = []
-    for i in range( len( indices ) ):
-        values.append( liste[ indices[i] ] )
+    for i in range(len(indices)):
+        values.append(variable_values[indices[i]])
     return values
-
-# Not really necessary
-def FixAge():
-    dataframe = pd.read_csv("ScoringDataframeT1.csv")
-    
-    age_string = ""
-    for col in dataframe.columns:
-        if ("ge au recrutement" in col):
-            age_string = col
-    age_column = list(dataframe[age_string])
-    for i in range(len(age_column)):
-        value = float(age_column[i])
-        value = value*10+5
-        age_column[i] = value
-    dataframe["Age au recrutement"] = age_column
-    dataframe.drop(age_string, inplace = True, axis = 1)
-    dataframe.to_csv("ScoringDataframeT11.csv")
