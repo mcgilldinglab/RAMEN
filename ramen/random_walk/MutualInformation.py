@@ -16,7 +16,7 @@ def initialize_mutual_info_matrix(g):
     random_var2 = np.random.randint(0, 10, vector_matrix.shape[1])
     mi_tracker = []
     for i in range(100):
-        mi_tracker.append(compute_pair_mi_for_vars(random_var1, random_var2))
+        mi_tracker.append(compute_pair_mi(random_var1, random_var2))
     mi_tracker.sort()
     lower_bound = mi_tracker[-5]
     mi_matrix = compute_pair_mi_for_vars(vector_matrix, lower_bound)
