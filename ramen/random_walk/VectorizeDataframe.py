@@ -15,7 +15,7 @@ def vectorize_dataframe(dataframe):
 ###################### Private Function Section ######################
 
 def convert_variable_to_discrete(variable_values, var_name, discr_var_dic):
-    if (is_variable_continuous(variable_values)):
+    if is_variable_continuous(variable_values):
         values, mapping = discretize(variable_values)
         discr_var_dic[var_name] = mapping
         return values
@@ -33,7 +33,7 @@ def convert_variable_to_discrete(variable_values, var_name, discr_var_dic):
                 newlist.append(tracker[stringBuffer])
         tracker.pop("-999")
         tracker.pop("-999.0")
-        discr_var_dic[variable_values] = tracker
+        discr_var_dic[var_name] = tracker
         return newlist
 
 def is_variable_continuous(variable_values):
