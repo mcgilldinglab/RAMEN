@@ -35,7 +35,7 @@ class Ramen(object):
 
     
     def genetic_algorithm(self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100):
-        if self.signif_edges is None:
+        if len(self.signif_edges) == 0:
             raise Exception("Cannot start genetic algorithm before running random walk.")
         self.network = StructuredLearningRun(self.df, self.signif_edges, num_candidates, end_thresh, mutate_num, best_cand_num, bad_reprod_accept, reg_factor, hard_stop)
 
@@ -56,14 +56,10 @@ class Ramen(object):
 
 
     def get_signif_edges(self):
-        if self.get_signif_edges is None:
-            return None
         return self.signif_edges.copy()
 
 
     def get_edge_visit_dict(self):
-        if self.edge_visit_dict is None:
-            return None
         return self.edge_visit_dict
 
 
