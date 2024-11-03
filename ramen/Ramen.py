@@ -4,14 +4,14 @@ from .random_walk.InitializeGraph import initialize_random_walk_graph
 from .random_walk.RandomWalk import run_experiments, run_random_experiments
 from .random_walk.Distribution import fit_and_extract_significant_edges
 from .genetic_algorithm.GeneticAlgorithmLauncher import StructuredLearningRun
-from .genetic_algorithm.PickleSaver import Pickle, UnPickle
 
 
 class Ramen(object):
-    def __init__(self, csv_data = None, end_string = "", min_values = 0):
-        if (csv_data is None):
+    def __init__(self, csv_data = "", end_string = "", min_values = 0):
+        if csv_data == "":
             raise Exception("csv_data cannot be None.")
         df, var_ref = process_data_frame(csv_data, min_values)
+        self.csv_data_name = csv_data
         self.df = df
         self.var_ref = var_ref
         self.mutual_info_array = make_mutual_info_matrix_no_save(self.df)
@@ -37,34 +37,17 @@ class Ramen(object):
         if self.signif_edges is None:
             raise Exception("Cannot start genetic algorithm before running random walk.")
         self.network = StructuredLearningRun(self.df, self.signif_edges, num_candidates, end_thresh, mutate_num, best_cand_num, bad_reprod_accept, reg_factor, hard_stop)
-    
-
-    def pickle_signif_edges(self, filename = "signif_edges.pickle"):
-        if self.signif_edges is None:
-            raise Exception("significant edges is None.")
-        Pickle(self.signif_edges, filename)
-    
-
-    def load_signif_edges_pickle(self, filename):
-        self.signif_edges = UnPickle(filename)
-    
-
-    def pickle_final_network(self, filename = "final_net.pickle"):
-        if self.network is None:
-            raise Exception("network is None.")
-        Pickle(self.network, filename)
 
 
-    def pickle_var_ref(self, filename = "var_ref.pickle"):
-        if self.var_ref is None:
-            raise Exception("no variable reference.")
-        Pickle(self.var_ref, filename)
-
-
-    def pickle_edge_visits(self, filename = "edge_visits.pickle"):
-        if self.edge_visit_dict is None:
-            raise Exception("no variable reference.")
-        Pickle(self.edge_visit_dict, filename)
+    def export_ramen_as_dict(self):
+        return {
+            "DATASET_PATH": self.csv_data_name,
+            "END_VARIABLE": self.end_string,
+            "VAR_REF": self.var_ref,
+            "RW_NETWORK": self.signif_edges,
+            "FINAL_NETWORK": list(self.network.edges()),
+            "RW_EDGE_VISIT": self.edge_visit_dict,
+        }
 
 
     def set_end_string(self, end_string):
