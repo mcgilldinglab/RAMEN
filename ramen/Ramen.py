@@ -4,6 +4,7 @@ from .random_walk.InitializeGraph import initialize_random_walk_graph
 from .random_walk.RandomWalk import run_experiments, run_random_experiments
 from .random_walk.Distribution import fit_and_extract_significant_edges
 from .genetic_algorithm.GeneticAlgorithmLauncher import StructuredLearningRun
+import networkx as nx
 
 
 class Ramen(object):
@@ -15,9 +16,9 @@ class Ramen(object):
         self.df = df
         self.var_ref = var_ref
         self.mutual_info_array = make_mutual_info_matrix_no_save(self.df)
-        self.signif_edges = None
-        self.network = None
-        self.edge_visit_dict = None
+        self.signif_edges = []
+        self.network = nx.DiGraph()
+        self.edge_visit_dict = {}
         self.end_string = end_string
         if self.end_string not in list(self.df.columns):
             raise Exception("couldn't find end_string in the csv columns.")
