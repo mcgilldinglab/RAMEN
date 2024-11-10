@@ -1,11 +1,12 @@
 
 class EdgeVisitTracker(object):
 
-    def __init__ (self, size):
+    def __init__(self, size, var_indices):
         self.edgesTotalVisits = [0] * size
         self.edgesABVisits = [0] * size
         self.edgesBAVisits = [0] * size
         self.size = size
+        self.end_var_arrival_tracker = {var: 0 for var in var_indices}
     
     def reset(self):
         self.edges = [0]*self.size
@@ -27,4 +28,8 @@ class EdgeVisitTracker(object):
             graph.es[i]["Time_Visited"].append(self.edgesTotalVisits[i])
             graph.es[i]["AB"].append(self.edgesABVisits[i])
             graph.es[i]["BA"].append(self.edgesBAVisits[i])
+
+    def register_end_var_arrival(self, var_index):
+        self.end_var_arrival_tracker[var_index] += 1
+
  
