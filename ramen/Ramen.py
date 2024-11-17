@@ -47,13 +47,11 @@ class Ramen(object):
         return {
             "DATASET_PATH": self.csv_data_name,
             "END_VARIABLE": self.end_string,
-            "VAR_REF": self.var_ref,
             "RW_NETWORK": self.signif_edges,
             "FINAL_NETWORK": list(self.network.edges()),
-            "RW_EDGE_VISIT": self.edge_visit_dict,
+            "RW_EDGE_VISIT": make_edge_visit_payload(self.edge_visit_dict),
             "END_VAR_ARRIVALS" : self.var_arrival_count_tracker,
         }
-
 
     def set_end_string(self, end_string):
         self.end_string = end_string
@@ -84,3 +82,11 @@ def construct_end_arrival_dict(g, end_var_arrival_tracker):
     for var_index in end_var_arrival_tracker:
         var_name_to_arrival_count[g.vs[var_index]["clinic_vars"]] = end_var_arrival_tracker[var_index]
     return var_name_to_arrival_count
+
+def make_edge_visit_payload(edge_visit_dict):
+    payload = []
+    for edge in edge_visit_dict:
+        payload.append({"node_1": edge[0],
+                        "node_2": edge[1],
+                        "visits": edge_visit_dict[edge]})
+    return payload
