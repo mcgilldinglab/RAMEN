@@ -24,10 +24,13 @@ as the parents for the next generation. We will keep performing the above ‘evo
 # Technical Summary
 
 ## Installation
-To install Ramen, go to the project environment, and run
-`pip install git+https://github.com/mcgilldinglab/RAMEN@main`
+The recommanded branch to use RAMEN is the development branch. To install RAMEN,
 
-Note that some other packages might need to be installed to run this package, if Anaconda is used, then most of the dependencies will be present.
+```conda activate env```
+
+```pip install git+https://github.com/mcgilldinglab/RAMEN.git@development```
+
+Note that some other packages might need to be installed to run this package, dependencies will be installed alongside the package.
 
 ## Usage
 To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The data should be processed before using Ramen. Ramen will only remove the variables that have a certain threshold of non missing values and discretize the data. It is possible to adjust the threshold through the constructor or field of the Ramen object. An end variable must also be set, so that RandomWalk terminates upon reaching the variable. After initializing the Ramen object, random_walk can be run. random_walk must be run before genetic_algorithm, as the output from Random Walk is used as input for Genetic Algorithm to create the starting candidates. genetic_algorithm will generate the final network.
@@ -65,14 +68,8 @@ __genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 
 * __hard_stop__ (int): Maximum iteration before terminating.
 
 ### Other methods
-__pickle_signif_edges(self, filename = "significant_edges.pickle")__ -> save signif_edges to a pickle file.
-* __filename__ (str): save path of pickle.
-
 __load_signif_edges_pickle(self, filename)__ -> load signif_edges from a pickle file
 * __filename__ (str): the path of the pickle saving the significant edges.
-
-__pickle_final_network(self, filename)__ -> save final network to a pickle object
-* __filename__ (str): save path of pickle.
 
 __set_end_string(self, end_string)__ -> set the end_string
 * __end_string__ (str): new end string
@@ -85,6 +82,17 @@ __set_signif_edges(self, signif_edges)__ -> set the signif_edges field
 __get_var_ref(self)__ -> get the variable values mapping created from discretization
 
 __get_mutual_info_array(self)__ -> get the mutual information matrix
+
+__export_ramen_as_dict(self)__ -> return ramen results as a dictionary
+
+{
+  "DATASET_PATH": self.csv_data_name,
+  "END_VARIABLE": self.end_string,
+  "VAR_REF": self.var_ref,
+  "RW_NETWORK": self.signif_edges,
+  "FINAL_NETWORK": list(self.network.edges()),
+  "RW_EDGE_VISIT": self.edge_visit_dict,
+}
 
 ## Example usage
 
