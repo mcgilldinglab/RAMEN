@@ -107,6 +107,9 @@ After installing Ramen package using the command above:
 ### Initiating Genetic Algorithm
 <img width="1000" alt="Screen Shot 2023-01-26 at 10 29 14 AM" src="https://user-images.githubusercontent.com/76263492/214884881-c33700c5-b2c0-4d73-b663-0b5c66a9370e.png">
 
+### Implementation Example
+Please refer also to this public implementation with RAMEN scripts ready to run! https://github.com/YWX2020/RAMENRunner
+
 # Credits
 This repository is developed by __Yiwei Xiong__ and __Jingtao Wang__. We also have a web app http://dinglab.rimuhc.ca/pgm/ to interact with networks developed by __Xiaoxiao Shang__. This project is done under the supervision of Professor __Jun Ding__.
 
