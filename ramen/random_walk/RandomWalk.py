@@ -6,6 +6,9 @@ import numpy as np
 from .ExpEdgeVisitTracker import EdgeVisitTracker
 import copy
 
+from collections import defaultdict
+
+
 def run_experiments(g, mutual_info_matrix, times, numb_walks, numb_steps, end_string):
     mut_info = copy.deepcopy(mutual_info_matrix)
     nullify_out_probability(end_string, g, mut_info)
@@ -20,9 +23,12 @@ def run_experiments(g, mutual_info_matrix, times, numb_walks, numb_steps, end_st
         p.start()
     for proc in jobs:
         proc.join()
+    end_var_arrival_counters = defaultdict(int)
     for key in return_dict:
-        return_dict[ key ].pass_data_to_graph(g)
-    return get_directed_data_from_graph(g)
+        return_dict[key].pass_data_to_graph(g)
+        for var, value in return_dict[key].end_var_arrival_tracker.items():
+            end_var_arrival_counters[var] += value
+    return get_directed_data_from_graph(g), dict(end_var_arrival_counters)
 
 def run_random_experiments(g, mutual_info_matrix, numb_walks, numb_steps, end_string):
     mut_info = copy.deepcopy(mutual_info_matrix)
@@ -36,30 +42,28 @@ def run_random_experiments(g, mutual_info_matrix, numb_walks, numb_steps, end_st
 ###################### Private Function Section ######################   
 
 def the_walks(procnum, return_dict, g, times, steps, prob_matrix, end_string):
-    ExpTracker = EdgeVisitTracker(len(g.es))
+    edge_tracker = EdgeVisitTracker(len(g.es), g.vs.indices)
     for i in range(times):
         start = random.randint(0, len(g.vs)-1)
-        one_walk(g, start, steps, prob_matrix, ExpTracker, end_string)
-    return_dict[ procnum ] = ExpTracker
+        one_walk(g, start, steps, prob_matrix, edge_tracker, end_string)
+    return_dict[procnum] = edge_tracker
 
 def get_directed_data_from_graph(g):
     data = []
     for e in g.es:
-        data.append([ compute_mean_for_list(e["AB"]), compute_mean_for_list(e["BA"]) ])
+        data.append([compute_mean_for_list(e["AB"]), compute_mean_for_list(e["BA"])])
     return data
 
 def random_the_walks(g, times, steps, prob_matrix, end_string):
-    ExpTracker = EdgeVisitTracker(len(g.es))
+    ExpTracker = EdgeVisitTracker(len(g.es), g.vs.indices)
     for i in range(times):
         start = random.randint(0, len(g.vs)-1)
         one_walk(g, start, steps, prob_matrix, ExpTracker, end_string)
     return ExpTracker
 
-def one_walk(graph, start, steps, prob_matrix, edgeTracker, end_string):
+def one_walk(graph, start, steps, prob_matrix, edge_tracker, end_string):
     current = start
     num_nodes = len(graph.vs)
-    path = []
-    path.append(current)
 
     vector_length = len(graph.es)
     increment_vector = np.zeros(vector_length)
@@ -71,19 +75,18 @@ def one_walk(graph, start, steps, prob_matrix, edgeTracker, end_string):
         next_step = roll_random(prob_array)
         edge_ID = graph.get_eid(current, next_step)
         increment_vector[edge_ID] += 1
-        if (current < next_step):
-            ab_increment_vector[ edge_ID ] += 1
+        if current < next_step:
+            ab_increment_vector[edge_ID] += 1
         else:
-            ba_increment_vector[ edge_ID ] += 1
+            ba_increment_vector[edge_ID] += 1
         current = next_step
-        path.append(current)
 
-    if (graph.vs[current]["clinic_vars"] == end_string):
-        edgeTracker.increment_tracker_from_list(increment_vector)
-        edgeTracker.increment_AB_visits_from_list(ab_increment_vector)
-        edgeTracker.increment_BA_visits_from_list(ba_increment_vector)
+    if graph.vs[current]["clinic_vars"] == end_string:
+        edge_tracker.increment_tracker_from_list(increment_vector)
+        edge_tracker.increment_AB_visits_from_list(ab_increment_vector)
+        edge_tracker.increment_BA_visits_from_list(ba_increment_vector)
+        edge_tracker.register_end_var_arrival(start)
 
-    return path
 
 def get_probability_array(start, num_nodes, prob_matrix):
     probability = []

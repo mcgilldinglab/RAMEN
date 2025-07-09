@@ -1,4 +1,5 @@
 import sknetwork
+from scipy.sparse import csr_matrix
 from collections import Counter
 import numpy as np
 
@@ -83,7 +84,7 @@ def IsConnected( input_matrix ):
     return sknetwork.topology.is_connected( input_matrix )
 
 def IsAcyclic( input_matrix ):
-    return sknetwork.topology.is_acyclic( input_matrix )
+    return sknetwork.topology.is_acyclic( csr_matrix(input_matrix) )
 
 def MakeEvaluationMatrix( indices_to_evaluate, variables ):
     eval_matrix = variables[ indices_to_evaluate ]

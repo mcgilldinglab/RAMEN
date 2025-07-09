@@ -1,3 +1,7 @@
+# Paper
+
+https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(25)00058-X
+
 # Documentation
 
 https://ramen20.readthedocs.io/
