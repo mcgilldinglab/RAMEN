@@ -36,6 +36,11 @@ The recommanded branch to use RAMEN is the development branch. To install RAMEN,
 
 Note that some other packages might need to be installed to run this package, dependencies will be installed alongside the package.
 
+scikit-network library is built on C++ and might require C++ build tools. If you don't have it, the following error will appear, you can download the build tools on Visual Studio, and the error will be resolved.
+```
+error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+```
+
 ## Usage
 To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The data should be processed before using Ramen. Ramen will only remove the variables that have a certain threshold of non missing values and discretize the data. It is possible to adjust the threshold through the constructor or field of the Ramen object. An end variable must also be set, so that RandomWalk terminates upon reaching the variable. After initializing the Ramen object, random_walk can be run. random_walk must be run before genetic_algorithm, as the output from Random Walk is used as input for Genetic Algorithm to create the starting candidates. genetic_algorithm will generate the final network.
 
