@@ -50,7 +50,7 @@ Set up the computational environment
       ```python
       from ramen.Ramen import Ramen
       ```  
-   The package is successfully installed if there is no error.  
+   > The package is successfully installed if there is no error.  
    *Troubleshooting 2:* Ensure the installation completed without errors.
 
 **CRITICAL:** Make sure the installation is successful before proceeding.
