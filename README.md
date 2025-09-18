@@ -26,20 +26,39 @@ as the parents for the next generation. We will keep performing the above ‘evo
 ![PipelineGraph](https://github.com/mcgilldinglab/RAMEN/blob/main/method.png)
 
 # Technical Summary
-
 ## Installation
-The recommanded branch to use RAMEN is the development branch. To install RAMEN,
+Set up the computational environment
 
-```conda activate env```
+**Timing:** <30 min
 
-```pip install git+https://github.com/mcgilldinglab/RAMEN.git@development```
+1. **Install and configure Conda (if not already available).**  
+   a. Download and install Anaconda for your operating system. Follow the official instructions for your OS.  
+   b. Create a new Conda environment to isolate the RAMEN installation. For example:  
+      > conda create -n ramen_env python=3.13  
+      > conda activate ramen_env  
+   *Note:* This creates and activates an environment named `ramen_env` with Python 3.13. Using a fresh environment prevents version conflicts with other projects.
 
-Note that some other packages might need to be installed to run this package, dependencies will be installed alongside the package.
+2. **Install the RAMEN software package and dependencies.**  
+   a. Use pip to install RAMEN from the GitHub repository. In the activated environment, run:  
+      > pip install git+https://github.com/mcgilldinglab/RAMEN.git@v1.0.0  
+   *Note:* This downloads the RAMEN v1.0.0 source and automatically installs required Python libraries (NumPy, Pandas, SciPy, NetworkX, etc.).  
+   *Troubleshooting 1:* Refer to documentation if dependency issues occur.
 
-scikit-network library is built on C++ and might require C++ build tools. If you don't have it, the following error will appear, you can download the build tools on Visual Studio, and the error will be resolved.
+3. **Validate installation.**  
+   a. Open a Python interpreter and run:  
+      ```python
+      from ramen.Ramen import Ramen
+      ```  
+   The package is successfully installed if there is no error.  
+   *Troubleshooting 2:* Ensure the installation completed without errors.
+
+**CRITICAL:** Make sure the installation is successful before proceeding.
+
+Note that scikit-network library is built on C++ and might require C++ build tools. If you don't have it, the following error will appear:
 ```
 error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
 ```
+you can download the build tools on Visual Studio, and the error will be resolved.
 
 ## Usage
 To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The data should be processed before using Ramen. Ramen will only remove the variables that have a certain threshold of non missing values and discretize the data. It is possible to adjust the threshold through the constructor or field of the Ramen object. An end variable must also be set, so that RandomWalk terminates upon reaching the variable. After initializing the Ramen object, random_walk can be run. random_walk must be run before genetic_algorithm, as the output from Random Walk is used as input for Genetic Algorithm to create the starting candidates. genetic_algorithm will generate the final network.
