@@ -40,7 +40,7 @@ Set up the computational environment
 
 2. **Install the RAMEN software package and dependencies.**  
    a. Use pip to install RAMEN from the GitHub repository. In the activated environment, run:  
-      > pip install git+https://github.com/mcgilldinglab/RAMEN.git@v1.0.0  
+      > pip install git+https://github.com/mcgilldinglab/RAMEN.git@development  
    *Note:* This downloads the RAMEN v1.0.0 source and automatically installs required Python libraries (NumPy, Pandas, SciPy, NetworkX, etc.).  
    *Troubleshooting 1:* Refer to documentation if dependency issues occur.
 
