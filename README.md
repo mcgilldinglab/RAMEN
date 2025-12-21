@@ -63,6 +63,8 @@ you can download the build tools on Visual Studio, and the error will be resolve
 ## Usage
 To use Ramen, import the "Ramen" class from ramen.Ramen and initialize a Ramen object. The data should be processed before using Ramen. Ramen will only remove the variables that have a certain threshold of non missing values and discretize the data. It is possible to adjust the threshold through the constructor or field of the Ramen object. An end variable must also be set, so that RandomWalk terminates upon reaching the variable. After initializing the Ramen object, random_walk can be run. random_walk must be run before genetic_algorithm, as the output from Random Walk is used as input for Genetic Algorithm to create the starting candidates. genetic_algorithm will generate the final network.
 
+For Walkthrough on runnign and Anaylysis, refer to https://github.com/mcgilldinglab/RAMEN/blob/development/Ramen_Usage.ipynb
+
 ### Ramen Object Fields
 * __df__ (pandas.DataFrame): discretized dataframe, must be input when creating the object.
 * __var_ref__ (dictionary): dictionary mapping the real values to the discretized value e.g { variable: { "Yes" : 0, "No" : 1 } }.
