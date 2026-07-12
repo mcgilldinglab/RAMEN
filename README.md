@@ -82,7 +82,6 @@ __init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_strin
 
 ### Random Walk Method
 __random_walk( self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, mode = "default" )__
-* __num_exp__ (int): Number of experiments in the random walk.
 * __num_walks__ (int): Number of walks in one experiment of random walk.
 * __num_steps__ (int): Number of steps per walk.
 * __p_value__ (float): The p-value cutoff for the permutation test. Another standard cutoff is 0.01.

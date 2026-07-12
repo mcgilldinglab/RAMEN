@@ -27,11 +27,11 @@ class Ramen(object):
         self.profile = {}
 
     @profile_stage("random_walk")
-    def random_walk(self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, correction = "no_correction"):
+    def random_walk(self, num_walks = 50000, num_steps = 7, p_value = 0.05, correction = "no_correction"):
         g_rand = initialize_random_walk_graph(self.df)
         g = initialize_random_walk_graph(self.df)
         result_rand = run_random_experiments(g_rand, self.mutual_info_array, num_walks, num_steps, self.end_string)
-        result, end_var_arrivals = run_experiments(g, self.mutual_info_array, num_exp, num_walks, num_steps, self.end_string)
+        result, end_var_arrivals = run_experiments(g, self.mutual_info_array, 10, num_walks, num_steps, self.end_string)
         signif_edges, edge_visits_dic = fit_and_extract_significant_edges(self.df, result, result_rand, p_value, correction)
 
         self.var_arrival_count_tracker = construct_end_arrival_dict(g, end_var_arrivals)
