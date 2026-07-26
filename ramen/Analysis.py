@@ -108,6 +108,14 @@ def draw_heatmaps(variables_against_target, additional_pairs, target_node, csv, 
         heatmap_action = HeatmapAction(csv, var1, var2, destination_folder=None)
         heatmap_action.enact(ignore_values)
 
+def get_edge_visits_to_node(visit_list, to_node_str):
+    return [
+        (entry["node_1"], entry["visits"])
+        for entry in visit_list
+        if entry["node_2"] == to_node_str
+    ]
+
+
 strength_categories = ["strongest", "strong", "okay", "weaker"]
 
 def make_cytoscape_files(nx_graph, sif_name, noa_name, end_var, classifications, visit_dict = None, keep_factor=1):
