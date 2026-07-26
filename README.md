@@ -82,7 +82,6 @@ __init__( self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_strin
 
 ### Random Walk Method
 __random_walk( self, num_walks = 50000, num_steps = 7, p_value = 0.05, mode = "default" )__
-* __num_walks__ (int): Number of walks in one experiment of random walk.
 * __num_steps__ (int): Number of steps per walk.
 * __p_value__ (float): The p-value cutoff for the permutation test. Another standard cutoff is 0.01.
 * __correction__ (string): The correction to the p-value, currently "fdr" is implemented, otherwise, it defaults to "no_correction".
@@ -90,10 +89,6 @@ __random_walk( self, num_walks = 50000, num_steps = 7, p_value = 0.05, mode = "d
 ### Genetic Algorithm Method
 __genetic_algorithm( self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100 )__
 * __num_candidates__ (int): The number of starting candidates.
-* __end_thresh__ (float): If the increase in score from one generation to the next is less than the end_thresh, then it is considered a bad generation.
-* __mutate_num__ (int): The number of mutation children for each candidate.
-* __best_cand_num__ (int): The number of best candidates that is kept at each generation.
-* __bad_reprod_accept__ (int): The number of bad generations accepted before terminating. This counter is reset whenever there is a good generation.
 * __reg_factor__ (float): The score that is deducted for each edge in the network.
 * __hard_stop__ (int): Maximum iteration before terminating.
 
