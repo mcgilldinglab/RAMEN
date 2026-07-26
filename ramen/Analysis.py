@@ -138,7 +138,7 @@ def make_noa_file(nx_graph, noa_name, visit_dict, end_var, classifications, var_
         node_str = node_tup[0]
         if node_str in classifications:
             classification = classifications[node_str]
-        write_string = get_from_mapping(var_name_mapping, node_str) + " = " + classification + " = " + str(node_tup[1]) + "\n"
+        write_string = get_or_return_key(var_name_mapping, node_str) + " = " + classification + " = " + str(node_tup[1]) + "\n"
         noa.write(write_string)
     noa.close()
     return
@@ -159,7 +159,7 @@ def get_sort_nodes_with_visit_dict(nx_graph, visit_dict, end_var):
     nodes_with_visit.sort(key=lambda x: x[1], reverse=True)
     return nodes_with_visit
 
-def get_from_mapping(mapping, key):
+def get_or_return_key(mapping, key):
     try:
         return mapping[key]
     except KeyError:
@@ -174,9 +174,8 @@ if __name__ == "__main__":
     ramen_bowl = Ramen("long_500.csv", "Long Covid", 0)
 
     ramen_bowl.random_walk(
-        num_exp=10,
-        num_walks=10000,
-        num_steps=7,
+        num_walks=50000,
+        num_steps=3,
         p_value=0.05,
         correction="no_correction"
     )
