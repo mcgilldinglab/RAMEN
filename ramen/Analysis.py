@@ -99,9 +99,12 @@ def try_floating(array):
     return pd.to_numeric(array, errors="ignore")
 
 
-def draw_heatmaps(variables_against_target, additional_pairs, target_node, csv, ignore_values=None):
+def draw_heatmaps(variables_against_target, target_node, csv, ignore_values=None, additional_pairs=None):
     if ignore_values is None:
         ignore_values = []
+
+    if additional_pairs is None:
+        additional_pairs = []
 
     pairs = [(var, target_node) for var in variables_against_target] + additional_pairs
     for var1, var2 in pairs:
