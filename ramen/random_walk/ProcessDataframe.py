@@ -11,8 +11,9 @@ def process_data_frame(data_file, bad_var_threshold = 500):
     drop_bad_vars(dataframe, bad_var_threshold)
     dataframe, mapping = vectorize_dataframe(dataframe)
     end_col = len(dataframe.columns)
-    print("Removed " + str(start_col - end_col) + " variables because of insufficient data. If deleted too many, please adjust the bad_var_threshold")
+    print("Removed " + str(start_col - end_col) + " variables because of insufficient data. If deleted too many, please adjust the min_values")
     return dataframe, mapping
+
 
 ###################### Private Function Section ######################   
     

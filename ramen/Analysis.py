@@ -6,6 +6,20 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from networkx import nodes
 
+DEFAULT_IGNORE_VALUES = (
+    "ERROR",
+    "nan",
+    "no data",
+    "<4",
+    ">150*",
+    "LESS THAN 5",
+    "LESS THAN 0.4",
+    "-999",
+    "-999.0",
+    -999,
+    -999.0,
+)
+
 class HeatmapAction:
     def __init__(self, csv_file, var1, var2, destination_folder=None, var_name_mapping=None):
         self.csv = csv_file
@@ -17,7 +31,8 @@ class HeatmapAction:
     def enact(self, ignore_values=None):
         print(f"Working on ({self.var1}, {self.var2}).")
         if ignore_values is None:
-            ignore_values = []
+            #ignore_values = []
+            ignore_values = list(DEFAULT_IGNORE_VALUES)
         plot_heatmap(
             self.csv,
             self.var1,
@@ -94,15 +109,21 @@ def should_bin(array):
     return array.nunique() > 10
 
 
-def try_floating(array):
-    """Convert array to numeric if possible; leave strings intact."""
-    return pd.to_numeric(array, errors="ignore")
+#def try_floating(array):
+#    """Convert array to numeric if possible; leave strings intact."""
+#    return pd.to_numeric(array, errors="ignore")
 
+def try_floating(array):
+    """Convert a fully numeric series; otherwise preserve its original values."""
+    try:
+        return pd.to_numeric(array, errors="raise")
+    except (TypeError, ValueError):
+        return array
 
 def draw_heatmaps(variables_against_target, target_node, csv, ignore_values=None, additional_pairs=None):
     if ignore_values is None:
-        ignore_values = []
-
+        #ignore_values = []
+        ignore_values = list(DEFAULT_IGNORE_VALUES)
     if additional_pairs is None:
         additional_pairs = []
 
@@ -131,7 +152,7 @@ def make_sif_file(nx_graph, sif_name, visit_dict, keep_factor):
     kept_edges = [edge[0] for edge in edges[0:int(len(edges)*keep_factor)]]
 
     counter = 0
-    splitter = int(len(kept_edges)/4)
+    splitter = max(1, int(len(kept_edges) / 4))
     for edge in kept_edges:
         x, y = edge
         string = x + "\t" + strength_categories[min(int(counter / splitter), 3)] + "\t" + y + "\n"

@@ -7,6 +7,9 @@ from .random_walk.Distribution import fit_and_extract_significant_edges
 from .genetic_algorithm.GeneticAlgorithmLauncher import StructuredLearningRun
 import networkx as nx
 
+def choose_steps(p):
+    """Choose random-walk steps from the number of retained variables."""
+    return max(3, min(9, round(7 * (p - 1) / 80)))
 
 class Ramen(object):
     def __init__(self, csv_data = "", end_string = "", min_values = 0):
@@ -27,7 +30,9 @@ class Ramen(object):
         self.profile = {}
 
     @profile_stage("random_walk")
-    def random_walk(self, num_walks = 50000, num_steps = 7, p_value = 0.05, correction = "no_correction"):
+    def random_walk(self, num_walks = 50000, num_steps = None, p_value = 0.05, correction = "no_correction"):
+        if num_steps is None:
+            num_steps = choose_steps(self.df.shape[1])
         g_rand = initialize_random_walk_graph(self.df)
         g = initialize_random_walk_graph(self.df)
         result_rand = run_random_experiments(g_rand, self.mutual_info_array, num_walks, num_steps, self.end_string)
