@@ -1,3 +1,4 @@
+from .Profiling import profile_stage
 from .random_walk.ProcessDataframe import process_data_frame
 from .random_walk.MutualInformation import make_mutual_info_matrix_no_save
 from .random_walk.InitializeGraph import initialize_random_walk_graph
@@ -6,6 +7,9 @@ from .random_walk.Distribution import fit_and_extract_significant_edges
 from .genetic_algorithm.GeneticAlgorithmLauncher import StructuredLearningRun
 import networkx as nx
 
+def choose_steps(p):
+    """Choose random-walk steps from the number of retained variables."""
+    return max(3, min(9, round(7 * (p - 1) / 80)))
 
 class Ramen(object):
     def __init__(self, csv_data = "", end_string = "", min_values = 0):
@@ -23,20 +27,23 @@ class Ramen(object):
         self.var_arrival_count_tracker = {}
         if self.end_string not in list(self.df.columns):
             raise Exception("couldn't find end_string in the csv columns.")
-        
-        
-    def random_walk(self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, correction = "no_correction"):
+        self.profile = {}
+
+    @profile_stage("random_walk")
+    def random_walk(self, num_walks = 50000, num_steps = None, p_value = 0.05, correction = "no_correction"):
+        if num_steps is None:
+            num_steps = choose_steps(self.df.shape[1])
         g_rand = initialize_random_walk_graph(self.df)
         g = initialize_random_walk_graph(self.df)
         result_rand = run_random_experiments(g_rand, self.mutual_info_array, num_walks, num_steps, self.end_string)
-        result, end_var_arrivals = run_experiments(g, self.mutual_info_array, num_exp, num_walks, num_steps, self.end_string)
+        result, end_var_arrivals = run_experiments(g, self.mutual_info_array, 10, num_walks, num_steps, self.end_string)
         signif_edges, edge_visits_dic = fit_and_extract_significant_edges(self.df, result, result_rand, p_value, correction)
 
         self.var_arrival_count_tracker = construct_end_arrival_dict(g, end_var_arrivals)
         self.signif_edges = signif_edges
         self.edge_visit_dict = edge_visits_dic
 
-    
+    @profile_stage("genetic_algorithm")
     def genetic_algorithm(self, num_candidates = 10, end_thresh = 0.01, mutate_num = 100, best_cand_num = 10, bad_reprod_accept = 10, reg_factor = 0.01, hard_stop = 100):
         if len(self.signif_edges) == 0:
             raise Exception("Cannot start genetic algorithm before running random walk.")
@@ -75,6 +82,35 @@ class Ramen(object):
     
     def get_mutual_info_array(self):
         return self.mutual_info_array
+
+    def get_export_report(self) -> str:
+        from io import StringIO
+
+        buf = StringIO()
+
+        def w(s=""):
+            buf.write(str(s) + "\n")
+
+        w("=" * 70)
+        w("RAMEN RUN SUMMARY")
+        w("=" * 70)
+
+        w(f"\nDataset:        {self.csv_data_name}")
+        w(f"End variable:   {self.end_string}")
+
+        w("\n--- Random Walk ---")
+        w(f"Significant edges: {len(self.signif_edges)}")
+
+        for i, (u, v) in enumerate(self.signif_edges[:10]):
+            w(f"  {i + 1:>2}. {u} -> {v}")
+
+        w("\n--- Final Network ---")
+        w(f"Edges: {self.network.number_of_edges()}")
+        w(f"Nodes: {self.network.number_of_nodes()}")
+
+        w("=" * 70)
+
+        return buf.getvalue()
 
 
 def construct_end_arrival_dict(g, end_var_arrival_tracker):

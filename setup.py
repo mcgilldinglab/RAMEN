@@ -2,7 +2,7 @@
 from setuptools import setup
 
 setup(  name='RAMEN',
-        version='1.0',
+        version='1.1.1',
         description='Random walk and genetic Algorithm based network inference',
         author='Xiong Yiwei, Wang Jingtao',
         author_email='yiwei.xiong@mail.mcgill.ca',

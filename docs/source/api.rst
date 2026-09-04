@@ -7,29 +7,25 @@ This section provides documentation for public APIs for RAMEN
    
    This is the ramen class
 
-   .. method:: __init__(self, csv_data = None, ref_save_name = "var_val_ref.pickle", end_string = "", min_values = 500)
+   .. method:: __init__(self, csv_data="", end_string="", min_values=0)
 
       Constructor of the Ramen Object, which will be used to run random walk and genetic algorithm.
 
       :param csv_data: path to the data in csv form. Mandatory
       :type csv_data: str
-      :param ref_save_name: when the csv is discretized, this is the path to which the mapping of the discrete values to the actual values will be saved. Not mandatory.
-      :type ref_save_name: str
       :param end_string: the destination variable of absorbing random walk. Mandatory.
       :type end_string: str
       :param min_values: number of minimum values in a column, if it is less, then the variable gets pruned.
       :type min_values: int
 
-   .. method:: random_walk(self, num_exp = 10, num_walks = 50000, num_steps = 7, p_value = 0.05, correction = "no_correction")
+   .. method:: random_walk(self, num_walks=50000, num_steps=None, p_value=0.05, correction="no_correction")
 
       Method to begin the absorbing random walk once the Ramen object is initialized. The significant edges will be stored in ramen_object.signif_edges.
 
-      :param num_exp: the number of random walk experiments. (default value is 10).
-      :type num_exp: int
       :param num_walks: the number of random walks per experiment. (default value is 50000)
       :type num_walks: int
-      :param num_steps: the number of steps per random walk. (default value is 7)
-      :type num_steps: int
+      :param num_steps: Maximum steps per random walk. If None, RAMEN automatically selects 3-9 steps according to the number of variables.
+      :type num_steps: int or None
       :param p_value: the cutoff value to determine significance of edge visits. An edge is significant if it is below p_value. (default value is 0.05)
       :type p_value: float
       :param correction: choose correction method on the significant edges p-values. (supported correction: ["fdr", "no_correction"])
@@ -58,32 +54,7 @@ This section provides documentation for public APIs for RAMEN
       
       :rtype: None
 
-   .. method:: pickle_signif_edges( self, filename = "signif_edges.pickle")
 
-      Method to save the significant edges to a pickle object.
-
-      :param filename: name of the save file (Default value is "signif_edges.pickle")
-      :type filename: str
-
-      :rtype: None
-        
-   .. method:: load_signif_edges_pickle(self, filename)
-
-      Method to load the significant edges from a pickle object.
-
-      :param filename: name of the save file.
-      :type filename: str
-
-      :rtype: None
-    
-   .. method:: pickle_final_network( self, filename = "final_net.pickle")
-
-      Method to save the final network as a NetworkX DiGraph.
-
-      :param filename: name of the save file. (Default value is "signif_edges.pickle")
-      :type filename: str
-
-      :rtype: None
 
    .. method:: set_end_string(self, end_string)
 
