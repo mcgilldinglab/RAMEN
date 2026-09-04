@@ -27,7 +27,6 @@ as the parents for the next generation. We will keep performing the above ‘evo
 ![PipelineGraph](https://github.com/mcgilldinglab/RAMEN/blob/main/method.png)
 
 # Technical Summary
-
 ## Installation
 Set up the computational environment
 
