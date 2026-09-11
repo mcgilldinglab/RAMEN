@@ -10,12 +10,12 @@ First, install `Anaconda <https://www.anaconda.com/>`_ for your operating system
 
 Second, create a new conda environment and activate it::
 
-    conda create -n example_env python=3.9
-    conda activate example_env
+    conda create -n ramen_env python=3.13
+    conda activate ramen_env
 
 Installing RAMEN
 -------------------------
 
 Download RAMEN package:: 
     
-    pip install git+https://github.com/mcgilldinglab/RAMEN
+    pip install git+https://github.com/mcgilldinglab/RAMEN.git@development
