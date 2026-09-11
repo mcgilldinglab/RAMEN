@@ -28,9 +28,7 @@ as the parents for the next generation. We will keep performing the above ‘evo
 
 # Technical Summary
 ## Installation
-Set up the computational environment
 
-**Timing:** <30 min
 
 1. **Install and configure Conda (if not already available).**  
    a. Download and install Anaconda for your operating system. Follow the official instructions for your OS.  
