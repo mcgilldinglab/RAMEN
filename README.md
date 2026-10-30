@@ -39,8 +39,8 @@ as the parents for the next generation. We will keep performing the above ‘evo
 
 2. **Install the RAMEN software package and dependencies.**  
    a. Use pip to install RAMEN from the GitHub repository. In the activated environment, run:  
-      > pip install git+https://github.com/mcgilldinglab/RAMEN.git@development
-   *Note:* This installs the current RAMEN development version and its required Python dependencies (NumPy, Pandas, SciPy, NetworkX, etc.).  
+      > pip install git+https://github.com/mcgilldinglab/RAMEN.git@main
+   *Note:* This installs RAMEN from the main branch and its required Python dependencies (NumPy, Pandas, SciPy, NetworkX, etc.).
    To run the tutorial locally, install Jupyter with 
    `python -m pip install notebook ipykernel`.
    

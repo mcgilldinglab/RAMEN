@@ -3,13 +3,13 @@ import numpy as np
 from .VectorizeDataframe import vectorize_dataframe
 from .BadVariableEliminater import drop_bad_vars
 
-def process_data_frame(data_file, bad_var_threshold = 500):
+def process_data_frame(data_file, bad_var_threshold = 500, num_bins=10):
     dataframe = pd.read_csv(data_file)
     dataframe = convert_nan_to_999_for_df(dataframe)
     print("Starting removing vars with too few values, vectorizing dataframe, and initializing mutual information matrix, this might take a few minutes.")    
     start_col = len(dataframe.columns)
     drop_bad_vars(dataframe, bad_var_threshold)
-    dataframe, mapping = vectorize_dataframe(dataframe)
+    dataframe, mapping = vectorize_dataframe(dataframe,num_bins=num_bins)
     end_col = len(dataframe.columns)
     print("Removed " + str(start_col - end_col) + " variables because of insufficient data. If deleted too many, please adjust the min_values")
     return dataframe, mapping

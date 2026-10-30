@@ -13,7 +13,7 @@ Ramen Class
    The main RAMEN class used to perform random walk-based network
    inference and genetic algorithm-based structured learning.
 
-   .. method:: __init__(self, csv_data="", end_string="", min_values=0)
+   .. method:: __init__(self, csv_data="", end_string="", min_values=0, num_bins=10)
 
       Constructor of the Ramen object.
 
@@ -24,6 +24,10 @@ Ramen Class
       :param min_values: Minimum number of values required in a column.
                          Variables below this threshold are pruned.
       :type min_values: int
+      :param num_bins: Number of equal-width bins used for automatic
+                        discretization of continuous variables.
+                        Default is 10.
+      :type num_bins: int
 
    .. method:: random_walk(self, num_walks=50000, num_steps=None, p_value=0.05, correction="no_correction")
 

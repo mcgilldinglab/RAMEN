@@ -1,6 +1,6 @@
 import numpy as np
 
-def discretize(variable_values):
+def discretize(variable_values,num_bins=10):
     non_nan_indices = get_non_missing_value_indices(variable_values)
     possible_values = get_all_possible_values(variable_values, non_nan_indices)
 
@@ -8,7 +8,8 @@ def discretize(variable_values):
     xmin = int(min(possible_values))
     
     bins_mapping = {}
-    bins = build_bins(xmin, xmax, 10)
+    #bins = build_bins(xmin, xmax, 10)
+    bins = build_bins(xmin, xmax, num_bins)
     for i in range(len(bins) - 1):
         bins_mapping[(bins[i], bins[i + 1])] = i
     discretized = list(np.digitize(possible_values, bins))

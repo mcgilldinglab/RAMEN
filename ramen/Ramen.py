@@ -12,10 +12,10 @@ def choose_steps(p):
     return max(3, min(9, round(7 * (p - 1) / 80)))
 
 class Ramen(object):
-    def __init__(self, csv_data = "", end_string = "", min_values = 0):
+    def __init__(self, csv_data = "", end_string = "", min_values = 0, num_bins=10):
         if csv_data == "":
             raise Exception("csv_data cannot be Empty.")
-        df, var_ref = process_data_frame(csv_data, min_values)
+        df, var_ref = process_data_frame(csv_data, min_values,num_bins=num_bins)
         self.csv_data_name = csv_data
         self.df = df
         self.var_ref = var_ref

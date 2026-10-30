@@ -1,22 +1,24 @@
 from .Discretization import discretize
 import pandas as pd
 
-def vectorize_dataframe(dataframe):
+def vectorize_dataframe(dataframe, num_bins =10) :
     new_data_dict = {}
     discr_var_dic = {}
     variables = dataframe.columns
     for i in range(len(variables)):
         variable_values = list(dataframe[variables[i]])
-        new_data_dict[variables[i]] = convert_variable_to_discrete(variable_values, variables[i], discr_var_dic)
+        #new_data_dict[variables[i]] = convert_variable_to_discrete(variable_values, variables[i], discr_var_dic)
+        new_data_dict[variables[i]] = convert_variable_to_discrete(variable_values, variables[i], discr_var_dic, num_bins=num_bins)
+
     new_data_frame = pd.DataFrame(new_data_dict)
     
     return new_data_frame, discr_var_dic
 
 ###################### Private Function Section ######################
 
-def convert_variable_to_discrete(variable_values, var_name, discr_var_dic):
+def convert_variable_to_discrete(variable_values, var_name, discr_var_dic,num_bins=10):
     if is_variable_continuous(variable_values):
-        values, mapping = discretize(variable_values)
+        values, mapping = discretize(variable_values,num_bins=num_bins)
         discr_var_dic[var_name] = mapping
         return values
     else:

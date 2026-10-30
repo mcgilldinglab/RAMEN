@@ -18,4 +18,4 @@ Installing RAMEN
 
 Download RAMEN package:: 
     
-    pip install git+https://github.com/mcgilldinglab/RAMEN.git@development
+    pip install git+https://github.com/mcgilldinglab/RAMEN.git@main
